@@ -57,7 +57,7 @@
       "article": "multivariable-calculus/tangent-planes-and-linear-approximations.md",
       "writer": "WRITTEN",
       "illustrator": "ILLUSTRATED",
-      "reviewer": "PENDING",
+      "reviewer": "BLOCKED",
       "figures": [
         "multivariable-calculus/svg/tangent-planes-and-linear-approximations-1.svg",
         "multivariable-calculus/svg/tangent-planes-and-linear-approximations-2.svg",
@@ -67,7 +67,7 @@
       "notes": {
         "writer": "Provisional category. 4 figure briefs. Continuous-partials sufficient condition and level-surface normal proved in article. Sibling Taylor link is an unpublished batch dependency.",
         "illustrator": "4 figures (reading order): sign sectors and three radial sections for xy/sqrt(x^2+y^2); tangent plane and normal; quadratic error of the linear approximation along the displacement (a radial section of the cone is exactly straight); sphere, tangent plane, gradient and curve.",
-        "reviewer": ""
+        "reviewer": "Math/editorial/SVG-structural gates PASS. No article/SVG defects found. Visual-inspection gate NOT_RUN (no image-capable model). Remote persistence verified after commit."
       }
     }
   ]

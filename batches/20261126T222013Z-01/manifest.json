@@ -20,7 +20,7 @@
       "article": "multivariable-calculus/multivariable-extrema-and-saddle-points.md",
       "writer": "WRITTEN",
       "illustrator": "ILLUSTRATED",
-      "reviewer": "PENDING",
+      "reviewer": "BLOCKED",
       "figures": [
         "multivariable-calculus/svg/multivariable-extrema-and-saddle-points-1.svg",
         "multivariable-calculus/svg/multivariable-extrema-and-saddle-points-2.svg",
@@ -29,7 +29,7 @@
       "notes": {
         "writer": "Provisional category. 3 figure briefs. n-dimensional test proved from Taylor; determinant form stated. Links to Taylor and Lagrange siblings are unpublished batch dependencies.",
         "illustrator": "3 original SVGs. Rendered in Chrome at 680 px and 240 px and visually inspected. Level c=-2,-3 omitted from the contour brief because the global minimum is -1.",
-        "reviewer": ""
+        "reviewer": "Mathematical, editorial and SVG structural gates PASS; mandatory visual-inspection gate NOT_RUN (no image-capable model in this environment). Review evidence: batches/20261126T222013Z-01/evidence/multivariable-extrema-and-saddle-points/review.md."
       }
     },
     {

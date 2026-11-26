@@ -98,7 +98,7 @@ These checks support the arithmetic; the proof in the article is the basis for t
 
 + Front matter with proposed canonical URL and CC BY-NC 4.0.
 + Only H2 headings, sentence case; no H1 in the body.
-+ Four tagged equations, all referenced in the text.
++ Five tagged equations, all referenced in the text.
 + British spellings: "neighbourhood", "linearisation", "behaviour" (not used).
 + Site-relative links: `../implicit-function-theorem/` (sibling in this batch, unpublished dependency) and `../derivative-of-the-inverse-function/` (existing route).
 + No SVG or image placeholders.

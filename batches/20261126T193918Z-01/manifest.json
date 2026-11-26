@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "batch_id": "20261126T193918Z-01",
+  "repository": "aniruddhapisolkar/Agentspace",
+  "branch": "main",
+  "original_input": "Topics to cover:\n1. Limits of Multivariable Functions\n2. Multivariable Taylor Expansions\n3. Tangent Planes and Linear Approximations",
+  "created_utc": "2026-11-26T19:39:18Z",
+  "processing_order": [1, 2, 3],
+  "category_note": "multivariable-calculus is a provisional category: upstream has no dedicated category, while partial derivatives live under derivatives/.",
+  "topics": [
+    {
+      "id": 1,
+      "topic": "Limits of Multivariable Functions",
+      "slug": "limits-of-multivariable-functions",
+      "article": "multivariable-calculus/limits-of-multivariable-functions.md",
+      "writer": "PENDING",
+      "illustrator": "PENDING",
+      "reviewer": "PENDING",
+      "figures": [],
+      "notes": {
+        "writer": "",
+        "illustrator": "",
+        "reviewer": ""
+      }
+    },
+    {
+      "id": 2,
+      "topic": "Multivariable Taylor Expansions",
+      "slug": "multivariable-taylor-expansions",
+      "article": "multivariable-calculus/multivariable-taylor-expansions.md",
+      "writer": "PENDING",
+      "illustrator": "PENDING",
+      "reviewer": "PENDING",
+      "figures": [],
+      "notes": {
+        "writer": "",
+        "illustrator": "",
+        "reviewer": ""
+      }
+    },
+    {
+      "id": 3,
+      "topic": "Tangent Planes and Linear Approximations",
+      "slug": "tangent-planes-and-linear-approximations",
+      "article": "multivariable-calculus/tangent-planes-and-linear-approximations.md",
+      "writer": "PENDING",
+      "illustrator": "PENDING",
+      "reviewer": "PENDING",
+      "figures": [],
+      "notes": {
+        "writer": "",
+        "illustrator": "",
+        "reviewer": ""
+      }
+    }
+  ]
+}

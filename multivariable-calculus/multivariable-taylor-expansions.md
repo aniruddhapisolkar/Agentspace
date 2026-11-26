@@ -137,7 +137,7 @@ $$\frac{\varphi^{(j)}(0)}{j!}=\sum_{|\alpha|=j}\frac{\partial^\alpha f(a)}{\alph
 
 and similarly for the term of order $k+1$.
 
-The Peano form (3) is not a consequence of (4), since it assumes only $k$ continuous derivatives. Its proof uses a separate induction on the number of variables and is not reproduced here; the statement and proof are given in the Toronto MAT237 notes cited in the evidence file. For $k=2$ the Peano form was proved above directly from (2), so the quadratic case is complete within this entry.
+The Peano form (3) is not a consequence of (4), since it assumes only $k$ continuous derivatives. Its proof uses a separate induction on the number of variables and is not reproduced here; the statement and proof are given in the [Toronto MAT237 notes](https://www.math.toronto.edu/courses/mat237y1/20199/notes/Chapter2/S2.6.html). For $k=2$ the Peano form was proved above directly from (2), so the quadratic case is complete within this entry.
 
 ## Computing Taylor polynomials in practice
 
@@ -220,7 +220,7 @@ e^{-1/(x^2+y^2)} & (x,y)\neq(0,0) \\[6pt]
 0 & (x,y)=(0,0)
 \end{cases}$$
 
-Every partial derivative of $f$ at the origin is zero. Along any line through the origin, $f$ reduces to $e^{-1/t^2}$ in the distance variable $t$, a function whose derivatives of every order vanish at $t=0$ faster than any power. Each partial derivative near the origin has the form of a polynomial in $1/r$ times $e^{-1/r^2}$, with $r=\sqrt{x^2+y^2}$, and therefore tends to $0$ as $r\to0$.
+Every partial derivative of $f$ at the origin is zero. Along any line through the origin, $f$ reduces to $e^{-1/t^2}$ in the distance variable $t$, a function whose derivatives of every order vanish at $t=0$ faster than any power. Each partial derivative near the origin is bounded by a polynomial in $1/r$ times $e^{-1/r^2}$, with $r=\sqrt{x^2+y^2}$, and therefore tends to $0$ as $r\to0$.
 
 Consequently every Taylor polynomial of $f$ at the origin is the zero polynomial, and the Taylor series converges to $0$ at every point. Yet $f(x,y)>0$ whenever $(x,y)\neq(0,0)$. The Taylor series exists but does not represent the function, and no finite-order expansion can detect the bump near the origin. Smoothness alone does not imply real analyticity in several variables, just as in one variable.
 

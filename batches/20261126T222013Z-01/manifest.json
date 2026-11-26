@@ -76,12 +76,16 @@
       "slug": "inverse-function-theorem",
       "article": "multivariable-calculus/inverse-function-theorem.md",
       "writer": "WRITTEN",
-      "illustrator": "PENDING",
+      "illustrator": "ILLUSTRATED",
       "reviewer": "PENDING",
-      "figures": [],
+      "figures": [
+        "multivariable-calculus/svg/inverse-function-theorem-1.svg",
+        "multivariable-calculus/svg/inverse-function-theorem-2.svg",
+        "multivariable-calculus/svg/inverse-function-theorem-3.svg"
+      ],
       "notes": {
         "writer": "Provisional category. 3 figure briefs. Main proof via the implicit function theorem; direct contraction argument summarised. Link to the implicit function theorem is an unpublished batch dependency.",
-        "illustrator": "",
+        "illustrator": "3 original SVGs. Local-bijection figure uses f(x,y)=(x+y^2/4, y+x^2/4); polar figure uses a full annulus with the image half shaded. Rendered at 680 px and 240 px and inspected.",
         "reviewer": ""
       }
     }

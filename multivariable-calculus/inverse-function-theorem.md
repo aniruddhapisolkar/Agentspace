@@ -34,6 +34,8 @@ $$Dg(b)=\bigl[Df(a)\bigr]^{-1} \tag{2}$$
 
 The theorem is local in two senses. The neighbourhoods $V$ and $W$ need not be large, and the inverse is constructed only on $W=f(V)$. The map $f$ may fail to be injective on all of $U$, and its image need not be all of $\mathbb{R}^n$; the theorem only asserts that $f(V)$ is open for the small $V$ it produces.
 
+![A square neighbourhood V of a point a and its image W around b under a nonlinear map f, with a curvilinear grid in W and arrows for f and its local inverse g](svg/inverse-function-theorem-1.svg)
+
 The condition is sufficient, not necessary. The map $f(x)=x^3$ from $\mathbb{R}$ to $\mathbb{R}$ is bijective with continuous inverse $g(y)=y^{1/3}$, but $f'(0)=0$. The inverse exists and is continuous, yet it is not differentiable at $0$. The theorem does not apply at $0$, and its differentiability conclusion indeed fails there.
 
 ## The linear case
@@ -100,6 +102,8 @@ For $f(x)=x^2$ at $a=1$, $f'(1)=2$ and $b=1$. The local inverse is $g(y)=\sqrt{y
 
 For $f(x)=x^3$ at $a=0$, $f'(0)=0$ but $f$ is globally injective, with inverse $g(y)=y^{1/3}$. The inverse is continuous but not differentiable at $0$, so the conclusion of the theorem fails while a continuous inverse still exists. This is the standard example showing that invertibility of the derivative is sufficient but not necessary for invertibility itself.
 
+![A graph and its inverse reflected across the line y = x: for x² at (1,1) the tangent slopes are 2 and 1/2, while for x³ at the origin the inverse has a vertical tangent](svg/inverse-function-theorem-3.svg)
+
 ## A linear example
 
 Let
@@ -149,6 +153,8 @@ $$(x,y)\mapsto\left(\sqrt{x^2+y^2},\theta(x,y)\right)$$
 where $\theta$ is a continuous branch of the polar angle.
 
 The map is not globally injective, because $(r,\theta+2\pi)$ has the same image as $(r,\theta)$. The theorem is local and does not contradict this: near each point one chooses an angular interval of length less than $2\pi$, and on that interval the map is injective.
+
+![A rectangle in the r–θ plane mapped to a half-annulus in the x–y plane by polar coordinates, with a dashed circular arrow showing that θ and θ + 2π give the same points](svg/inverse-function-theorem-2.svg)
 
 The derivative of the inverse can be read from (1). Since
 

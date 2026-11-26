@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="232" viewBox="0 0 340 232" role="img" aria-labelledby="fig-title fig-desc" font-family="Geist, Arial, sans-serif" stroke-linejoin="round" stroke-linecap="round">
+  <title id="fig-title">Polar coordinates: a local inverse that repeats globally</title>
+  <desc id="fig-desc">Left: the rectangle 0.5 &lt;= r &lt;= 1.5 and -pi/2 &lt; theta &lt; pi/2 in the (r,theta) plane. Right: its image, the right half-annulus. The Jacobian determinant is r, so the map is locally invertible for r &gt; 0, but theta and theta + 2 pi give the same point.</desc>
+  <rect width="340" height="232" fill="#FFFFFF"/>
+
+  <path d="M 52.6 200 L 138.6 200 L 138.6 50 L 52.6 50 Z" fill="#E9E3E2" fill-opacity="0.55" stroke="#636060" stroke-width="1"/>
+  <line x1="52.6" y1="200" x2="52.6" y2="50" stroke="#BEB8B7" stroke-width="0.6"/>
+  <line x1="95.6" y1="200" x2="95.6" y2="50" stroke="#BEB8B7" stroke-width="0.6"/>
+  <line x1="138.6" y1="200" x2="138.6" y2="50" stroke="#BEB8B7" stroke-width="0.6"/>
+  <line x1="52.6" y1="200" x2="138.6" y2="200" stroke="#BEB8B7" stroke-width="0.6"/>
+  <line x1="52.6" y1="162.5" x2="138.6" y2="162.5" stroke="#BEB8B7" stroke-width="0.6"/>
+  <line x1="52.6" y1="125" x2="138.6" y2="125" stroke="#BEB8B7" stroke-width="0.6"/>
+  <line x1="52.6" y1="87.5" x2="138.6" y2="87.5" stroke="#BEB8B7" stroke-width="0.6"/>
+  <line x1="52.6" y1="50" x2="138.6" y2="50" stroke="#BEB8B7" stroke-width="0.6"/>
+  <line x1="44" y1="125" x2="145.48" y2="125" stroke="#636060" stroke-width="0.9"/><path d="M 145.48 125 L 140.98 126.89 L 140.98 123.11 Z" fill="#636060" stroke="none"/>
+  <line x1="44" y1="202.39" x2="44" y2="47.61" stroke="#636060" stroke-width="0.9"/><path d="M 44 47.61 L 45.89 52.11 L 42.11 52.11 Z" fill="#636060" stroke="none"/>
+  <text x="52.6" y="215.39" font-size="9" fill="#636060" text-anchor="middle">0.5</text>
+  <text x="95.6" y="215.39" font-size="9" fill="#636060" text-anchor="middle">1</text>
+  <text x="138.6" y="215.39" font-size="9" fill="#636060" text-anchor="middle">1.5</text>
+  <text x="38" y="203" font-size="9" fill="#636060" text-anchor="end">−π/2</text>
+  <text x="38" y="128" font-size="9" fill="#636060" text-anchor="end">0</text>
+  <text x="38" y="53" font-size="9" fill="#636060" text-anchor="end">π/2</text>
+  <text x="147.48" y="137" font-size="10" fill="#636060">r</text>
+  <text x="36" y="45.61" font-size="10" fill="#636060" text-anchor="end">θ</text>
+  <circle cx="95.6" cy="87.5" r="3" fill="#312F2F"/>
+  <text x="102.6" y="83.5" font-size="9" fill="#312F2F" stroke="#FFFFFF" stroke-width="3.2" paint-order="stroke">(r₀, θ₀)</text>
+  <circle cx="258" cy="120" r="66" fill="#E9E3E2" fill-opacity="0.22" stroke="none"/>
+  <circle cx="258" cy="120" r="22" fill="#FFFFFF" stroke="none"/>
+  <path d="M 258 186 L 261.45 185.91 L 264.9 185.64 L 268.32 185.19 L 271.72 184.56 L 275.08 183.75 L 278.4 182.77 L 281.65 181.62 L 284.84 180.29 L 287.96 178.81 L 291 177.16 L 293.95 175.35 L 296.79 173.4 L 299.54 171.29 L 302.16 169.05 L 304.67 166.67 L 307.05 164.16 L 309.29 161.54 L 311.4 158.79 L 313.35 155.95 L 315.16 153 L 316.81 149.96 L 318.29 146.84 L 319.62 143.65 L 320.77 140.4 L 321.75 137.08 L 322.56 133.72 L 323.19 130.32 L 323.64 126.9 L 323.91 123.45 L 324 120 L 323.91 116.55 L 323.64 113.1 L 323.19 109.68 L 322.56 106.28 L 321.75 102.92 L 320.77 99.6 L 319.62 96.35 L 318.29 93.16 L 316.81 90.04 L 315.16 87 L 313.35 84.05 L 311.4 81.21 L 309.29 78.46 L 307.05 75.84 L 304.67 73.33 L 302.16 70.95 L 299.54 68.71 L 296.79 66.6 L 293.95 64.65 L 291 62.84 L 287.96 61.19 L 284.84 59.71 L 281.65 58.38 L 278.4 57.23 L 275.08 56.25 L 271.72 55.44 L 268.32 54.81 L 264.9 54.36 L 261.45 54.09 L 258 54 L 258 98 L 259.15 98.03 L 260.3 98.12 L 261.44 98.27 L 262.57 98.48 L 263.69 98.75 L 264.8 99.08 L 265.88 99.46 L 266.95 99.9 L 267.99 100.4 L 269 100.95 L 269.98 101.55 L 270.93 102.2 L 271.85 102.9 L 272.72 103.65 L 273.56 104.44 L 274.35 105.28 L 275.1 106.15 L 275.8 107.07 L 276.45 108.02 L 277.05 109 L 277.6 110.01 L 278.1 111.05 L 278.54 112.12 L 278.92 113.2 L 279.25 114.31 L 279.52 115.43 L 279.73 116.56 L 279.88 117.7 L 279.97 118.85 L 280 120 L 279.97 121.15 L 279.88 122.3 L 279.73 123.44 L 279.52 124.57 L 279.25 125.69 L 278.92 126.8 L 278.54 127.88 L 278.1 128.95 L 277.6 129.99 L 277.05 131 L 276.45 131.98 L 275.8 132.93 L 275.1 133.85 L 274.35 134.72 L 273.56 135.56 L 272.72 136.35 L 271.85 137.1 L 270.93 137.8 L 269.98 138.45 L 269 139.05 L 267.99 139.6 L 266.95 140.1 L 265.88 140.54 L 264.8 140.92 L 263.69 141.25 L 262.57 141.52 L 261.44 141.73 L 260.3 141.88 L 259.15 141.97 L 258 142 Z" fill="#E9E3E2" fill-opacity="0.7" stroke="none"/>
+  <circle cx="258" cy="120" r="22" fill="none" stroke="#BEB8B7" stroke-width="0.7"/>
+  <circle cx="258" cy="120" r="44" fill="none" stroke="#BEB8B7" stroke-width="0.7"/>
+  <circle cx="258" cy="120" r="66" fill="none" stroke="#BEB8B7" stroke-width="0.7"/>
+  <line x1="258" y1="142" x2="258" y2="186" stroke="#BEB8B7" stroke-width="0.7"/>
+  <line x1="280" y1="120" x2="324" y2="120" stroke="#BEB8B7" stroke-width="0.7"/>
+  <line x1="258" y1="98" x2="258" y2="54" stroke="#BEB8B7" stroke-width="0.7"/>
+  <line x1="324" y1="120" x2="329.28" y2="120" stroke="#636060" stroke-width="0.9"/><path d="M 329.28 120 L 324.78 121.89 L 324.78 118.11 Z" fill="#636060" stroke="none"/>
+  <line x1="185.4" y1="120" x2="327.52" y2="120" stroke="#636060" stroke-width="0.9"/><path d="M 327.52 120 L 323.02 121.89 L 323.02 118.11 Z" fill="#636060" stroke="none"/>
+  <line x1="258" y1="192.6" x2="258" y2="48.72" stroke="#636060" stroke-width="0.9"/><path d="M 258 48.72 L 259.89 53.22 L 256.11 53.22 Z" fill="#636060" stroke="none"/>
+  <text x="330.52" y="132" font-size="10" fill="#636060">x</text>
+  <text x="251" y="46.72" font-size="10" fill="#636060" text-anchor="end">y</text>
+  <circle cx="289.11" cy="88.89" r="3" fill="#312F2F"/>
+  <text x="296.11" y="91.89" font-size="9" fill="#312F2F" stroke="#FFFFFF" stroke-width="3.2" paint-order="stroke">f(r₀, θ₀)</text>
+  <text x="258" y="214" font-size="9.5" fill="#636060" text-anchor="middle">image of f</text>
+  <path d="M 309.65 68.35 L 306.87 65.72 L 303.97 63.24 L 300.93 60.91 L 297.78 58.74 L 294.52 56.75 L 291.16 54.92 L 287.71 53.27 L 284.18 51.81 L 280.57 50.53 L 276.9 49.45 L 273.19 48.56 L 269.43 47.86 L 265.63 47.36 L 261.82 47.06 L 258 46.96 L 254.18 47.06 L 250.37 47.36 L 246.57 47.86 L 242.81 48.56 L 239.1 49.45 L 235.43 50.53 L 231.82 51.81 L 228.29 53.27 L 224.84 54.92 L 221.48 56.75 L 218.22 58.74 L 215.07 60.91 L 212.03 63.24 L 209.13 65.72 L 206.35 68.35 L 203.72 71.13 L 201.24 74.03 L 198.91 77.07 L 196.74 80.22 L 194.75 83.48 L 192.92 86.84 L 191.27 90.29 L 189.81 93.82 L 188.53 97.43 L 187.45 101.1 L 186.56 104.81 L 185.86 108.57 L 185.36 112.37 L 185.06 116.18 L 184.96 120 L 185.06 123.82 L 185.36 127.63 L 185.86 131.43 L 186.56 135.19 L 187.45 138.9 L 188.53 142.57 L 189.81 146.18 L 191.27 149.71 L 192.92 153.16 L 194.75 156.52 L 196.74 159.78 L 198.91 162.93 L 201.24 165.97 L 203.72 168.87 L 206.35 171.65 L 209.13 174.28 L 212.03 176.76 L 215.07 179.09 L 218.22 181.26 L 221.48 183.25 L 224.84 185.08 L 228.29 186.73 L 231.82 188.19 L 235.43 189.47 L 239.1 190.55 L 242.81 191.44 L 246.57 192.14 L 250.37 192.64 L 254.18 192.94 L 258 193.04 L 261.82 192.94 L 265.63 192.64 L 269.43 192.14 L 273.19 191.44 L 276.9 190.55 L 280.57 189.47 L 284.18 188.19 L 287.71 186.73 L 291.16 185.08 L 294.52 183.25 L 297.78 181.26 L 300.93 179.09 L 303.97 176.76 L 306.87 174.28 L 309.65 171.65 L 312.28 168.87 L 314.76 165.97 L 317.09 162.93 L 319.26 159.78 L 321.25 156.52 L 323.08 153.16 L 324.73 149.71 L 326.19 146.18 L 327.47 142.57 L 328.55 138.9 L 329.44 135.19 L 330.14 131.43 L 330.64 127.63 L 330.94 123.82 L 331.04 120 L 330.94 116.18 L 330.64 112.37 L 330.14 108.57 L 329.44 104.81 L 328.55 101.1 L 327.47 97.43 L 326.19 93.82 L 324.73 90.29 L 323.08 86.84 L 321.25 83.48 L 319.26 80.22 L 317.09 77.07 L 314.76 74.03 L 312.28 71.13 L 309.65 68.35" fill="none" stroke="#979797" stroke-width="1.1" stroke-dasharray="4 3"/>
+  <path d="M 309.65 68.35 L 315.6 70.99 L 311.93 74.45 Z" fill="#979797" stroke="none"/>
+  <text x="262" y="38" font-size="9" fill="#979797" text-anchor="middle" stroke="#FFFFFF" stroke-width="3.2" paint-order="stroke">θ + 2π: same point</text>
+</svg>

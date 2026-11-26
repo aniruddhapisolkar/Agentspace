@@ -104,6 +104,8 @@ $$\frac{f(h,k)}{\sqrt{h^2+k^2}}=\frac{hk}{h^2+k^2}\longrightarrow0$$
 
 But along $h=k$ the quotient equals $1/2$, and along $h=0$ it equals $0$. The limit does not exist, so $f$ is not differentiable at the origin. Its graph has no tangent plane there, even though both coordinate sections are flat.
 
+![The four sign sectors of xy over the square root of x squared plus y squared, and the values z = 0 and z = plus or minus r/2 along the axes and diagonals](svg/tangent-planes-and-linear-approximations-4.svg)
+
 The stronger failure is discontinuity. For
 
 $$g(x,y)=
@@ -132,7 +134,11 @@ and the normal line through $P$ is
 
 $$(x,y,z)=(x_0,y_0,z_0)+t\,(f_x(x_0,y_0),f_y(x_0,y_0),-1) \qquad t\in\mathbb{R}$$
 
-The vector $(-f_x,-f_y,1)$ is also normal; the two differ only by sign. The plane contains the two coordinate tangent lines used to derive it, and differentiability ensures that it contains the tangent line of every other differentiable curve on the surface through $P$.
+The vector $(-f_x,-f_y,1)$ is also normal; the two differ only by sign.
+
+![A surface with its tangent plane at P, the two coordinate tangent lines, and a normal vector n](svg/tangent-planes-and-linear-approximations-1.svg)
+
+The plane contains the two coordinate tangent lines used to derive it, and differentiability ensures that it contains the tangent line of every other differentiable curve on the surface through $P$.
 
 ## A polynomial example
 
@@ -180,6 +186,8 @@ $$\sqrt{(3.98)^2+(4.03)^2}=\sqrt{15.8404+16.2409}=\sqrt{32.0813}\approx5.664036$
 
 so the error is approximately $1.1\times10^{-4}$, or about $2\times10^{-5}$ in relative terms. The approximation is useful because the increments are small compared with the distance from the origin, and because the second derivatives are bounded near $(4,4)$.
 
+![The error of the tangent-plane approximation to the square root of x squared plus y squared, growing quadratically away from (4,4)](svg/tangent-planes-and-linear-approximations-2.svg)
+
 ## Tangent planes to level surfaces
 
 A surface need not be given as a graph. If $F:\mathbb{R}^3\to\mathbb{R}$ is of class $C^1$ and $\nabla F(P)\neq0$ at a point $P=(x_0,y_0,z_0)$ on the level surface $F(x,y,z)=c$, then the tangent plane at $P$ is
@@ -190,7 +198,11 @@ that is,
 
 $$F_x(P)(x-x_0)+F_y(P)(y-y_0)+F_z(P)(z-z_0)=0$$
 
-The gradient is normal to the surface. To see why, take any differentiable curve $\gamma$ on the surface with $\gamma(0)=P$. Since $F(\gamma(t))=c$ for all $t$, differentiating gives
+The gradient is normal to the surface.
+
+![The sphere x squared plus y squared plus z squared equals 14 with its tangent plane at (1,2,3), the normal gradient, and a curve on the sphere](svg/tangent-planes-and-linear-approximations-3.svg)
+
+To see why, take any differentiable curve $\gamma$ on the surface with $\gamma(0)=P$. Since $F(\gamma(t))=c$ for all $t$, differentiating gives
 
 $$\nabla F(\gamma(t))\cdot\gamma'(t)=0$$
 

@@ -56,12 +56,17 @@
       "slug": "tangent-planes-and-linear-approximations",
       "article": "multivariable-calculus/tangent-planes-and-linear-approximations.md",
       "writer": "WRITTEN",
-      "illustrator": "PENDING",
+      "illustrator": "ILLUSTRATED",
       "reviewer": "PENDING",
-      "figures": [],
+      "figures": [
+        "multivariable-calculus/svg/tangent-planes-and-linear-approximations-1.svg",
+        "multivariable-calculus/svg/tangent-planes-and-linear-approximations-2.svg",
+        "multivariable-calculus/svg/tangent-planes-and-linear-approximations-3.svg",
+        "multivariable-calculus/svg/tangent-planes-and-linear-approximations-4.svg"
+      ],
       "notes": {
         "writer": "Provisional category. 4 figure briefs. Continuous-partials sufficient condition and level-surface normal proved in article. Sibling Taylor link is an unpublished batch dependency.",
-        "illustrator": "",
+        "illustrator": "4 figures. F1 tangent plane and normal wireframe; F2 quadratic error of the linear approximation (a radial section of the cone is exactly straight, so the error is plotted along the displacement); F3 sphere, tangent plane, gradient and curve; F4 sign sectors plus the three radial sections.",
         "reviewer": ""
       }
     }

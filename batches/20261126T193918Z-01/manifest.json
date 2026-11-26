@@ -38,7 +38,7 @@
       "article": "multivariable-calculus/multivariable-taylor-expansions.md",
       "writer": "WRITTEN",
       "illustrator": "ILLUSTRATED",
-      "reviewer": "PENDING",
+      "reviewer": "BLOCKED",
       "figures": [
         "multivariable-calculus/svg/multivariable-taylor-expansions-1.svg",
         "multivariable-calculus/svg/multivariable-taylor-expansions-2.svg",
@@ -47,7 +47,7 @@
       "notes": {
         "writer": "Provisional category. 3 figure briefs. General Peano theorem stated with reference; quadratic case proved. Sibling tangent-plane link is an unpublished batch dependency.",
         "illustrator": "3 figures (reading order): section along h=(1,1) with f, P1, P2; corrected flat-bottomed crater for e^(-1/(x^2+y^2)) — the brief said 'bump', but f(0,0)=0 and f>0 elsewhere — surface plus section; level curves of the three quadratic forms.",
-        "reviewer": ""
+        "reviewer": "Math/editorial/SVG-structural gates PASS. One wording fix: 'bump near the origin' -> 'rise of the function away from the origin'. Visual-inspection gate NOT_RUN (no image-capable model). Remote persistence verified after commit."
       }
     },
     {

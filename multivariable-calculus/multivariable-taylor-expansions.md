@@ -224,7 +224,7 @@ e^{-1/(x^2+y^2)} & (x,y)\neq(0,0) \\[6pt]
 
 Every partial derivative of $f$ at the origin is zero. Along any line through the origin, $f$ reduces to $e^{-1/t^2}$ in the distance variable $t$, a function whose derivatives of every order vanish at $t=0$ faster than any power. Each partial derivative near the origin is bounded by a polynomial in $1/r$ times $e^{-1/r^2}$, with $r=\sqrt{x^2+y^2}$, and therefore tends to $0$ as $r\to0$.
 
-Consequently every Taylor polynomial of $f$ at the origin is the zero polynomial, and the Taylor series converges to $0$ at every point. Yet $f(x,y)>0$ whenever $(x,y)\neq(0,0)$. The Taylor series exists but does not represent the function, and no finite-order expansion can detect the bump near the origin. Smoothness alone does not imply real analyticity in several variables, just as in one variable.
+Consequently every Taylor polynomial of $f$ at the origin is the zero polynomial, and the Taylor series converges to $0$ at every point. Yet $f(x,y)>0$ whenever $(x,y)\neq(0,0)$. The Taylor series exists but does not represent the function, and no finite-order expansion can detect the rise of the function away from the origin. Smoothness alone does not imply real analyticity in several variables, just as in one variable.
 
 ![The surface e to the power minus 1 over x squared plus y squared rising from a flat point at the origin, and its section e to the power minus 1 over t squared against the zero Taylor polynomial](svg/multivariable-taylor-expansions-2.svg)
 

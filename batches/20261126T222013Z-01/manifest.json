@@ -77,7 +77,7 @@
       "article": "multivariable-calculus/inverse-function-theorem.md",
       "writer": "WRITTEN",
       "illustrator": "ILLUSTRATED",
-      "reviewer": "PENDING",
+      "reviewer": "BLOCKED",
       "figures": [
         "multivariable-calculus/svg/inverse-function-theorem-1.svg",
         "multivariable-calculus/svg/inverse-function-theorem-2.svg",
@@ -86,7 +86,7 @@
       "notes": {
         "writer": "Provisional category. 3 figure briefs. Main proof via the implicit function theorem; direct contraction argument summarised. Link to the implicit function theorem is an unpublished batch dependency.",
         "illustrator": "3 original SVGs. Figures renumbered to article reading order (one-dimensional case before polar coordinates). The polar figure uses a full annulus with the image half shaded. Rendered at 680 px and 240 px and inspected.",
-        "reviewer": ""
+        "reviewer": "Mathematical, editorial and SVG structural gates PASS; mandatory visual-inspection gate NOT_RUN (no image-capable model in this environment). Review evidence: batches/20261126T222013Z-01/evidence/inverse-function-theorem/review.md."
       }
     }
   ]

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="250" viewBox="0 0 340 250" role="img" aria-labelledby="fig-title fig-desc" font-family="Geist, Arial, sans-serif" stroke-linejoin="round" stroke-linecap="round">
+  <title id="fig-title">The circle as a graph near two different points</title>
+  <desc id="fig-desc">Two views of the unit circle. Near (0,1) the upper arc is the graph of y = the square root of 1 minus x squared and F_y = 2 is nonzero. Near (1,0) the tangent is vertical, F_y = 0, and the circle is not a graph over the x-axis.</desc>
+  <rect width="340" height="250" fill="#FFFFFF"/>
+
+  <line x1="16" y1="106" x2="156" y2="106" stroke="#BEB8B7" stroke-width="0.9"/><path d="M 156 106 L 151.5 107.89 L 151.5 104.11 Z" fill="#BEB8B7" stroke="none"/>
+  <line x1="86" y1="176" x2="86" y2="36" stroke="#BEB8B7" stroke-width="0.9"/><path d="M 86 36 L 87.89 40.5 L 84.11 40.5 Z" fill="#BEB8B7" stroke="none"/>
+  <circle cx="86" cy="106" r="58" fill="none" stroke="#312F2F" stroke-width="1.8"/>
+  <line x1="28" y1="103.5" x2="28" y2="108.5" stroke="#312F2F" stroke-width="0.9"/>
+  <text x="28" y="117" font-size="9" fill="#636060" text-anchor="middle">−1</text>
+  <line x1="83.5" y1="164" x2="88.5" y2="164" stroke="#312F2F" stroke-width="0.9"/>
+  <text x="79" y="166.5" font-size="9" fill="#636060" text-anchor="end">−1</text>
+  <line x1="144" y1="103.5" x2="144" y2="108.5" stroke="#312F2F" stroke-width="0.9"/>
+  <text x="144" y="117" font-size="9" fill="#636060" text-anchor="middle">1</text>
+  <line x1="83.5" y1="48" x2="88.5" y2="48" stroke="#312F2F" stroke-width="0.9"/>
+  <text x="79" y="50.5" font-size="9" fill="#636060" text-anchor="end">1</text>
+  <text x="158" y="114" font-size="10" fill="#636060">x</text>
+  <text x="78" y="33" font-size="10" fill="#636060" text-anchor="end">y</text>
+  <text x="12" y="40" font-size="10" fill="#312F2F">(a)</text>
+  <line x1="184" y1="106" x2="324" y2="106" stroke="#BEB8B7" stroke-width="0.9"/><path d="M 324 106 L 319.5 107.89 L 319.5 104.11 Z" fill="#BEB8B7" stroke="none"/>
+  <line x1="254" y1="176" x2="254" y2="36" stroke="#BEB8B7" stroke-width="0.9"/><path d="M 254 36 L 255.89 40.5 L 252.11 40.5 Z" fill="#BEB8B7" stroke="none"/>
+  <circle cx="254" cy="106" r="58" fill="none" stroke="#312F2F" stroke-width="1.8"/>
+  <line x1="196" y1="103.5" x2="196" y2="108.5" stroke="#312F2F" stroke-width="0.9"/>
+  <text x="196" y="117" font-size="9" fill="#636060" text-anchor="middle">−1</text>
+  <line x1="251.5" y1="164" x2="256.5" y2="164" stroke="#312F2F" stroke-width="0.9"/>
+  <text x="247" y="166.5" font-size="9" fill="#636060" text-anchor="end">−1</text>
+  <line x1="312" y1="103.5" x2="312" y2="108.5" stroke="#312F2F" stroke-width="0.9"/>
+  <text x="312" y="117" font-size="9" fill="#636060" text-anchor="middle">1</text>
+  <line x1="251.5" y1="48" x2="256.5" y2="48" stroke="#312F2F" stroke-width="0.9"/>
+  <text x="247" y="50.5" font-size="9" fill="#636060" text-anchor="end">1</text>
+  <text x="326" y="114" font-size="10" fill="#636060">x</text>
+  <text x="246" y="33" font-size="10" fill="#636060" text-anchor="end">y</text>
+  <text x="180" y="40" font-size="10" fill="#312F2F">(b)</text>
+  <path d="M 131.24 69.7 L 130.42 68.7 L 129.57 67.72 L 128.7 66.75 L 127.82 65.81 L 126.91 64.88 L 125.98 63.98 L 125.03 63.09 L 124.06 62.23 L 123.07 61.39 L 122.06 60.57 L 121.04 59.78 L 120 59.01 L 118.94 58.26 L 117.86 57.53 L 116.77 56.83 L 115.66 56.16 L 114.54 55.51 L 113.4 54.88 L 112.25 54.28 L 111.09 53.71 L 109.91 53.16 L 108.73 52.64 L 107.53 52.14 L 106.32 51.67 L 105.1 51.23 L 103.87 50.82 L 102.63 50.43 L 101.38 50.08 L 100.13 49.75 L 98.86 49.44 L 97.6 49.17 L 96.32 48.93 L 95.04 48.71 L 93.76 48.52 L 92.47 48.36 L 91.18 48.23 L 89.89 48.13 L 88.59 48.06 L 87.3 48.01 L 86 48 L 84.7 48.01 L 83.41 48.06 L 82.11 48.13 L 80.82 48.23 L 79.53 48.36 L 78.24 48.52 L 76.96 48.71 L 75.68 48.93 L 74.4 49.17 L 73.14 49.44 L 71.87 49.75 L 70.62 50.08 L 69.37 50.43 L 68.13 50.82 L 66.9 51.23 L 65.68 51.67 L 64.47 52.14 L 63.27 52.64 L 62.09 53.16 L 60.91 53.71 L 59.75 54.28 L 58.6 54.88 L 57.46 55.51 L 56.34 56.16 L 55.23 56.83 L 54.14 57.53 L 53.06 58.26 L 52 59.01 L 50.96 59.78 L 49.94 60.57 L 48.93 61.39 L 47.94 62.23 L 46.97 63.09 L 46.02 63.98 L 45.09 64.88 L 44.18 65.81 L 43.3 66.75 L 42.43 67.72 L 41.58 68.7 L 40.76 69.7" fill="none" stroke="#312F2F" stroke-width="3"/>
+  <line x1="40.76" y1="106" x2="131.24" y2="106" stroke="#E2DFDD" stroke-width="6"/>
+  <line x1="40.76" y1="103" x2="40.76" y2="109" stroke="#312F2F" stroke-width="1"/>
+  <line x1="131.24" y1="103" x2="131.24" y2="109" stroke="#312F2F" stroke-width="1"/>
+  <line x1="40.76" y1="106" x2="40.76" y2="69.7" stroke="#BEB8B7" stroke-width="0.8" stroke-dasharray="3 3"/>
+  <line x1="131.24" y1="106" x2="131.24" y2="69.7" stroke="#BEB8B7" stroke-width="0.8" stroke-dasharray="3 3"/>
+  <circle cx="86" cy="48" r="3.2" fill="#312F2F"/>
+  <circle cx="312" cy="106" r="3.2" fill="#312F2F"/>
+  <line x1="312" y1="40" x2="312" y2="172" stroke="#636060" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="306.2" y1="44" x2="306.2" y2="168" stroke="#979797" stroke-width="0.8" stroke-dasharray="3 3"/>
+  <circle cx="306.2" cy="131.28" r="2.4" fill="#FFFFFF" stroke="#312F2F" stroke-width="1.2"/>
+  <circle cx="306.2" cy="80.72" r="2.4" fill="#FFFFFF" stroke="#312F2F" stroke-width="1.2"/>
+  <text x="86" y="182" font-size="10" fill="#312F2F" text-anchor="middle">y = √(1 − x²)</text>
+  <text x="86" y="196" font-size="9" fill="#636060" text-anchor="middle">F_y(0, 1) = 2 ≠ 0</text>
+  <text x="254" y="182" font-size="10" fill="#312F2F" text-anchor="middle">F_y(1, 0) = 0</text>
+  <text x="254" y="196" font-size="9" fill="#636060" text-anchor="middle">no graph over x</text>
+  <text x="86" y="226" font-size="9" fill="#636060" text-anchor="middle">the upper arc is a graph</text>
+  <text x="254" y="226" font-size="9" fill="#636060" text-anchor="middle">one x meets the circle twice</text>
+</svg>

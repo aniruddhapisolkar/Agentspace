@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="214" viewBox="0 0 340 214" role="img" aria-labelledby="fig-title fig-desc" font-family="Geist, Arial, sans-serif" stroke-linejoin="round" stroke-linecap="round">
+  <title id="fig-title">Three ways the implicit equation can fail to define a function</title>
+  <desc id="fig-desc">Three zero sets at the origin with F_y = 0: an isolated point for x squared plus y squared, two crossing lines for x squared minus y squared, and a cusp for x squared minus y cubed. None defines a unique differentiable y as a function of x near the origin.</desc>
+  <rect width="340" height="214" fill="#FFFFFF"/>
+
+  <line x1="12" y1="78" x2="108" y2="78" stroke="#BEB8B7" stroke-width="0.8"/>
+  <line x1="60" y1="30" x2="60" y2="126" stroke="#BEB8B7" stroke-width="0.8"/>
+  <text x="12" y="28" font-size="9.5" fill="#312F2F">(a)</text>
+  <line x1="20" y1="76" x2="20" y2="80" stroke="#312F2F" stroke-width="0.8"/>
+  <text x="20" y="87" font-size="9" fill="#636060" text-anchor="middle">−1</text>
+  <line x1="58" y1="118" x2="62" y2="118" stroke="#312F2F" stroke-width="0.8"/>
+  <line x1="100" y1="76" x2="100" y2="80" stroke="#312F2F" stroke-width="0.8"/>
+  <text x="100" y="87" font-size="9" fill="#636060" text-anchor="middle">1</text>
+  <line x1="58" y1="38" x2="62" y2="38" stroke="#312F2F" stroke-width="0.8"/>
+  <line x1="122" y1="78" x2="218" y2="78" stroke="#BEB8B7" stroke-width="0.8"/>
+  <line x1="170" y1="30" x2="170" y2="126" stroke="#BEB8B7" stroke-width="0.8"/>
+  <text x="122" y="28" font-size="9.5" fill="#312F2F">(b)</text>
+  <line x1="130" y1="76" x2="130" y2="80" stroke="#312F2F" stroke-width="0.8"/>
+  <text x="130" y="87" font-size="9" fill="#636060" text-anchor="middle">−1</text>
+  <line x1="168" y1="118" x2="172" y2="118" stroke="#312F2F" stroke-width="0.8"/>
+  <line x1="210" y1="76" x2="210" y2="80" stroke="#312F2F" stroke-width="0.8"/>
+  <text x="210" y="87" font-size="9" fill="#636060" text-anchor="middle">1</text>
+  <line x1="168" y1="38" x2="172" y2="38" stroke="#312F2F" stroke-width="0.8"/>
+  <line x1="232" y1="78" x2="328" y2="78" stroke="#BEB8B7" stroke-width="0.8"/>
+  <line x1="280" y1="30" x2="280" y2="126" stroke="#BEB8B7" stroke-width="0.8"/>
+  <text x="232" y="28" font-size="9.5" fill="#312F2F">(c)</text>
+  <line x1="240" y1="76" x2="240" y2="80" stroke="#312F2F" stroke-width="0.8"/>
+  <text x="240" y="87" font-size="9" fill="#636060" text-anchor="middle">−1</text>
+  <line x1="278" y1="118" x2="282" y2="118" stroke="#312F2F" stroke-width="0.8"/>
+  <line x1="320" y1="76" x2="320" y2="80" stroke="#312F2F" stroke-width="0.8"/>
+  <text x="320" y="87" font-size="9" fill="#636060" text-anchor="middle">1</text>
+  <line x1="278" y1="38" x2="282" y2="38" stroke="#312F2F" stroke-width="0.8"/>
+  <circle cx="60" cy="78" r="3.4" fill="#312F2F"/>
+  <text x="60" y="94" font-size="9" fill="#636060" text-anchor="middle">isolated zero</text>
+  <line x1="133.2" y1="114.8" x2="206.8" y2="41.2" stroke="#312F2F" stroke-width="1.8"/>
+  <line x1="133.2" y1="41.2" x2="206.8" y2="114.8" stroke="#312F2F" stroke-width="1.8"/>
+  <circle cx="170" cy="78" r="2.6" fill="#FFFFFF" stroke="#312F2F" stroke-width="1.2"/>
+  <text x="192" y="56" font-size="9" fill="#636060" stroke="#FFFFFF" stroke-width="3.2" paint-order="stroke">y = x</text>
+  <text x="192" y="102.8" font-size="9" fill="#636060" stroke="#FFFFFF" stroke-width="3.2" paint-order="stroke">y = −x</text>
+  <path d="M 234 34.09 L 234.77 34.58 L 235.53 35.08 L 236.3 35.57 L 237.07 36.07 L 237.83 36.57 L 238.6 37.07 L 239.37 37.58 L 240.13 38.09 L 240.9 38.6 L 241.67 39.12 L 242.43 39.64 L 243.2 40.16 L 243.97 40.69 L 244.73 41.22 L 245.5 41.76 L 246.27 42.3 L 247.03 42.84 L 247.8 43.39 L 248.57 43.94 L 249.33 44.49 L 250.1 45.05 L 250.87 45.62 L 251.63 46.19 L 252.4 46.77 L 253.17 47.35 L 253.93 47.93 L 254.7 48.53 L 255.47 49.12 L 256.23 49.73 L 257 50.34 L 257.77 50.96 L 258.53 51.58 L 259.3 52.22 L 260.07 52.86 L 260.83 53.51 L 261.6 54.16 L 262.37 54.83 L 263.13 55.51 L 263.9 56.19 L 264.67 56.89 L 265.43 57.6 L 266.2 58.32 L 266.97 59.06 L 267.73 59.81 L 268.5 60.58 L 269.27 61.36 L 270.03 62.16 L 270.8 62.98 L 271.57 63.83 L 272.33 64.7 L 273.1 65.6 L 273.87 66.54 L 274.63 67.52 L 275.4 68.54 L 276.17 69.62 L 276.93 70.78 L 277.7 72.04 L 278.47 73.45 L 279.23 75.14 L 280 78 L 280.77 75.14 L 281.53 73.45 L 282.3 72.04 L 283.07 70.78 L 283.83 69.62 L 284.6 68.54 L 285.37 67.52 L 286.13 66.54 L 286.9 65.6 L 287.67 64.7 L 288.43 63.83 L 289.2 62.98 L 289.97 62.16 L 290.73 61.36 L 291.5 60.58 L 292.27 59.81 L 293.03 59.06 L 293.8 58.32 L 294.57 57.6 L 295.33 56.89 L 296.1 56.19 L 296.87 55.51 L 297.63 54.83 L 298.4 54.16 L 299.17 53.51 L 299.93 52.86 L 300.7 52.22 L 301.47 51.58 L 302.23 50.96 L 303 50.34 L 303.77 49.73 L 304.53 49.12 L 305.3 48.53 L 306.07 47.93 L 306.83 47.35 L 307.6 46.77 L 308.37 46.19 L 309.13 45.62 L 309.9 45.05 L 310.67 44.49 L 311.43 43.94 L 312.2 43.39 L 312.97 42.84 L 313.73 42.3 L 314.5 41.76 L 315.27 41.22 L 316.03 40.69 L 316.8 40.16 L 317.57 39.64 L 318.33 39.12 L 319.1 38.6 L 319.87 38.09 L 320.63 37.58 L 321.4 37.07 L 322.17 36.57 L 322.93 36.07 L 323.7 35.57 L 324.47 35.08 L 325.23 34.58 L 326 34.09" fill="none" stroke="#312F2F" stroke-width="1.8"/>
+  <line x1="280" y1="56" x2="280" y2="82" stroke="#636060" stroke-width="0.9" stroke-dasharray="3 3"/>
+  <circle cx="280" cy="78" r="2.6" fill="#FFFFFF" stroke="#312F2F" stroke-width="1.2"/>
+  <text x="288" y="56" font-size="9" fill="#636060" stroke="#FFFFFF" stroke-width="3.2" paint-order="stroke">y = x²ᐟ³</text>
+  <text x="60" y="178" font-size="9.5" fill="#312F2F" text-anchor="middle">F = x² + y²</text>
+  <text x="60" y="191" font-size="9" fill="#636060" text-anchor="middle">F_y(0,0) = 0</text>
+  <text x="170" y="178" font-size="9.5" fill="#312F2F" text-anchor="middle">F = x² − y²</text>
+  <text x="170" y="191" font-size="9" fill="#636060" text-anchor="middle">F_y(0,0) = 0</text>
+  <text x="280" y="178" font-size="9.5" fill="#312F2F" text-anchor="middle">F = x² − y³</text>
+  <text x="280" y="191" font-size="9" fill="#636060" text-anchor="middle">F_y(0,0) = 0</text>
+</svg>

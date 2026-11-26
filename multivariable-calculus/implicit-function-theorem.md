@@ -42,6 +42,8 @@ The condition is sufficient, not necessary. The equation $x^2-y^3=0$ near $(0,0)
 
 The choice of variable matters. For $F(x,y)=x^2+y^2-1$ at $(1,0)$, $F_y=0$ and the equation cannot be solved for $y$ as a $C^1$ function of $x$ near $1$. But $F_x=2\neq0$, so the same equation can be solved for $x$ as a $C^1$ function of $y$ near $0$, namely $x=\sqrt{1-y^2}$.
 
+![Two views of the unit circle: near (0,1) the upper arc is the graph of y = √(1 − x²), while near (1,0) the tangent is vertical and the circle is not a graph over the x-axis](svg/implicit-function-theorem-1.svg)
+
 ## The general statement
 
 Let $U\subseteq\mathbb{R}^{n+m}$ be open and let
@@ -135,6 +137,8 @@ To see this, start from any $u_0\in X$ and define $u_{k+1}=Tu_k$. The estimate
 $$d(u_{k+1},u_k)\le q^{k}d(u_1,u_0)$$
 
 shows that $(u_k)$ is a Cauchy sequence; completeness gives a limit $u$. Continuity of $T$ gives $Tu=u$. If $u$ and $v$ are fixed points, then $d(u,v)\le q\,d(u,v)$, hence $u=v$.
+
+![A contraction map on an interval: its graph crosses the diagonal once at the fixed point φ(x), and a cobweb iteration converges to that point](svg/implicit-function-theorem-3.svg)
 
 The function $\varphi$ is continuous. For $x,x'$ near $a$,
 
@@ -273,6 +277,8 @@ The hypothesis $D_yF(a,b)$ invertible is sufficient, not necessary. Three failur
 + **A cusp.** For $F(x,y)=x^2-y^3$ at $(0,0)$, $F_y(0,0)=0$. The zero set is the curve $y=x^{2/3}$, which is continuous and unique but has a vertical tangent at the origin. The theorem does not apply, and indeed the solution is not differentiable there.
 
 In each case the derivative with respect to $y$ vanishes, and the linearisation does not determine $y$ as a function of $x$. The nonlinear equation may still have a solution, but its regularity or uniqueness is not controlled by the linear term.
+
+![Three zero sets at the origin with F_y = 0: an isolated point for x² + y², two crossing lines for x² − y², and a cusp for x² − y³](svg/implicit-function-theorem-2.svg)
 
 ## Scope and limitations
 

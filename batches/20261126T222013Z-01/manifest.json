@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "batch_id": "20261126T222013Z-01",
+  "repository": "aniruddhapisolkar/Agentspace",
+  "branch": "main",
+  "original_input": "Topics to cover:\n4. Multivariable Extrema and Saddle Points\n5. Lagrange Multipliers\n6. Implicit Function Theorem\n7. Inverse Function Theorem",
+  "created_utc": "2026-11-26T22:20:13Z",
+  "processing_order": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "category_note": "multivariable-calculus remains a provisional category: upstream has no dedicated category, while partial derivatives live under derivatives/.",
+  "topics": [
+    {
+      "id": 4,
+      "topic": "Multivariable Extrema and Saddle Points",
+      "slug": "multivariable-extrema-and-saddle-points",
+      "article": "multivariable-calculus/multivariable-extrema-and-saddle-points.md",
+      "writer": "PENDING",
+      "illustrator": "PENDING",
+      "reviewer": "PENDING",
+      "figures": [],
+      "notes": {
+        "writer": "",
+        "illustrator": "",
+        "reviewer": ""
+      }
+    },
+    {
+      "id": 5,
+      "topic": "Lagrange Multipliers",
+      "slug": "lagrange-multipliers",
+      "article": "multivariable-calculus/lagrange-multipliers.md",
+      "writer": "PENDING",
+      "illustrator": "PENDING",
+      "reviewer": "PENDING",
+      "figures": [],
+      "notes": {
+        "writer": "",
+        "illustrator": "",
+        "reviewer": ""
+      }
+    },
+    {
+      "id": 6,
+      "topic": "Implicit Function Theorem",
+      "slug": "implicit-function-theorem",
+      "article": "multivariable-calculus/implicit-function-theorem.md",
+      "writer": "PENDING",
+      "illustrator": "PENDING",
+      "reviewer": "PENDING",
+      "figures": [],
+      "notes": {
+        "writer": "",
+        "illustrator": "",
+        "reviewer": ""
+      }
+    },
+    {
+      "id": 7,
+      "topic": "Inverse Function Theorem",
+      "slug": "inverse-function-theorem",
+      "article": "multivariable-calculus/inverse-function-theorem.md",
+      "writer": "PENDING",
+      "illustrator": "PENDING",
+      "reviewer": "PENDING",
+      "figures": [],
+      "notes": {
+        "writer": "",
+        "illustrator": "",
+        "reviewer": ""
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="240" viewBox="0 0 340 240" role="img" aria-labelledby="fig-title fig-desc" font-family="Geist, Arial, sans-serif" stroke-linejoin="round" stroke-linecap="round">
+  <title id="fig-title">Two constraints and the span of their normals</title>
+  <desc id="fig-desc">The planes x + y + z = 1 and x = y intersect in the feasible line x = y, z = 1 - 2x. At the minimiser (1/3,1/3,1/3) the gradient of f = x squared + y squared + z squared lies along the normal of the first plane, since its coefficient on the second normal is zero.</desc>
+  <rect width="340" height="240" fill="#FFFFFF"/>
+
+  <line x1="161.5" y1="154" x2="161.5" y2="54" stroke="#BEB8B7" stroke-width="0.6" stroke-dasharray="3 3" stroke-opacity="0.7"/>
+  <line x1="161.5" y1="154" x2="85.5" y2="134" stroke="#BEB8B7" stroke-width="0.6" stroke-dasharray="3 3" stroke-opacity="0.7"/>
+  <line x1="161.5" y1="154" x2="271.5" y2="178" stroke="#BEB8B7" stroke-width="0.6" stroke-dasharray="3 3" stroke-opacity="0.7"/>
+  <line x1="161.5" y1="54" x2="85.5" y2="34" stroke="#BEB8B7" stroke-width="0.6" stroke-dasharray="3 3" stroke-opacity="0.7"/>
+  <line x1="161.5" y1="54" x2="271.5" y2="78" stroke="#BEB8B7" stroke-width="0.6" stroke-dasharray="3 3" stroke-opacity="0.7"/>
+  <line x1="85.5" y1="134" x2="85.5" y2="34" stroke="#BEB8B7" stroke-width="0.6" stroke-dasharray="3 3" stroke-opacity="0.7"/>
+  <line x1="85.5" y1="134" x2="195.5" y2="158" stroke="#BEB8B7" stroke-width="0.6" stroke-dasharray="3 3" stroke-opacity="0.7"/>
+  <line x1="85.5" y1="34" x2="195.5" y2="58" stroke="#BEB8B7" stroke-width="0.6" stroke-dasharray="3 3" stroke-opacity="0.7"/>
+  <line x1="271.5" y1="178" x2="271.5" y2="78" stroke="#BEB8B7" stroke-width="0.6" stroke-dasharray="3 3" stroke-opacity="0.7"/>
+  <line x1="271.5" y1="178" x2="195.5" y2="158" stroke="#BEB8B7" stroke-width="0.6" stroke-dasharray="3 3" stroke-opacity="0.7"/>
+  <line x1="271.5" y1="78" x2="195.5" y2="58" stroke="#BEB8B7" stroke-width="0.6" stroke-dasharray="3 3" stroke-opacity="0.7"/>
+  <line x1="195.5" y1="158" x2="195.5" y2="58" stroke="#BEB8B7" stroke-width="0.6" stroke-dasharray="3 3" stroke-opacity="0.7"/>
+  <path d="M 85.5 109 L 142.5 49 L 189 60 L 271.5 153 L 252.5 173 L 113 140 Z" fill="#E9E3E2" fill-opacity="0.55" stroke="#636060" stroke-width="1"/>
+  <path d="M 161.5 54 L 161.5 154 L 195.5 158 L 195.5 58 Z" fill="#E2DFDD" fill-opacity="0.5" stroke="#636060" stroke-width="1"/>
+  <line x1="165.75" y1="54.5" x2="182.75" y2="156.5" stroke="#312F2F" stroke-width="2.4"/>
+  <text x="189.75" y="168.5" font-size="9.5" fill="#636060" stroke="#FFFFFF" stroke-width="3.2" paint-order="stroke">feasible line</text>
+  <circle cx="175.67" cy="114" r="3.4" fill="#312F2F"/>
+  <text x="168.67" y="129" font-size="9.5" fill="#312F2F" text-anchor="end" stroke="#FFFFFF" stroke-width="3.2" paint-order="stroke">(⅓, ⅓, ⅓)</text>
+  <line x1="175.67" y1="114" x2="192.67" y2="66" stroke="#979797" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <path d="M 192.67 66 L 193.04 72.5 L 188.29 70.81 Z" fill="#979797" stroke="none"/>
+  <line x1="175.67" y1="114" x2="268.67" y2="136" stroke="#636060" stroke-width="1.5"/><path d="M 268.67 136 L 262.25 137.07 L 263.41 132.17 Z" fill="#636060" stroke="none"/>
+  <line x1="175.67" y1="114" x2="187" y2="82" stroke="#312F2F" stroke-width="1.8"/><path d="M 187 82 L 187.37 88.5 L 182.62 86.81 Z" fill="#312F2F" stroke="none"/>
+  <text x="196.67" y="62" font-size="10" fill="#979797" stroke="#FFFFFF" stroke-width="3.2" paint-order="stroke">∇g₁</text>
+  <text x="272.67" y="145" font-size="10" fill="#636060" stroke="#FFFFFF" stroke-width="3.2" paint-order="stroke">∇g₂</text>
+  <text x="193" y="79" font-size="10" fill="#312F2F" stroke="#FFFFFF" stroke-width="3.2" paint-order="stroke">∇f</text>
+  <text x="40" y="20" font-size="10" fill="#636060">∇f = ⅔∇g₁ + 0·∇g₂</text>
+  <text x="146.1" y="71.4" font-size="9" fill="#636060" stroke="#FFFFFF" stroke-width="3.2" paint-order="stroke">g₁ = 0</text>
+  <text x="191" y="65" font-size="9" fill="#636060" stroke="#FFFFFF" stroke-width="3.2" paint-order="stroke">g₂ = 0</text>
+  <line x1="142.5" y1="124" x2="258" y2="149.2" stroke="#BEB8B7" stroke-width="0.9"/><path d="M 258 149.2 L 252.67 150.19 L 253.56 146.08 Z" fill="#BEB8B7" stroke="none"/>
+  <text x="263" y="155.2" font-size="11" fill="#636060">x</text>
+  <line x1="189" y1="135" x2="109.2" y2="114" stroke="#BEB8B7" stroke-width="0.9"/><path d="M 109.2 114 L 114.57 113.24 L 113.5 117.3 Z" fill="#BEB8B7" stroke="none"/>
+  <text x="114.2" y="120" font-size="11" fill="#636060">y</text>
+  <line x1="170" y1="155" x2="170" y2="50" stroke="#BEB8B7" stroke-width="0.9"/><path d="M 170 50 L 172.1 55 L 167.9 55 Z" fill="#BEB8B7" stroke="none"/>
+  <text x="175" y="56" font-size="11" fill="#636060">z</text>
+</svg>

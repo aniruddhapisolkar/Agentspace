@@ -38,12 +38,16 @@
       "slug": "lagrange-multipliers",
       "article": "multivariable-calculus/lagrange-multipliers.md",
       "writer": "WRITTEN",
-      "illustrator": "PENDING",
+      "illustrator": "ILLUSTRATED",
       "reviewer": "PENDING",
-      "figures": [],
+      "figures": [
+        "multivariable-calculus/svg/lagrange-multipliers-1.svg",
+        "multivariable-calculus/svg/lagrange-multipliers-2.svg",
+        "multivariable-calculus/svg/lagrange-multipliers-3.svg"
+      ],
       "notes": {
         "writer": "Provisional category. 3 figure briefs. One- and several-constraint theorems; sensitivity interpretation. Link to the implicit function theorem is an unpublished batch dependency.",
-        "illustrator": "",
+        "illustrator": "3 original SVGs. The lifted-circle projection was chosen so the projected curve is a simple closed loop; gradient lengths are proportional to the vector norms. Rendered at 680 px and 240 px and inspected.",
         "reviewer": ""
       }
     },

@@ -38,6 +38,8 @@ The scalar $\lambda$ is the Lagrange multiplier. The equation is a vector equati
 
 The tangency picture is a guide, not a proof. A curve can have a corner, a constraint can degenerate to a point, and the level set of $f$ can fail to be smooth where $\nabla f$ vanishes. The theorem below states the precise hypotheses.
 
+![Level curves of xy tangent to the unit circle at the constrained maximum and minimum, with the gradients of the objective and the constraint drawn parallel at those points](svg/lagrange-multipliers-1.svg)
+
 ## The multiplier theorem
 
 + **Theorem.** Let $U\subseteq\mathbb{R}^n$ be open, let $f,g:U\to\mathbb{R}$ be of class $C^1$, and let $p\in U$ satisfy $g(p)=0$ and $\nabla g(p)\neq0$. If the restriction of $f$ to $S=\{g=0\}$ has a local maximum or a local minimum at $p$, then there exists $\lambda\in\mathbb{R}$ such that $\nabla f(p)=\lambda\nabla g(p)$.
@@ -111,6 +113,8 @@ $$\left(\frac{1}{\sqrt2},\frac{1}{\sqrt2}\right),\quad \left(-\frac{1}{\sqrt2},-
 
 At the first two points $xy=\frac12$; at the last two $xy=-\frac12$. Since the circle is compact and $f$ is continuous, both extrema are attained. The maximum is $\frac12$ at the two points with equal signs, and the minimum is $-\frac12$ at the two points with opposite signs.
 
+![The saddle surface z = xy with the unit circle lifted onto it; the lifted curve reaches its highest points at z = 1/2 and its lowest points at z = −1/2](svg/lagrange-multipliers-2.svg)
+
 ## Distance to a plane
 
 Find the point of the plane $x+2y+2z=9$ closest to $(1,2,3)$. Minimising the distance is equivalent to minimising the squared distance
@@ -178,6 +182,8 @@ together with $x+y+z=1$ and $x=y$. The last constraint gives $\mu=0$, so the fir
 $$\left(\frac13,\frac13,\frac13\right) \qquad f=\frac13$$
 
 The feasible set is the line obtained by intersecting the plane $x+y+z=1$ with the plane $x=y$, and $f$ is the squared distance from the origin. The point found is the orthogonal projection of the origin onto that line, so it is the global minimum.
+
+![Two planes intersecting in the feasible line, with the minimising point marked and the gradient of the objective drawn as a combination of the two constraint normals](svg/lagrange-multipliers-3.svg)
 
 ## The multiplier as a sensitivity
 

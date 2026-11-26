@@ -66,7 +66,7 @@
       ],
       "notes": {
         "writer": "Provisional category. 3 figure briefs. General theorem proved by contraction mapping; C^k by induction. Links to inverse-function and Lagrange siblings are unpublished batch dependencies.",
-        "illustrator": "3 original SVGs. Rendered at 680 px and 240 px and inspected. Contraction figure explicitly marked schematic.",
+        "illustrator": "3 original SVGs. Figures renumbered to article reading order (contraction proof before the failure cases). Rendered at 680 px and 240 px and inspected. Contraction figure marked schematic.",
         "reviewer": ""
       }
     },
@@ -85,7 +85,7 @@
       ],
       "notes": {
         "writer": "Provisional category. 3 figure briefs. Main proof via the implicit function theorem; direct contraction argument summarised. Link to the implicit function theorem is an unpublished batch dependency.",
-        "illustrator": "3 original SVGs. Local-bijection figure uses f(x,y)=(x+y^2/4, y+x^2/4); polar figure uses a full annulus with the image half shaded. Rendered at 680 px and 240 px and inspected.",
+        "illustrator": "3 original SVGs. Figures renumbered to article reading order (one-dimensional case before polar coordinates). The polar figure uses a full annulus with the image half shaded. Rendered at 680 px and 240 px and inspected.",
         "reviewer": ""
       }
     }

@@ -1,36 +1,50 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="340" height="300" viewBox="0 0 340 300" role="img" aria-labelledby="fig-title fig-desc" font-family="Geist, Arial, sans-serif" stroke-linejoin="round" stroke-linecap="round">
-  <title id="fig-title">A contraction map of an interval with its cobweb</title>
-  <desc id="fig-desc">The graph of a contraction G_x on the interval from b minus delta to b plus delta crosses the diagonal once, at the fixed point phi of x. A cobweb iteration from y0 converges to that fixed point.</desc>
-  <rect width="340" height="300" fill="#FFFFFF"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="214" viewBox="0 0 340 214" role="img" aria-labelledby="fig-title fig-desc" font-family="Geist, Arial, sans-serif" stroke-linejoin="round" stroke-linecap="round">
+  <title id="fig-title">Three ways the implicit equation can fail to define a function</title>
+  <desc id="fig-desc">Three zero sets at the origin with F_y = 0: an isolated point for x squared plus y squared, two crossing lines for x squared minus y squared, and a cusp for x squared minus y cubed. None defines a unique differentiable y as a function of x near the origin.</desc>
+  <rect width="340" height="214" fill="#FFFFFF"/>
 
-  <rect x="58" y="53" width="205" height="205" fill="none" stroke="#BEB8B7" stroke-width="0.8" stroke-dasharray="4 3"/>
-  <line x1="46" y1="258" x2="279" y2="258" stroke="#636060" stroke-width="1"/><path d="M 279 258 L 274 260.1 L 274 255.9 Z" fill="#636060" stroke="none"/>
-  <line x1="58" y1="270" x2="58" y2="37" stroke="#636060" stroke-width="1"/><path d="M 58 37 L 60.1 42 L 55.9 42 Z" fill="#636060" stroke="none"/>
-  <text x="283" y="261" font-size="11" fill="#636060">y</text>
-  <text x="48" y="35" font-size="11" fill="#636060" text-anchor="end">z</text>
-  <line x1="53.9" y1="262.1" x2="267.1" y2="48.9" stroke="#979797" stroke-width="1" stroke-dasharray="4 3"/>
-  <text x="238.4" y="81.7" font-size="10" fill="#979797" text-anchor="end" stroke="#FFFFFF" stroke-width="3.2" paint-order="stroke">z = y</text>
-  <path d="M 58 171.9 L 60.05 171.12 L 62.1 170.34 L 64.15 169.56 L 66.2 168.78 L 68.25 168 L 70.3 167.23 L 72.35 166.45 L 74.4 165.67 L 76.45 164.89 L 78.5 164.11 L 80.55 163.33 L 82.6 162.55 L 84.65 161.77 L 86.7 160.99 L 88.75 160.22 L 90.8 159.44 L 92.85 158.66 L 94.9 157.88 L 96.95 157.1 L 99 156.32 L 101.05 155.54 L 103.1 154.76 L 105.15 153.98 L 107.2 153.2 L 109.25 152.43 L 111.3 151.65 L 113.35 150.87 L 115.4 150.09 L 117.45 149.31 L 119.5 148.53 L 121.55 147.75 L 123.6 146.97 L 125.65 146.19 L 127.7 145.41 L 129.75 144.64 L 131.8 143.86 L 133.85 143.08 L 135.9 142.3 L 137.95 141.52 L 140 140.74 L 142.05 139.96 L 144.1 139.18 L 146.15 138.4 L 148.2 137.62 L 150.25 136.85 L 152.3 136.07 L 154.35 135.29 L 156.4 134.51 L 158.45 133.73 L 160.5 132.95 L 162.55 132.17 L 164.6 131.39 L 166.65 130.61 L 168.7 129.83 L 170.75 129.06 L 172.8 128.28 L 174.85 127.5 L 176.9 126.72 L 178.95 125.94 L 181 125.16 L 183.05 124.38 L 185.1 123.6 L 187.15 122.82 L 189.2 122.04 L 191.25 121.26 L 193.3 120.49 L 195.35 119.71 L 197.4 118.93 L 199.45 118.15 L 201.5 117.37 L 203.55 116.59 L 205.6 115.81 L 207.65 115.03 L 209.7 114.25 L 211.75 113.47 L 213.8 112.7 L 215.85 111.92 L 217.9 111.14 L 219.95 110.36 L 222 109.58 L 224.05 108.8 L 226.1 108.02 L 228.15 107.24 L 230.2 106.46 L 232.25 105.69 L 234.3 104.91 L 236.35 104.13 L 238.4 103.35 L 240.45 102.57 L 242.5 101.79 L 244.55 101.01 L 246.6 100.23 L 248.65 99.45 L 250.7 98.67 L 252.75 97.9 L 254.8 97.12 L 256.85 96.34 L 258.9 95.56 L 260.95 94.78 L 263 94" fill="none" stroke="#312F2F" stroke-width="2.2"/>
-  <text x="78.5" y="120.65" font-size="10" fill="#312F2F" stroke="#FFFFFF" stroke-width="3" paint-order="stroke">z = G<tspan dy="3" font-size="7.2">x</tspan>(y)</text>
-  <circle cx="196.87" cy="119.13" r="3.2" fill="#312F2F"/>
-  <text x="204.87" y="123.13" font-size="10" fill="#312F2F" stroke="#FFFFFF" stroke-width="3.2" paint-order="stroke">φ(x)</text>
-  <circle cx="74.4" cy="258" r="2.2" fill="#312F2F"/>
-  <text x="74.4" y="253.9" font-size="9" fill="#636060" text-anchor="middle">y₀</text>
-  <line x1="74.4" y1="241.6" x2="74.4" y2="165.67" stroke="#636060" stroke-width="0.8"/>
-  <line x1="74.4" y1="165.67" x2="150.33" y2="165.67" stroke="#636060" stroke-width="0.8"/>
-  <line x1="150.33" y1="165.67" x2="150.33" y2="136.81" stroke="#636060" stroke-width="0.8"/>
-  <line x1="150.33" y1="136.81" x2="179.19" y2="136.81" stroke="#636060" stroke-width="0.8"/>
-  <line x1="179.19" y1="136.81" x2="179.19" y2="125.85" stroke="#636060" stroke-width="0.8"/>
-  <line x1="179.19" y1="125.85" x2="190.15" y2="125.85" stroke="#636060" stroke-width="0.8"/>
-  <line x1="190.15" y1="125.85" x2="190.15" y2="121.68" stroke="#636060" stroke-width="0.8"/>
-  <line x1="190.15" y1="121.68" x2="194.32" y2="121.68" stroke="#636060" stroke-width="0.8"/>
-  <line x1="194.32" y1="121.68" x2="194.32" y2="120.1" stroke="#636060" stroke-width="0.8"/>
-  <line x1="58" y1="255" x2="58" y2="261" stroke="#312F2F" stroke-width="1"/>
-  <text x="52" y="273" font-size="9" fill="#636060" text-anchor="middle" stroke="#FFFFFF" stroke-width="3.2" paint-order="stroke">b − δ</text>
-  <line x1="55" y1="258" x2="61" y2="258" stroke="#312F2F" stroke-width="1"/>
-  <line x1="263" y1="255" x2="263" y2="261" stroke="#312F2F" stroke-width="1"/>
-  <text x="263" y="273" font-size="9" fill="#636060" text-anchor="middle" stroke="#FFFFFF" stroke-width="3.2" paint-order="stroke">b + δ</text>
-  <line x1="55" y1="53" x2="61" y2="53" stroke="#312F2F" stroke-width="1"/>
-  <text x="51" y="56" font-size="9" fill="#636060" text-anchor="end" stroke="#FFFFFF" stroke-width="3.2" paint-order="stroke">b + δ</text>
-  <text x="170" y="286" font-size="9" fill="#979797" text-anchor="middle">schematic, not to scale</text>
+  <line x1="12" y1="78" x2="108" y2="78" stroke="#BEB8B7" stroke-width="0.8"/>
+  <line x1="60" y1="30" x2="60" y2="126" stroke="#BEB8B7" stroke-width="0.8"/>
+  <text x="12" y="28" font-size="9.5" fill="#312F2F">(a)</text>
+  <line x1="20" y1="76" x2="20" y2="80" stroke="#312F2F" stroke-width="0.8"/>
+  <text x="20" y="87" font-size="9" fill="#636060" text-anchor="middle">−1</text>
+  <line x1="58" y1="118" x2="62" y2="118" stroke="#312F2F" stroke-width="0.8"/>
+  <line x1="100" y1="76" x2="100" y2="80" stroke="#312F2F" stroke-width="0.8"/>
+  <text x="100" y="87" font-size="9" fill="#636060" text-anchor="middle">1</text>
+  <line x1="58" y1="38" x2="62" y2="38" stroke="#312F2F" stroke-width="0.8"/>
+  <line x1="122" y1="78" x2="218" y2="78" stroke="#BEB8B7" stroke-width="0.8"/>
+  <line x1="170" y1="30" x2="170" y2="126" stroke="#BEB8B7" stroke-width="0.8"/>
+  <text x="122" y="28" font-size="9.5" fill="#312F2F">(b)</text>
+  <line x1="130" y1="76" x2="130" y2="80" stroke="#312F2F" stroke-width="0.8"/>
+  <text x="130" y="87" font-size="9" fill="#636060" text-anchor="middle">−1</text>
+  <line x1="168" y1="118" x2="172" y2="118" stroke="#312F2F" stroke-width="0.8"/>
+  <line x1="210" y1="76" x2="210" y2="80" stroke="#312F2F" stroke-width="0.8"/>
+  <text x="210" y="87" font-size="9" fill="#636060" text-anchor="middle">1</text>
+  <line x1="168" y1="38" x2="172" y2="38" stroke="#312F2F" stroke-width="0.8"/>
+  <line x1="232" y1="78" x2="328" y2="78" stroke="#BEB8B7" stroke-width="0.8"/>
+  <line x1="280" y1="30" x2="280" y2="126" stroke="#BEB8B7" stroke-width="0.8"/>
+  <text x="232" y="28" font-size="9.5" fill="#312F2F">(c)</text>
+  <line x1="240" y1="76" x2="240" y2="80" stroke="#312F2F" stroke-width="0.8"/>
+  <text x="240" y="87" font-size="9" fill="#636060" text-anchor="middle">−1</text>
+  <line x1="278" y1="118" x2="282" y2="118" stroke="#312F2F" stroke-width="0.8"/>
+  <line x1="320" y1="76" x2="320" y2="80" stroke="#312F2F" stroke-width="0.8"/>
+  <text x="320" y="87" font-size="9" fill="#636060" text-anchor="middle">1</text>
+  <line x1="278" y1="38" x2="282" y2="38" stroke="#312F2F" stroke-width="0.8"/>
+  <circle cx="60" cy="78" r="3.4" fill="#312F2F"/>
+  <text x="60" y="94" font-size="9" fill="#636060" text-anchor="middle">isolated zero</text>
+  <line x1="133.2" y1="114.8" x2="206.8" y2="41.2" stroke="#312F2F" stroke-width="1.8"/>
+  <line x1="133.2" y1="41.2" x2="206.8" y2="114.8" stroke="#312F2F" stroke-width="1.8"/>
+  <circle cx="170" cy="78" r="2.6" fill="#FFFFFF" stroke="#312F2F" stroke-width="1.2"/>
+  <text x="192" y="56" font-size="9" fill="#636060" stroke="#FFFFFF" stroke-width="3.2" paint-order="stroke">y = x</text>
+  <text x="192" y="102.8" font-size="9" fill="#636060" stroke="#FFFFFF" stroke-width="3.2" paint-order="stroke">y = −x</text>
+  <path d="M 234 34.09 L 234.77 34.58 L 235.53 35.08 L 236.3 35.57 L 237.07 36.07 L 237.83 36.57 L 238.6 37.07 L 239.37 37.58 L 240.13 38.09 L 240.9 38.6 L 241.67 39.12 L 242.43 39.64 L 243.2 40.16 L 243.97 40.69 L 244.73 41.22 L 245.5 41.76 L 246.27 42.3 L 247.03 42.84 L 247.8 43.39 L 248.57 43.94 L 249.33 44.49 L 250.1 45.05 L 250.87 45.62 L 251.63 46.19 L 252.4 46.77 L 253.17 47.35 L 253.93 47.93 L 254.7 48.53 L 255.47 49.12 L 256.23 49.73 L 257 50.34 L 257.77 50.96 L 258.53 51.58 L 259.3 52.22 L 260.07 52.86 L 260.83 53.51 L 261.6 54.16 L 262.37 54.83 L 263.13 55.51 L 263.9 56.19 L 264.67 56.89 L 265.43 57.6 L 266.2 58.32 L 266.97 59.06 L 267.73 59.81 L 268.5 60.58 L 269.27 61.36 L 270.03 62.16 L 270.8 62.98 L 271.57 63.83 L 272.33 64.7 L 273.1 65.6 L 273.87 66.54 L 274.63 67.52 L 275.4 68.54 L 276.17 69.62 L 276.93 70.78 L 277.7 72.04 L 278.47 73.45 L 279.23 75.14 L 280 78 L 280.77 75.14 L 281.53 73.45 L 282.3 72.04 L 283.07 70.78 L 283.83 69.62 L 284.6 68.54 L 285.37 67.52 L 286.13 66.54 L 286.9 65.6 L 287.67 64.7 L 288.43 63.83 L 289.2 62.98 L 289.97 62.16 L 290.73 61.36 L 291.5 60.58 L 292.27 59.81 L 293.03 59.06 L 293.8 58.32 L 294.57 57.6 L 295.33 56.89 L 296.1 56.19 L 296.87 55.51 L 297.63 54.83 L 298.4 54.16 L 299.17 53.51 L 299.93 52.86 L 300.7 52.22 L 301.47 51.58 L 302.23 50.96 L 303 50.34 L 303.77 49.73 L 304.53 49.12 L 305.3 48.53 L 306.07 47.93 L 306.83 47.35 L 307.6 46.77 L 308.37 46.19 L 309.13 45.62 L 309.9 45.05 L 310.67 44.49 L 311.43 43.94 L 312.2 43.39 L 312.97 42.84 L 313.73 42.3 L 314.5 41.76 L 315.27 41.22 L 316.03 40.69 L 316.8 40.16 L 317.57 39.64 L 318.33 39.12 L 319.1 38.6 L 319.87 38.09 L 320.63 37.58 L 321.4 37.07 L 322.17 36.57 L 322.93 36.07 L 323.7 35.57 L 324.47 35.08 L 325.23 34.58 L 326 34.09" fill="none" stroke="#312F2F" stroke-width="1.8"/>
+  <line x1="280" y1="56" x2="280" y2="82" stroke="#636060" stroke-width="0.9" stroke-dasharray="3 3"/>
+  <circle cx="280" cy="78" r="2.6" fill="#FFFFFF" stroke="#312F2F" stroke-width="1.2"/>
+  <text x="288" y="56" font-size="9" fill="#636060" stroke="#FFFFFF" stroke-width="3.2" paint-order="stroke">y = x²ᐟ³</text>
+  <text x="60" y="178" font-size="9.5" fill="#312F2F" text-anchor="middle">F = x² + y²</text>
+  <text x="60" y="191" font-size="9" fill="#636060" text-anchor="middle">F_y(0,0) = 0</text>
+  <text x="170" y="178" font-size="9.5" fill="#312F2F" text-anchor="middle">F = x² − y²</text>
+  <text x="170" y="191" font-size="9" fill="#636060" text-anchor="middle">F_y(0,0) = 0</text>
+  <text x="280" y="178" font-size="9.5" fill="#312F2F" text-anchor="middle">F = x² − y³</text>
+  <text x="280" y="191" font-size="9" fill="#636060" text-anchor="middle">F_y(0,0) = 0</text>
 </svg>

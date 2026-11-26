@@ -138,7 +138,7 @@ $$d(u_{k+1},u_k)\le q^{k}d(u_1,u_0)$$
 
 shows that $(u_k)$ is a Cauchy sequence; completeness gives a limit $u$. Continuity of $T$ gives $Tu=u$. If $u$ and $v$ are fixed points, then $d(u,v)\le q\,d(u,v)$, hence $u=v$.
 
-![A contraction map on an interval: its graph crosses the diagonal once at the fixed point φ(x), and a cobweb iteration converges to that point](svg/implicit-function-theorem-3.svg)
+![A contraction map on an interval: its graph crosses the diagonal once at the fixed point φ(x), and a cobweb iteration converges to that point](svg/implicit-function-theorem-2.svg)
 
 The function $\varphi$ is continuous. For $x,x'$ near $a$,
 
@@ -278,7 +278,7 @@ The hypothesis $D_yF(a,b)$ invertible is sufficient, not necessary. Three failur
 
 In each case the derivative with respect to $y$ vanishes, and the linearisation does not determine $y$ as a function of $x$. The nonlinear equation may still have a solution, but its regularity or uniqueness is not controlled by the linear term.
 
-![Three zero sets at the origin with F_y = 0: an isolated point for x² + y², two crossing lines for x² − y², and a cusp for x² − y³](svg/implicit-function-theorem-2.svg)
+![Three zero sets at the origin with F_y = 0: an isolated point for x² + y², two crossing lines for x² − y², and a cusp for x² − y³](svg/implicit-function-theorem-3.svg)
 
 ## Scope and limitations
 

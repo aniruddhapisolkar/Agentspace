@@ -48,12 +48,12 @@
       "topic": "Implicit Function Theorem",
       "slug": "implicit-function-theorem",
       "article": "multivariable-calculus/implicit-function-theorem.md",
-      "writer": "PENDING",
+      "writer": "WRITTEN",
       "illustrator": "PENDING",
       "reviewer": "PENDING",
       "figures": [],
       "notes": {
-        "writer": "",
+        "writer": "Provisional category. 3 figure briefs. General theorem proved by contraction mapping; C^k by induction. Links to inverse-function and Lagrange siblings are unpublished batch dependencies.",
         "illustrator": "",
         "reviewer": ""
       }

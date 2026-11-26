@@ -135,7 +135,7 @@ The example also shows why both critical points must be examined. The gradient v
 
 ## When the determinant vanishes
 
-The case $\Delta=0$ requires a separate argument. The following functions all have a critical point at the origin and a zero Hessian there, yet their behaviour is different.
+The case $\Delta=0$ requires a separate argument. The following functions all have a critical point at the origin and a degenerate Hessian there, with determinant zero, yet their behaviour is different.
 
 | Function | Hessian at the origin | Behaviour at the origin |
 |---|---|---|

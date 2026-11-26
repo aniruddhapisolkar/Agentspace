@@ -28,7 +28,7 @@ The method of Lagrange multipliers converts the constrained problem into a syste
 
 ## Tangency of level sets
 
-Consider the level curves of $f$ and the constraint curve $g=0$ in the plane. At a constrained extremum, the level curve of $f$ through $p$ is tangent to the constraint curve. If the two curves crossed transversally, then moving a small distance along the constraint would enter a region where $f$ is larger and also a region where $f$ is smaller, so $p$ could not be an extremum.
+Consider the level curves of $f$ and the constraint curve $g=0$ in the plane, and assume for the moment that both gradients are nonzero. At a constrained extremum, the level curve of $f$ through $p$ is tangent to the constraint curve. If the two curves crossed transversally, then moving a small distance along the constraint would enter a region where $f$ is larger and also a region where $f$ is smaller, so $p$ could not be an extremum.
 
 The gradient gives the normal direction to a level set. If $\nabla f(p)\neq0$, then $\nabla f(p)$ is normal to the level curve $\{f=f(p)\}$ at $p$. If $\nabla g(p)\neq0$, then $\nabla g(p)$ is normal to the constraint curve $\{g=0\}$ at $p$. Tangency means that the two normals are parallel, so there is a scalar $\lambda$ with
 
@@ -50,7 +50,7 @@ Every vector $v=\gamma'(0)$ obtained in this way is tangent to $S$ at $p$. The r
 
 $$T_pS=\{v\in\mathbb{R}^n:\nabla g(p)\cdot v=0\}$$
 
-This is the content of the implicit function theorem: one may solve $g(x)=0$ locally for one variable as a function of the others, and the derivative of that function gives the tangent directions. Equation (2) says that $\nabla f(p)$ is orthogonal to every vector in $T_pS$. The orthogonal complement of the hyperplane $T_pS$ is the one-dimensional space spanned by $\nabla g(p)$. Hence $\nabla f(p)$ is a scalar multiple of $\nabla g(p)$, which is (1).
+This is the content of the [implicit function theorem](../implicit-function-theorem/): one may solve $g(x)=0$ locally for one variable as a function of the others, and the derivative of that function gives the tangent directions. Equation (2) says that $\nabla f(p)$ is orthogonal to every vector in $T_pS$. The orthogonal complement of the hyperplane $T_pS$ is the one-dimensional space spanned by $\nabla g(p)$. Hence $\nabla f(p)$ is a scalar multiple of $\nabla g(p)$, which is (1).
 
 Two features of the statement deserve emphasis. First, the condition is necessary, not sufficient: every constrained extremum at a regular point of the constraint must satisfy (1), but a solution of (1) may be neither a maximum nor a minimum. Second, the hypothesis $\nabla g(p)\neq0$ is essential. It is called a constraint qualification, and it excludes constraints that collapse or have a singular point at the candidate.
 

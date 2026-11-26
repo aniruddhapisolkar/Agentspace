@@ -92,7 +92,7 @@ This is the same principle as the [inverse function theorem](../inverse-function
 
 The existence and uniqueness of $\varphi$ can be proved by the contraction mapping principle. Differentiability is then obtained from the linearisation.
 
-First reduce to the case $D_yF(a,b)=I$. Let $A=D_yF(a,b)$ and replace $F$ by $A^{-1}F$. The new map has the same zero set, and its derivative with respect to $y$ at $(a,b)$ is $A^{-1}A=I$. The derivative formula (5) is adjusted at the end by multiplying by $A^{-1}$.
+First reduce to the case $D_yF(a,b)=I$. Let $A=D_yF(a,b)$ and replace $F$ by $A^{-1}F$. The new map has the same zero set, and its derivative with respect to $y$ at $(a,b)$ is $A^{-1}A=I$. Its derivative with respect to $x$ is $A^{-1}D_xF(a,b)$, so the formula proved for the normalised map is already (5) when written in terms of the original $F$.
 
 Choose $\delta>0$ and $\rho>0$ such that the product
 
@@ -154,15 +154,15 @@ Expanding at $(x,\varphi(x))$ gives
 
 $$0=D_xF(x,\varphi(x))h+D_yF(x,\varphi(x))k+o\bigl(\lVert h\rVert+\lVert k\rVert\bigr)$$
 
-Near $(a,b)$, $D_yF$ is invertible; write $B(x)=[D_yF(x,\varphi(x))]^{-1}$. Then
+Near $(a,b)$, $D_yF$ is invertible; write $Q(x)=[D_yF(x,\varphi(x))]^{-1}$. Then
 
-$$k=-B(x)D_xF(x,\varphi(x))h+o\bigl(\lVert h\rVert+\lVert k\rVert\bigr)$$
+$$k=-Q(x)D_xF(x,\varphi(x))h+o\bigl(\lVert h\rVert+\lVert k\rVert\bigr)$$
 
 The coefficient is bounded near $a$, so this estimate first gives $\lVert k\rVert=O(\lVert h\rVert)$. The little-o term is therefore $o(\lVert h\rVert)$. Letting $h\to0$ gives
 
-$$D\varphi(a)=-B(a)D_xF(a,b)$$
+$$D\varphi(a)=-Q(a)D_xF(a,b)$$
 
-which is (5) after restoring the factor $A$.
+For the normalised map, $Q(a)=I$ and $D_xF(a,b)=A^{-1}D_xF_{\mathrm{original}}(a,b)$. Substituting these expressions gives (5).
 
 If $F$ is of class $C^k$ with $k\ge2$, then $\varphi$ is $C^1$ and (5) expresses $D\varphi$ as a composition of $C^{k-1}$ maps and the smooth operation of matrix inversion. Hence $D\varphi$ is $C^{k-1}$, so $\varphi$ is $C^k$. Induction gives the stated regularity.
 

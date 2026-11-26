@@ -24,10 +24,7 @@ Its determinant is the Jacobian determinant $J_f(a)=\det Df(a)$.
 
 ## The theorem
 
-+ **Inverse function theorem.** Let $U\subseteq\mathbb{R}^n$ be open and let $f:U\to\mathbb{R}^n$ be of class $C^k$ with $k\ge1$. Suppose that $a\in U$ and that $Df(a)$ is invertible. Put $b=f(a)$. Then there exist open sets $V\subseteq U$ containing $a$ and $W\subseteq\mathbb{R}^n$ containing $b$ such that
-+ $f$ maps $V$ bijectively onto $W$;
-+ the inverse $g=f^{-1}:W\to V$ is of class $C^k$;
-+ for every $y\in W$, with $x=g(y)$,
++ **Inverse function theorem.** Let $U\subseteq\mathbb{R}^n$ be open and let $f:U\to\mathbb{R}^n$ be of class $C^k$ with $k\ge1$. Suppose that $a\in U$ and that $Df(a)$ is invertible. Put $b=f(a)$. Then there exist open sets $V\subseteq U$ containing $a$ and $W\subseteq\mathbb{R}^n$ containing $b$ such that $f$ maps $V$ bijectively onto $W$, the inverse $g=f^{-1}:W\to V$ is of class $C^k$, and for every $y\in W$, with $x=g(y)$,
 
 $$Dg(y)=\bigl[Df(x)\bigr]^{-1} \tag{1}$$
 
@@ -35,7 +32,7 @@ In particular,
 
 $$Dg(b)=\bigl[Df(a)\bigr]^{-1} \tag{2}$$
 
-The theorem is local in two senses. The neighbourhoods $V$ and $W$ need not be large, and the inverse is constructed only on $W=f(V)$. The map $f$ may fail to be injective on all of $U$, and its image $f(U)$ need not be open even when $Df$ is invertible everywhere; the theorem only asserts that $f(V)$ is open for the small $V$ it produces.
+The theorem is local in two senses. The neighbourhoods $V$ and $W$ need not be large, and the inverse is constructed only on $W=f(V)$. The map $f$ may fail to be injective on all of $U$, and its image need not be all of $\mathbb{R}^n$; the theorem only asserts that $f(V)$ is open for the small $V$ it produces.
 
 The condition is sufficient, not necessary. The map $f(x)=x^3$ from $\mathbb{R}$ to $\mathbb{R}$ is bijective with continuous inverse $g(y)=y^{1/3}$, but $f'(0)=0$. The inverse exists and is continuous, yet it is not differentiable at $0$. The theorem does not apply at $0$, and its differentiability conclusion indeed fails there.
 
@@ -69,7 +66,7 @@ which is invertible by hypothesis. The implicit function theorem, applied with $
 
 $$\varphi(b)=a \qquad\text{and}\qquad F(\varphi(y),y)=0 \quad\text{for every }y\in W$$
 
-The second identity is $f(\varphi(y))=y$. Hence $\varphi$ is a right inverse of $f$ on $W$. After shrinking $V$ if necessary, $f(V)\subseteq W$, because $f$ is continuous at $a$ and $W$ is a neighbourhood of $b$. Then, for $x\in V$ with $f(x)=y$, we have $y\in W$ and $F(x,y)=0$, so uniqueness in the implicit function theorem gives $x=\varphi(y)$. Therefore $f$ maps $V$ bijectively onto $W$, and $g=\varphi$ is the inverse.
+The second identity is $f(\varphi(y))=y$. Hence $\varphi$ is a right inverse of $f$ on $W$. Replace $V$ by $V\cap f^{-1}(W)$ if necessary. This set is open because $f$ is continuous, it contains $a$ because $f(a)=b\in W$, and it satisfies $f(V)\subseteq W$. Moreover, for $y\in W$, the point $\varphi(y)$ lies in $V$, since $\varphi(y)\in V$ before the replacement and $f(\varphi(y))=y\in W$. Thus $f(V)=W$. Finally, for $x\in V$ with $f(x)=y$, we have $y\in W$ and $F(x,y)=0$, so uniqueness in the implicit function theorem gives $x=\varphi(y)$. Therefore $f$ maps $V$ bijectively onto $W$, and $g=\varphi$ is the inverse.
 
 Differentiating $f(g(y))=y$ with respect to $y$ gives
 
@@ -89,7 +86,7 @@ A fixed point $T_y(x)=x$ is exactly a solution of $f(x)=y$. Since
 
 $$DT_y(x)=I-A^{-1}Df(x)=A^{-1}(A-Df(x))$$
 
-the derivative has norm at most $\frac12$ in a small ball around $a$, so $T_y$ is a contraction there. For $y$ close to $b$, $T_y$ maps the ball into itself, and the contraction principle gives a unique fixed point. The derivative is then obtained from the same linearisation as above. This is the proof used in the entry on the implicit function theorem, applied to $F(x,y)=f(x)-y$ in the opposite direction.
+the derivative has norm at most $\frac12$ in a small ball around $a$, so $T_y$ is a contraction there. For $y$ close to $b$, $T_y$ maps the ball into itself, and the contraction principle gives a unique fixed point. The derivative is then obtained from the same linearisation as above. This is the same contraction argument used in the entry on the implicit function theorem, applied to $F(x,y)=f(x)-y$ in the opposite direction.
 
 ## The one-dimensional case
 

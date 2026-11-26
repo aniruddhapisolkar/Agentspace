@@ -226,7 +226,7 @@ Every partial derivative of $f$ at the origin is zero. Along any line through th
 
 Consequently every Taylor polynomial of $f$ at the origin is the zero polynomial, and the Taylor series converges to $0$ at every point. Yet $f(x,y)>0$ whenever $(x,y)\neq(0,0)$. The Taylor series exists but does not represent the function, and no finite-order expansion can detect the bump near the origin. Smoothness alone does not imply real analyticity in several variables, just as in one variable.
 
-![The surface e to the power minus 1 over x squared plus y squared rising from a flat point at the origin, and its section e to the power minus 1 over t squared against the zero Taylor polynomial](svg/multivariable-taylor-expansions-3.svg)
+![The surface e to the power minus 1 over x squared plus y squared rising from a flat point at the origin, and its section e to the power minus 1 over t squared against the zero Taylor polynomial](svg/multivariable-taylor-expansions-2.svg)
 
 ## Consequences and related notions
 
@@ -241,6 +241,6 @@ and the sign of the quadratic form determines the local behaviour:
 + if $H_f(a)$ has both positive and negative eigenvalues, then $f$ has a saddle point at $a$;
 + if $H_f(a)$ is singular, the second-order term is inconclusive and higher-order terms decide.
 
-![Level curves of x squared plus y squared, minus x squared minus y squared, and x squared minus y squared, showing a minimum, a maximum and a saddle](svg/multivariable-taylor-expansions-2.svg)
+![Level curves of x squared plus y squared, minus x squared minus y squared, and x squared minus y squared, showing a minimum, a maximum and a saddle](svg/multivariable-taylor-expansions-3.svg)
 
 The first-order polynomial is the tangent plane, and the second-order polynomial is the quadratic surface that shares the same tangent plane and the same second derivatives. The entry on [partial derivatives](../partial-derivatives/) develops the Hessian and the symmetry of mixed derivatives used here, while the entry on [Taylor's formula with remainder](../taylor-formula-with-remainder/) treats the one-variable case in detail.

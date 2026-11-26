@@ -27,7 +27,7 @@
       ],
       "notes": {
         "writer": "Provisional category. 3 figure briefs. Link to sibling tangent-plane article is an unpublished batch dependency.",
-        "illustrator": "3 figures. F1 two-path diagram; F2 epsilon-delta disc and epsilon-band; F3 exact contour map of xy^2/(x^2+y^4) plus a profile at y=0.6 (a 3D sheet was rejected for hidden-surface artifacts).",
+        "illustrator": "3 figures (reading order). F1 two-path diagram; F2 epsilon-delta disc and epsilon-band; F3 exact contour map of xy^2/(x^2+y^4) plus a profile at y=0.6 (a 3D sheet was rejected for hidden-surface artifacts).",
         "reviewer": ""
       }
     },
@@ -46,7 +46,7 @@
       ],
       "notes": {
         "writer": "Provisional category. 3 figure briefs. General Peano theorem stated with reference; quadratic case proved. Sibling tangent-plane link is an unpublished batch dependency.",
-        "illustrator": "3 figures. F1 section along h=(1,1) showing f, P1 and P2; F2 level curves of the three quadratic forms; F3 corrected geometry: f=e^(-1/(x^2+y^2)) is a flat-bottomed crater (f(0,0)=0, f>0 elsewhere), not a bump above the plane; surface and section drawn accordingly.",
+        "illustrator": "3 figures (reading order): section along h=(1,1) with f, P1, P2; corrected flat-bottomed crater for e^(-1/(x^2+y^2)) — the brief said 'bump', but f(0,0)=0 and f>0 elsewhere — surface plus section; level curves of the three quadratic forms.",
         "reviewer": ""
       }
     },
@@ -66,7 +66,7 @@
       ],
       "notes": {
         "writer": "Provisional category. 4 figure briefs. Continuous-partials sufficient condition and level-surface normal proved in article. Sibling Taylor link is an unpublished batch dependency.",
-        "illustrator": "4 figures. F1 tangent plane and normal wireframe; F2 quadratic error of the linear approximation (a radial section of the cone is exactly straight, so the error is plotted along the displacement); F3 sphere, tangent plane, gradient and curve; F4 sign sectors plus the three radial sections.",
+        "illustrator": "4 figures (reading order): sign sectors and three radial sections for xy/sqrt(x^2+y^2); tangent plane and normal; quadratic error of the linear approximation along the displacement (a radial section of the cone is exactly straight); sphere, tangent plane, gradient and curve.",
         "reviewer": ""
       }
     }

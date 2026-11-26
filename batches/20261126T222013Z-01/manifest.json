@@ -58,7 +58,7 @@
       "article": "multivariable-calculus/implicit-function-theorem.md",
       "writer": "WRITTEN",
       "illustrator": "ILLUSTRATED",
-      "reviewer": "PENDING",
+      "reviewer": "BLOCKED",
       "figures": [
         "multivariable-calculus/svg/implicit-function-theorem-1.svg",
         "multivariable-calculus/svg/implicit-function-theorem-2.svg",
@@ -67,7 +67,7 @@
       "notes": {
         "writer": "Provisional category. 3 figure briefs. General theorem proved by contraction mapping; C^k by induction. Links to inverse-function and Lagrange siblings are unpublished batch dependencies.",
         "illustrator": "3 original SVGs. Figures renumbered to article reading order (contraction proof before the failure cases). Rendered at 680 px and 240 px and inspected. Contraction figure marked schematic.",
-        "reviewer": ""
+        "reviewer": "Mathematical, editorial and SVG structural gates PASS; mandatory visual-inspection gate NOT_RUN (no image-capable model in this environment). Review evidence: batches/20261126T222013Z-01/evidence/implicit-function-theorem/review.md."
       }
     },
     {

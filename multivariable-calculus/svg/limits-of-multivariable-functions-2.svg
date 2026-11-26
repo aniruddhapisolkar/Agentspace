@@ -1,5 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="360" height="200" viewBox="0 0 360 200" role="img" aria-labelledby="fig-title fig-desc" font-family="Geist, Arial, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="400" viewBox="0 0 360 200" role="img" aria-labelledby="fig-title fig-desc" font-family="Geist, Inter, Arial, sans-serif" stroke-linejoin="round" stroke-linecap="round" shape-rendering="geometricPrecision" text-rendering="optimizeLegibility">
   <title id="fig-title">The epsilon-delta condition for a limit</title>
   <desc id="fig-desc">Left: a punctured delta-disc around x0 in the domain. Right: every value taken in the disc lies in the epsilon-band around L; the function need not be defined at x0.</desc>
-  <rect width="360" height="200" fill="#FFFFFF"/>
-<circle cx="92" cy="104" r="42" fill="#E9E3E2"/><circle cx="92" cy="104" r="42" fill="none" stroke="#BEB8B7" stroke-width="1" stroke-dasharray="4 3"/><line x1="40" y1="104" x2="148" y2="104" stroke="#BEB8B7" stroke-width="1"/><line x1="92" y1="48" x2="92" y2="162" stroke="#BEB8B7" stroke-width="1"/><path d="M 148 104 L 143 106.1 L 143 101.9 Z" fill="#312F2F" stroke="none"/><path d="M 92 48 L 94.1 53 L 89.9 53 Z" fill="#312F2F" stroke="none"/><text x="144" y="98" font-size="13" fill="#636060" text-anchor="middle">x</text><text x="85" y="54" font-size="13" fill="#636060" text-anchor="middle">y</text><line x1="92" y1="104" x2="134" y2="104" stroke="#636060" stroke-width="1" stroke-dasharray="4 3"/><text x="114" y="99" font-size="13" fill="#636060" text-anchor="middle">δ</text><line x1="70" y1="82" x2="89" y2="101" stroke="#BEB8B7" stroke-width="1" stroke-dasharray="2 3"/><circle cx="70" cy="82" r="3" fill="#312F2F"/><text x="63" y="83" font-size="13" fill="#312F2F" text-anchor="end">x</text><circle cx="92" cy="104" r="3" fill="#FFFFFF" stroke="#312F2F" stroke-width="1.4"/><text x="86" y="122" font-size="13" fill="#312F2F" text-anchor="end">x<tspan dy="3" font-size="9.36">0</tspan></text><text x="44" y="184" font-size="11" fill="#636060">domain</text><rect x="210" y="82" width="112" height="46" fill="#E9E3E2"/><line x1="210" y1="82" x2="322" y2="82" stroke="#BEB8B7" stroke-width="1" stroke-dasharray="4 3"/><line x1="210" y1="128" x2="322" y2="128" stroke="#BEB8B7" stroke-width="1" stroke-dasharray="4 3"/><line x1="210" y1="168" x2="330" y2="168" stroke="#BEB8B7" stroke-width="1"/><line x1="210" y1="48" x2="210" y2="168" stroke="#BEB8B7" stroke-width="1"/><path d="M 330 168 L 325 170.1 L 325 165.9 Z" fill="#312F2F" stroke="none"/><path d="M 210 48 L 212.1 53 L 207.9 53 Z" fill="#312F2F" stroke="none"/><text x="204" y="56" font-size="13" fill="#636060">f</text><path d="M 216 64.18 C 216.5 64.91 218 67.16 219 68.59 C 220 70.01 221 71.4 222 72.74 C 223 74.09 224 75.39 225 76.65 C 226 77.91 227 79.13 228 80.3 C 229 81.48 230 82.61 231 83.71 C 232 84.8 233 85.85 234 86.86 C 235 87.86 236 88.83 237 89.75 C 238 90.68 239 91.56 240 92.4 C 241 93.24 242 94.04 243 94.79 C 244 95.55 245 96.26 246 96.94 C 247 97.61 248 98.24 249 98.83 C 250 99.41 251 99.96 252 100.46 C 253 100.97 254 101.43 255 101.85 C 256 102.27 257.5 102.79 258 102.98" fill="none" stroke="#312F2F" stroke-width="2" stroke-linecap="round"/><path d="M 281 103.31 C 281.5 103.13 283 102.65 284 102.26 C 285 101.86 286 101.43 287 100.95 C 288 100.48 289 99.96 290 99.4 C 291 98.84 292 98.24 293 97.59 C 294 96.95 295 96.26 296 95.54 C 297 94.81 298 94.04 299 93.23 C 300 92.41 301 91.56 302 90.66 C 303 89.77 304 88.83 305 87.85 C 306 86.87 307 85.85 308 84.78 C 309 83.72 310 82.61 311 81.47 C 312 80.32 313 79.13 314 77.9 C 315 76.66 316 75.39 317 74.07 C 318 72.76 319.5 70.68 320 70" fill="none" stroke="#312F2F" stroke-width="2" stroke-linecap="round"/><circle cx="270" cy="105" r="3" fill="#FFFFFF" stroke="#312F2F" stroke-width="1.4"/><line x1="238" y1="90.664" x2="238" y2="168" stroke="#BEB8B7" stroke-width="1" stroke-dasharray="2 3"/><circle cx="238" cy="90.664" r="3" fill="#312F2F"/><text x="232" y="102.66" font-size="11" fill="#312F2F" text-anchor="end">f(x)</text><text x="326" y="78" font-size="11" fill="#636060">L+ε</text><text x="326" y="109" font-size="12" fill="#636060">L</text><text x="326" y="140" font-size="11" fill="#636060">L−ε</text><text x="270" y="180" font-size="13" fill="#636060" text-anchor="middle">x<tspan dy="3" font-size="9.36">0</tspan></text><text x="330" y="161" font-size="13" fill="#636060" text-anchor="end">t</text><text x="276" y="194" font-size="11" fill="#636060" text-anchor="middle">values of f</text></svg>
+  <rect width="360" height="200" fill="#FFFFFF" />
+  <circle cx="92" cy="104" r="42" fill="#E1EEF8" />
+  <circle cx="92" cy="104" r="42" fill="none" stroke="#2465A8" stroke-width="1" stroke-dasharray="4 3" />
+  <line x1="40" y1="104" x2="148" y2="104" stroke="#AAB8C4" stroke-width="1" />
+  <line x1="92" y1="48" x2="92" y2="162" stroke="#AAB8C4" stroke-width="1" />
+  <path d="M 148 104 L 143 106.1 L 143 101.9 Z" fill="#182735" stroke="none" />
+  <path d="M 92 48 L 94.1 53 L 89.9 53 Z" fill="#182735" stroke="none" />
+  <text x="144" y="98" font-size="13" fill="#46596A" text-anchor="middle">x</text>
+  <text x="85" y="54" font-size="13" fill="#46596A" text-anchor="middle">y</text>
+  <line x1="92" y1="104" x2="134" y2="104" stroke="#2465A8" stroke-width="1" stroke-dasharray="4 3" />
+  <text x="114" y="99" font-size="13" fill="#2465A8" text-anchor="middle">δ</text>
+  <line x1="70" y1="82" x2="89" y2="101" stroke="#2465A8" stroke-width="1" stroke-dasharray="2 3" />
+  <circle cx="70" cy="82" r="3" fill="#2465A8" />
+  <text x="63" y="83" font-size="13" fill="#2465A8" text-anchor="end">x</text>
+  <circle cx="92" cy="104" r="3" fill="#FFFFFF" stroke="#182735" stroke-width="1.6" />
+  <text x="86" y="122" font-size="13" fill="#182735" text-anchor="end">x<tspan dy="3" font-size="9.36">0</tspan>
+  </text>
+  <text x="92" y="184" font-size="11" fill="#46596A" text-anchor="middle">domain</text>
+  <rect x="210" y="82" width="112" height="46" fill="#E1EEF8" />
+  <line x1="210" y1="82" x2="322" y2="82" stroke="#2465A8" stroke-width="1" stroke-dasharray="4 3" />
+  <line x1="210" y1="128" x2="322" y2="128" stroke="#2465A8" stroke-width="1" stroke-dasharray="4 3" />
+  <line x1="210" x2="322" y1="105" y2="105" stroke="#AAB8C4" stroke-dasharray="2 3" />
+  <line x1="210" y1="168" x2="330" y2="168" stroke="#AAB8C4" stroke-width="1" />
+  <line x1="210" y1="48" x2="210" y2="168" stroke="#AAB8C4" stroke-width="1" />
+  <path d="M 330 168 L 325 170.1 L 325 165.9 Z" fill="#182735" stroke="none" />
+  <path d="M 210 48 L 212.1 53 L 207.9 53 Z" fill="#182735" stroke="none" />
+  <text x="204" y="56" font-size="13" fill="#46596A">f</text>
+  <path d="M 216 64.18 C 216.5 64.91 218 67.16 219 68.59 C 220 70.01 221 71.4 222 72.74 C 223 74.09 224 75.39 225 76.65 C 226 77.91 227 79.13 228 80.3 C 229 81.48 230 82.61 231 83.71 C 232 84.8 233 85.85 234 86.86 C 235 87.86 236 88.83 237 89.75 C 238 90.68 239 91.56 240 92.4 C 241 93.24 242 94.04 243 94.79 C 244 95.55 245 96.26 246 96.94 C 247 97.61 248 98.24 249 98.83 C 250 99.41 251 99.96 252 100.46 C 253 100.97 254 101.43 255 101.85 C 256 102.27 257.5 102.79 258 102.98" fill="none" stroke="#2465A8" stroke-width="2.2" stroke-linecap="round" />
+  <path d="M 281 103.31 C 281.5 103.13 283 102.65 284 102.26 C 285 101.86 286 101.43 287 100.95 C 288 100.48 289 99.96 290 99.4 C 291 98.84 292 98.24 293 97.59 C 294 96.95 295 96.26 296 95.54 C 297 94.81 298 94.04 299 93.23 C 300 92.41 301 91.56 302 90.66 C 303 89.77 304 88.83 305 87.85 C 306 86.87 307 85.85 308 84.78 C 309 83.72 310 82.61 311 81.47 C 312 80.32 313 79.13 314 77.9 C 315 76.66 316 75.39 317 74.07 C 318 72.76 319.5 70.68 320 70" fill="none" stroke="#2465A8" stroke-width="2.2" stroke-linecap="round" />
+  <circle cx="270" cy="105" r="3" fill="#FFFFFF" stroke="#2465A8" stroke-width="1.6" />
+  <line x1="238" y1="90.664" x2="238" y2="168" stroke="#AAB8C4" stroke-width="1" stroke-dasharray="2 3" />
+  <circle cx="238" cy="90.664" r="3" fill="#2465A8" />
+  <text x="232" y="102.66" font-size="11" fill="#2465A8" text-anchor="end">f(x)</text>
+  <text x="326" y="85" font-size="11" fill="#46596A">L+ε</text>
+  <text x="326" y="109" font-size="12" fill="#46596A">L</text>
+  <text x="326" y="131" font-size="11" fill="#46596A">L−ε</text>
+  <text x="270" y="180" font-size="13" fill="#46596A" text-anchor="middle">x<tspan dy="3" font-size="9.36">0</tspan>
+  </text>
+  <text x="330" y="161" font-size="13" fill="#46596A" text-anchor="end">t</text>
+  <text x="276" y="194" font-size="11" fill="#46596A" text-anchor="middle">values of f</text>
+</svg>

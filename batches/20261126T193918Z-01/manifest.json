@@ -19,7 +19,7 @@
       "article": "multivariable-calculus/limits-of-multivariable-functions.md",
       "writer": "WRITTEN",
       "illustrator": "ILLUSTRATED",
-      "reviewer": "PENDING",
+      "reviewer": "BLOCKED",
       "figures": [
         "multivariable-calculus/svg/limits-of-multivariable-functions-1.svg",
         "multivariable-calculus/svg/limits-of-multivariable-functions-2.svg",
@@ -28,7 +28,7 @@
       "notes": {
         "writer": "Provisional category. 3 figure briefs. Link to sibling tangent-plane article is an unpublished batch dependency.",
         "illustrator": "3 figures (reading order). F1 two-path diagram; F2 epsilon-delta disc and epsilon-band; F3 exact contour map of xy^2/(x^2+y^4) plus a profile at y=0.6 (a 3D sheet was rejected for hidden-surface artifacts).",
-        "reviewer": ""
+        "reviewer": "Mathematical/editorial/SVG-structural gates PASS. Mandatory visual-inspection gate NOT_RUN (no image-capable model in environment); Chrome headless rendered all 3 PNGs without error. Remote persistence verified after commit."
       }
     },
     {

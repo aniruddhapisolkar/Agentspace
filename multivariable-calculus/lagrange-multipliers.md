@@ -52,7 +52,7 @@ $$T_pS=\{v\in\mathbb{R}^n:\nabla g(p)\cdot v=0\}$$
 
 This is the content of the [implicit function theorem](../implicit-function-theorem/): one may solve $g(x)=0$ locally for one variable as a function of the others, and the derivative of that function gives the tangent directions. Equation (2) says that $\nabla f(p)$ is orthogonal to every vector in $T_pS$. The orthogonal complement of the hyperplane $T_pS$ is the one-dimensional space spanned by $\nabla g(p)$. Hence $\nabla f(p)$ is a scalar multiple of $\nabla g(p)$, which is (1).
 
-Two features of the statement deserve emphasis. First, the condition is necessary, not sufficient: every constrained extremum at a regular point of the constraint must satisfy (1), but a solution of (1) may be neither a maximum nor a minimum. Second, the hypothesis $\nabla g(p)\neq0$ is essential. It is called a constraint qualification, and it excludes constraints that collapse or have a singular point at the candidate.
+Two features of the statement deserve emphasis. First, the condition is necessary, not sufficient: every constrained extremum at a regular point of the constraint must satisfy (1), but a solution of (1) may be neither a maximum nor a minimum. For example, $f(x,y)=x^3$ on the constraint $y=0$ satisfies the Lagrange condition at the origin with $\lambda=0$, yet $x^3$ changes sign there and the origin is not a constrained extremum. Second, the hypothesis $\nabla g(p)\neq0$ is essential. It is called a constraint qualification, and it excludes constraints that collapse or have a singular point at the candidate.
 
 ## Several constraints
 

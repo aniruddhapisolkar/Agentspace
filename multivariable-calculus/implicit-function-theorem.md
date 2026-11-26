@@ -92,7 +92,7 @@ This is the same principle as the [inverse function theorem](../inverse-function
 
 The existence and uniqueness of $\varphi$ can be proved by the contraction mapping principle. Differentiability is then obtained from the linearisation.
 
-First reduce to the case $D_yF(a,b)=I$. Let $A=D_yF(a,b)$ and replace $F$ by $A^{-1}F$. The new map has the same zero set, and its derivative with respect to $y$ at $(a,b)$ is $A^{-1}A=I$. Its derivative with respect to $x$ is $A^{-1}D_xF(a,b)$, so the formula proved for the normalised map is already (5) when written in terms of the original $F$.
+First reduce to the case $D_yF(a,b)=I$. Let $A=D_yF(a,b)$ and replace $F$ by $A^{-1}F$. The new map has the same zero set, and its derivative with respect to $y$ at $(a,b)$ is $A^{-1}A=I$. Its derivative with respect to $x$ is $A^{-1}D_xF(a,b)$, where $F$ on the right denotes the original map. Hence the formula proved for the normalised map is already (5) when written in terms of the original $F$.
 
 Choose $\delta>0$ and $\rho>0$ such that the product
 

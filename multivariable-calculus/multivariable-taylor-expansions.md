@@ -101,6 +101,8 @@ $$
 
 The factor $2$ in the mixed term appears because the two mixed derivatives are equal, so the entries $(1,2)$ and $(2,1)$ of the Hessian contribute identical terms.
 
+![A section along h = (1,1) of e to the power x+y with its tangent line and its second-order parabola](svg/multivariable-taylor-expansions-1.svg)
+
 ## The general Taylor theorem
 
 The two forms of the remainder have different hypotheses and should be kept apart.
@@ -224,6 +226,8 @@ Every partial derivative of $f$ at the origin is zero. Along any line through th
 
 Consequently every Taylor polynomial of $f$ at the origin is the zero polynomial, and the Taylor series converges to $0$ at every point. Yet $f(x,y)>0$ whenever $(x,y)\neq(0,0)$. The Taylor series exists but does not represent the function, and no finite-order expansion can detect the bump near the origin. Smoothness alone does not imply real analyticity in several variables, just as in one variable.
 
+![The surface e to the power minus 1 over x squared plus y squared rising from a flat point at the origin, and its section e to the power minus 1 over t squared against the zero Taylor polynomial](svg/multivariable-taylor-expansions-3.svg)
+
 ## Consequences and related notions
 
 The second-order expansion is the basis for the classification of critical points. Suppose that $f$ is of class $C^2$ near $a$ and that $\nabla f(a)=0$. Then
@@ -236,5 +240,7 @@ and the sign of the quadratic form determines the local behaviour:
 + if $H_f(a)$ is negative definite, then $f$ has a strict local maximum at $a$;
 + if $H_f(a)$ has both positive and negative eigenvalues, then $f$ has a saddle point at $a$;
 + if $H_f(a)$ is singular, the second-order term is inconclusive and higher-order terms decide.
+
+![Level curves of x squared plus y squared, minus x squared minus y squared, and x squared minus y squared, showing a minimum, a maximum and a saddle](svg/multivariable-taylor-expansions-2.svg)
 
 The first-order polynomial is the tangent plane, and the second-order polynomial is the quadratic surface that shares the same tangent plane and the same second derivatives. The entry on [partial derivatives](../partial-derivatives/) develops the Hessian and the symmetry of mixed derivatives used here, while the entry on [Taylor's formula with remainder](../taylor-formula-with-remainder/) treats the one-variable case in detail.

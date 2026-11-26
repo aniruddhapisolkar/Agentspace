@@ -38,6 +38,8 @@ The converse is false. The function $f(x,y)=xy$ has $\nabla f(0,0)=(0,0)$, but $
 
 A saddle point is a critical point at which the function is neither a local maximum nor a local minimum. Equivalently, every neighbourhood of the point contains points at which $f$ is larger than $f(a)$ and points at which $f$ is smaller. The term describes the graph of $z=x^2-y^2$: along the $x$-axis the surface rises from the origin, and along the $y$-axis it falls.
 
+![Graph of z = x² − y² with an upward parabola in the plane y = 0 and a downward parabola in the plane x = 0, meeting at the saddle point at the origin](svg/multivariable-extrema-and-saddle-points-1.svg)
+
 Fermat's theorem shows that differentiability moves every interior local extremum into the list of critical points. It does not distinguish maxima from minima, and it does not say that every critical point is an extremum. The second derivatives supply that information when they are available.
 
 ## The second derivative test
@@ -133,6 +135,8 @@ $$f(1,1)=1+1-3=-1$$
 
 The example also shows why both critical points must be examined. The gradient vanishes at both, but the Hessian assigns them different characters.
 
+![Contour map of x³ + y³ − 3xy, with a self-crossing level curve at the saddle point at the origin and closed level curves around the local minimum at (1,1)](svg/multivariable-extrema-and-saddle-points-2.svg)
+
 ## When the determinant vanishes
 
 The case $\Delta=0$ requires a separate argument. The following functions all have a critical point at the origin and a degenerate Hessian there, with determinant zero, yet their behaviour is different.
@@ -143,6 +147,8 @@ The case $\Delta=0$ requires a separate argument. The following functions all ha
 | $-x^4-y^4$ | zero matrix | strict local maximum |
 | $x^4-y^4$ | zero matrix | saddle point |
 | $x^2+y^3$ | $\operatorname{diag}(2,0)$ | saddle point |
+
+![Four surface plots: x⁴ + y⁴ has a minimum at the origin, its negative has a maximum, x⁴ − y⁴ has a saddle, and x² + y³ also has a saddle, although all four Hessians are degenerate at the origin](svg/multivariable-extrema-and-saddle-points-3.svg)
 
 For $x^4+y^4$, the function is non-negative and vanishes only at the origin, so the origin is a strict minimum. For $-x^4-y^4$ the same argument with the sign reversed gives a strict maximum. For $x^4-y^4$, the value is positive on the $x$-axis and negative on the $y$-axis, so the origin is a saddle point. For $x^2+y^3$, the Hessian is positive semidefinite, but the function is positive on the $x$-axis and negative on the negative $y$-axis; the origin is again a saddle point. A positive semidefinite Hessian therefore does not by itself imply a minimum.
 

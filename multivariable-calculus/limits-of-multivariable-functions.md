@@ -26,7 +26,11 @@ Along the line $y=x$, however,
 
 $$f(x,x)=\frac{x^2}{x^2+x^2}=\frac{1}{2} \qquad x\neq 0$$
 
-The two approaches give different values, $0$ and $1/2$, so no single number can be the limit. This phenomenon has no counterpart in one variable: there the domain of approach is one-dimensional, while here it is a punctured disc.
+The two approaches give different values, $0$ and $1/2$, so no single number can be the limit.
+
+![Two approaches to the origin: along the x-axis f tends to 0, along y=x it tends to 1/2](svg/limits-of-multivariable-functions-1.svg)
+
+This phenomenon has no counterpart in one variable: there the domain of approach is one-dimensional, while here it is a punctured disc.
 
 ## Definition of limit
 
@@ -53,6 +57,8 @@ For $n=2$, with $x=(x,y)$ and $x_0=(x_0,y_0)$, the condition reads
 $$\|x-x_0\|=\sqrt{(x-x_0)^2+(y-y_0)^2}$$
 
 so the punctured ball is a disc with its centre removed.
+
+![The epsilon-delta condition: every point of the punctured delta-disc around x0 maps into the epsilon-band around L](svg/limits-of-multivariable-functions-2.svg)
 
 A limit, when it exists, is unique. Suppose that both $L$ and $M$ satisfied (1) with $L\neq M$. Choose $\varepsilon=|L-M|/3$. The definition supplies $\delta_L$ and $\delta_M$; since $x_0$ is an accumulation point, there is a point $x\in A$ with $0<\|x-x_0\|<\min(\delta_L,\delta_M)$. For this point the triangle inequality gives
 
@@ -179,7 +185,11 @@ and the coordinate axes also give $0$. Yet along the parabola $x=y^2$, parametri
 
 $$f(t^2,t)=\frac{t^2\cdot t^2}{t^4+t^4}=\frac{1}{2} \qquad t\neq 0$$
 
-so the limit along this curve is $1/2$. Hence the limit does not exist, even though all linear approaches agree. A finite list of paths, however long, can never prove that a limit exists; it can only disprove it.
+so the limit along this curve is $1/2$. Hence the limit does not exist, even though all linear approaches agree.
+
+![Contour map of xy squared over x squared plus y to the fourth: level parabolas, the ridge x = y squared at height 1/2, and the straight lines through the origin](svg/limits-of-multivariable-functions-3.svg)
+
+A finite list of paths, however long, can never prove that a limit exists; it can only disprove it.
 
 ## Iterated limits
 

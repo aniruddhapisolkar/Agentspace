@@ -5,7 +5,11 @@
   "branch": "main",
   "original_input": "Topics to cover:\n1. Limits of Multivariable Functions\n2. Multivariable Taylor Expansions\n3. Tangent Planes and Linear Approximations",
   "created_utc": "2026-11-26T19:39:18Z",
-  "processing_order": [1, 2, 3],
+  "processing_order": [
+    1,
+    2,
+    3
+  ],
   "category_note": "multivariable-calculus is a provisional category: upstream has no dedicated category, while partial derivatives live under derivatives/.",
   "topics": [
     {
@@ -14,12 +18,16 @@
       "slug": "limits-of-multivariable-functions",
       "article": "multivariable-calculus/limits-of-multivariable-functions.md",
       "writer": "WRITTEN",
-      "illustrator": "PENDING",
+      "illustrator": "ILLUSTRATED",
       "reviewer": "PENDING",
-      "figures": [],
+      "figures": [
+        "multivariable-calculus/svg/limits-of-multivariable-functions-1.svg",
+        "multivariable-calculus/svg/limits-of-multivariable-functions-2.svg",
+        "multivariable-calculus/svg/limits-of-multivariable-functions-3.svg"
+      ],
       "notes": {
         "writer": "Provisional category. 3 figure briefs. Link to sibling tangent-plane article is an unpublished batch dependency.",
-        "illustrator": "",
+        "illustrator": "3 figures. F1 two-path diagram; F2 epsilon-delta disc and epsilon-band; F3 exact contour map of xy^2/(x^2+y^4) plus a profile at y=0.6 (a 3D sheet was rejected for hidden-surface artifacts).",
         "reviewer": ""
       }
     },

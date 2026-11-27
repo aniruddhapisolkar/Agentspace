@@ -1,0 +1,84 @@
+{
+  "schema": 1,
+  "batch_id": "20261127T144139Z-01",
+  "repository": "aniruddhapisolkar/Agentspace",
+  "branch": "main",
+  "original_input": "Conservative Vector Fields\nFundamental Theorem for Line Integrals\nParametric Surfaces\nSurface Integrals\nFlux Integrals",
+  "topics": [
+    {
+      "id": 1,
+      "topic": "Conservative Vector Fields",
+      "slug": "conservative-vector-fields",
+      "article": "multivariable-calculus/conservative-vector-fields.md",
+      "writer": "PENDING",
+      "illustrator": "PENDING",
+      "reviewer": "PENDING",
+      "figures": [],
+      "notes": {
+        "writer": "",
+        "illustrator": "",
+        "reviewer": ""
+      }
+    },
+    {
+      "id": 2,
+      "topic": "Fundamental Theorem for Line Integrals",
+      "slug": "fundamental-theorem-for-line-integrals",
+      "article": "multivariable-calculus/fundamental-theorem-for-line-integrals.md",
+      "writer": "PENDING",
+      "illustrator": "PENDING",
+      "reviewer": "PENDING",
+      "figures": [],
+      "notes": {
+        "writer": "",
+        "illustrator": "",
+        "reviewer": ""
+      }
+    },
+    {
+      "id": 3,
+      "topic": "Parametric Surfaces",
+      "slug": "parametric-surfaces",
+      "article": "multivariable-calculus/parametric-surfaces.md",
+      "writer": "PENDING",
+      "illustrator": "PENDING",
+      "reviewer": "PENDING",
+      "figures": [],
+      "notes": {
+        "writer": "",
+        "illustrator": "",
+        "reviewer": ""
+      }
+    },
+    {
+      "id": 4,
+      "topic": "Surface Integrals",
+      "slug": "surface-integrals",
+      "article": "multivariable-calculus/surface-integrals.md",
+      "writer": "PENDING",
+      "illustrator": "PENDING",
+      "reviewer": "PENDING",
+      "figures": [],
+      "notes": {
+        "writer": "",
+        "illustrator": "",
+        "reviewer": ""
+      }
+    },
+    {
+      "id": 5,
+      "topic": "Flux Integrals",
+      "slug": "flux-integrals",
+      "article": "multivariable-calculus/flux-integrals.md",
+      "writer": "PENDING",
+      "illustrator": "PENDING",
+      "reviewer": "PENDING",
+      "figures": [],
+      "notes": {
+        "writer": "",
+        "illustrator": "",
+        "reviewer": ""
+      }
+    }
+  ]
+}

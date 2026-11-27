@@ -210,7 +210,7 @@ The following errors are common.
 
 **Using the wrong angle.** If $\varphi$ is measured from the $xy$-plane instead of the $z$-axis, then $z=\rho\sin\varphi$ rather than $\rho\cos\varphi$, and the range of $\varphi$ changes. The Jacobian factor $\rho^2\sin\varphi$ is the same in form, but the limits are different. Mixing the two conventions produces wrong signs and wrong volumes.
 
-**Omitting the Jacobian.** The volume element is $\rho^2\sin\varphi\,d\rho\,d\varphi\,d\theta$, not $d\rho\,d\varphi\,d\theta$. The ball computation shows the size of the error: the uncorrected integral is too large by a factor of three.
+**Omitting the Jacobian.** The volume element is $\rho^2\sin\varphi\,d\rho\,d\varphi\,d\theta$, not $d\rho\,d\varphi\,d\theta$. The ball computation shows the size of the error: omitting $\sin\varphi$ alone multiplies the volume by $\pi/2$, and omitting $\rho^2$ leaves an expression with the dimensions of length. The factor is the determinant of the coordinate map, not a convention.
 
 **Confusing $\rho$ with $r$.** In cylindrical coordinates $r$ is the distance from the $z$-axis; in spherical coordinates $\rho$ is the distance from the origin. They are related by $r=\rho\sin\varphi$. A sphere centred at the origin is $\rho=R$, not $r=R$; the latter is a cylinder.
 

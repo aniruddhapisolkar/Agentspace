@@ -78,7 +78,7 @@ Exclusions: de Rham cohomology, the full topological proof of the Poincaré lemm
 
 ## Independent example checks
 
-All arithmetic was recomputed by hand and cross-checked with a short Python script using exact fractions and symbolic differentiation.
+All arithmetic was recomputed by hand and cross-checked with a short Python script using finite-difference gradients and composite Simpson quadrature.
 
 + (18) $f=e^x\sin y$: $f_x=e^x\sin y=P$, $f_y=e^x\cos y=Q$; $Q_x=P_y=e^x\cos y$.
 + (19)–(22) $\mathbf{F}=\langle2xy+z^2,x^2+3y^2,2xz\rangle$: $f=x^2y+y^3+xz^2$; all three partials reproduce the components; all three cross partials vanish.

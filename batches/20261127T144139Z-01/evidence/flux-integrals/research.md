@@ -77,7 +77,7 @@ Exclusions: a full proof of the divergence theorem, Gauss's law in physical unit
 
 ## Independent example checks
 
-All computations were repeated by hand and checked symbolically in Python.
+All computations were repeated by hand and checked with a short Python script using composite Simpson quadrature.
 
 + Disk: $\iint c\,dS=c\pi R^2.$
 + Sphere of radius $R$: $\mathbf{F}\cdot\mathbf{n}=R$ and flux $4\pi R^3.$

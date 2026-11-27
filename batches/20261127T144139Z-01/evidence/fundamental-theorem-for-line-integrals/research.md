@@ -78,7 +78,7 @@ Exclusions: a full proof of Stokes' theorem, differential-form integration on ma
 
 ## Independent example checks
 
-All computations were repeated by hand and checked with exact symbolic differentiation in Python.
+All computations were repeated by hand and checked with a short Python script using finite-difference gradients and composite Simpson quadrature.
 
 + (14) $f=x^2y$: $f_x=2xy=P$, $f_y=x^2=Q$.
 + (15)–(17) $f=xyz$: $f_x=yz$, $f_y=xz$, $f_z=xy$; $f(4,5,6)-f(1,2,3)=120-6=114$.

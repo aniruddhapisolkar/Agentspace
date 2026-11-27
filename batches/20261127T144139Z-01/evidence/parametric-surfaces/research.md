@@ -78,7 +78,7 @@ Exclusions: the full implicit function theorem, the classification of surfaces, 
 
 ## Independent example checks
 
-All cross products and integrals were recomputed by hand and checked symbolically in Python.
+All cross products and integrals were recomputed by hand and checked numerically with a short Python script.
 
 + Sphere: $\mathbf{r}_\theta\times\mathbf{r}_\varphi=-R^2\sin\varphi\,\hat{\mathbf{r}};$ norm $R^2\sin\varphi;$ area $4\pi R^2.$
 + Cone: $\mathbf{r}_r\times\mathbf{r}_\theta=\langle-r\cos\theta,-r\sin\theta,r\rangle;$ norm $\sqrt2\,r;$ area $\sqrt2\pi R^2=\pi R\ell$ with $\ell=\sqrt2R.$

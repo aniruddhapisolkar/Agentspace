@@ -77,7 +77,7 @@ Exclusions: the divergence theorem (mentioned only as the next result), Stokes' 
 
 ## Independent example checks
 
-All computations were repeated by hand and checked symbolically in Python.
+All computations were repeated by hand and checked with a short Python script using composite Simpson quadrature.
 
 + (13)–(15) $\iint z\,dS$ over the upper hemisphere of radius $2$: inner integral $4,$ total $8\pi.$
 + (16) area: $8\pi=2\pi R^2$ with $R=2.$

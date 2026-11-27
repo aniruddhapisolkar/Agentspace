@@ -40,12 +40,16 @@
       "slug": "triple-integrals",
       "article": "multivariable-calculus/triple-integrals.md",
       "writer": "WRITTEN",
-      "illustrator": "PENDING",
+      "illustrator": "ILLUSTRATED",
       "reviewer": "PENDING",
-      "figures": [],
+      "figures": [
+        "multivariable-calculus/svg/triple-integrals-1.svg",
+        "multivariable-calculus/svg/triple-integrals-2.svg",
+        "multivariable-calculus/svg/triple-integrals-3.svg"
+      ],
       "notes": {
         "writer": "Provisional category. 3 figure briefs. Box definition, z-simple solids, tetrahedron and density examples, centre of mass. Links to double, Fubini, cylindrical, spherical and change-of-variables siblings are unpublished batch dependencies.",
-        "illustrator": "",
+        "illustrator": "3 figures: box partition, z-simple solid with shadow, standard tetrahedron. Original monochrome SVGs, rendered and visually checked; details in evidence/triple-integrals/illustration-notes.md.",
         "reviewer": ""
       }
     },

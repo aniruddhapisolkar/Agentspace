@@ -32,6 +32,8 @@ $$S(f,P)=\sum_{i,j,k} f(x_{ijk}^*,y_{ijk}^*,z_{ijk}^*)\,\Delta V_{ijk}$$
 
 The mesh $\lVert P\rVert$ is the largest diameter of a sub-box. The function is integrable over $B$ if these sums tend to a common limit as $\lVert P\rVert\to0$, independently of the sample points. The limit is the triple integral
 
+![A box divided into sub-boxes by a grid on its visible faces, with one sub-box B ijk shaded, a sample point inside, and edge lengths Δx i, Δy j and Δz k](svg/triple-integrals-1.svg)
+
 $$\iiint_B f(x,y,z)\,dV=\lim_{\lVert P\rVert\to0}\sum_{i,j,k} f(x_{ijk}^*,y_{ijk}^*,z_{ijk}^*)\,\Delta V_{ijk} \tag{1}$$
 
 As in the plane, the definition through Riemann sums is equivalent to one through lower and upper sums. With
@@ -96,6 +98,8 @@ $$D=\{(x,y,z):(x,y)\in\Omega,\ \varphi_1(x,y)\le z\le\varphi_2(x,y)\}$$
 
 where $\Omega$ is a plane region and $\varphi_1,\varphi_2$ are continuous on $\Omega$. The projection $\Omega$ is the shadow of $D$ on the $xy$-plane. A solid may also be $x$-simple or $y$-simple; the choice is a matter of which description gives the simplest limits.
 
+![A solid between an upper surface z = φ₂(x, y) and a lower surface z = φ₁(x, y) over its shadow Ω, with a vertical segment from φ₁ to φ₂ above the point (x, y)](svg/triple-integrals-2.svg)
+
 ## Iterated integrals
 
 For a continuous function on a box, the triple integral equals any of the six iterated integrals obtained by ordering the three variables:
@@ -127,6 +131,8 @@ Let
 $$T=\{(x,y,z):x\ge0,\ y\ge0,\ z\ge0,\ x+y+z\le1\}$$
 
 This is the standard tetrahedron with vertices $(0,0,0)$, $(1,0,0)$, $(0,1,0)$ and $(0,0,1)$. Evaluate
+
+![The tetrahedron cut from the first octant by x + y + z = 1, with a dashed horizontal slice at z = 0.6 and the base region Ω labelled x + y ≤ 1](svg/triple-integrals-3.svg)
 
 $$\iiint_T z\,dV$$
 

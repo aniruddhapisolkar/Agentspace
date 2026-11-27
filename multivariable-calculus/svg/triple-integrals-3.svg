@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="252" viewBox="0 0 340 252" role="img" aria-labelledby="fig-title fig-desc" font-family="Geist, Arial, sans-serif" stroke-linecap="round" stroke-linejoin="round">
+  <title id="fig-title">The standard tetrahedron in the first octant</title>
+  <desc id="fig-desc">The tetrahedron with vertices at the origin and the unit points on the three axes, cut out by the plane x + y + z = 1. The outline and internal edges are drawn through the transparent solid, the slanted face is shaded, and a dashed horizontal triangular slice at height z = 0.6 sits inside it.</desc>
+  <rect width="340" height="252" fill="#FFFFFF"/>
+  <path d="M 225.08 194 L 78.92 194 L 152 68 Z" fill="#E9E3E2" stroke="#312F2F" stroke-width="1.5"/>
+  <path d="M 193.76 140 L 110.24 140 L 152 116 Z" fill="#FFFFFF" fill-opacity="0.6" stroke="#312F2F" stroke-width="0.9" stroke-dasharray="4 3"/>
+  <circle cx="152" cy="116" r="2.2" fill="#312F2F"/>
+  <line x1="152" y1="152" x2="225.08" y2="194" stroke="#312F2F" stroke-width="1.2"/>
+  <line x1="152" y1="152" x2="78.92" y2="194" stroke="#312F2F" stroke-width="1.2"/>
+  <line x1="152" y1="152" x2="152" y2="68" stroke="#312F2F" stroke-width="1.2"/>
+  <text x="146" y="158" font-size="10" fill="#636060" text-anchor="end">O</text>
+  <text x="229.08" y="208" font-size="10" fill="#636060">(1, 0, 0)</text>
+  <text x="74.92" y="208" font-size="10" fill="#636060" text-anchor="end">(0, 1, 0)</text>
+  <text x="146" y="67" font-size="10" fill="#636060" text-anchor="end">(0, 0, 1)</text>
+  <text x="196" y="100" font-size="10.5" fill="#312F2F" text-anchor="middle" stroke="#FFFFFF" stroke-width="3" paint-order="stroke">x + y + z = 1</text>
+  <text x="144" y="106" font-size="11" fill="#636060" text-anchor="end">z</text>
+  <text x="207" y="141" font-size="9.5" fill="#636060" stroke="#FFFFFF" stroke-width="3" paint-order="stroke">z = 0.6</text>
+  <line x1="205" y1="138" x2="196" y2="138" stroke="#636060" stroke-width="0.6"/>
+  <text x="150" y="176" font-size="12" fill="#636060" text-anchor="middle" stroke="#FFFFFF" stroke-width="3" paint-order="stroke">Ω</text>
+  <text x="150" y="191" font-size="9.5" fill="#636060" text-anchor="middle" stroke="#FFFFFF" stroke-width="3" paint-order="stroke">x + y ≤ 1</text>
+  <text x="170" y="243" font-size="10" fill="#636060" text-anchor="middle">0 ≤ z ≤ 1 − x − y over Ω</text>
+</svg>

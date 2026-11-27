@@ -51,6 +51,8 @@ $$\mathbf{r}(t)=\langle a\cos t,\,a\sin t,\,bt\rangle \qquad t\in\mathbb{R} \tag
 
 with $a>0$ and $b\neq0.$ Its projection onto the $xy$-plane is the circle $x^2+y^2=a^2,$ traversed counterclockwise, while $z=bt$ changes linearly. The parameter $t$ is the angle of the projection, and $2\pi b$ is the vertical displacement after one complete turn, called the pitch. At $t=0$ the point is $(a,0,0).$
 
+![A two-turn helix above its circular projection, with the rise of one turn marked as 2 pi b](svg/vector-valued-functions-1.svg)
+
 Two familiar plane curves illustrate how the parameter changes the description. The circle
 
 $$\mathbf{r}(t)=\langle R\cos t,R\sin t\rangle \qquad 0\le t\le2\pi$$
@@ -98,6 +100,8 @@ so differentiation is performed componentwise. Higher derivatives are defined in
 Geometrically, $\mathbf{r}'(t)$ is tangent to the curve at $\mathbf{r}(t)$ and points in the direction of increasing $t.$ The vector $\mathbf{r}'(t)$ is the velocity of a particle whose position is $\mathbf{r}(t),$ and its magnitude is the speed. If $\mathbf{r}'(t_0)\neq\mathbf{0},$ the tangent line at $t_0$ is
 
 $$\mathbf{L}(s)=\mathbf{r}(t_0)+s\,\mathbf{r}'(t_0) \qquad s\in\mathbb{R} \tag{5}$$
+
+![Secant vectors from a fixed point approaching the tangent vector as the second point coalesces with the first](svg/vector-valued-functions-2.svg)
 
 The unit tangent vector is defined when $\mathbf{r}'(t)\neq\mathbf{0}$ by
 
@@ -168,6 +172,8 @@ The speed is constant. One turn has length
 $$L=\int_0^{2\pi}\sqrt{a^2+b^2}\,dt=2\pi\sqrt{a^2+b^2}$$
 
 which is the length of the hypotenuse of a right triangle with legs $2\pi a$ and $2\pi b.$ Unrolling one turn of the helix onto a plane makes this evident: the turn becomes a straight segment with those components.
+
+![One turn of a helix unrolled into a right triangle with legs 2 pi a and 2 pi b and hypotenuse L](svg/vector-valued-functions-3.svg)
 
 Curvature measures how quickly the tangent direction turns. It is defined by
 

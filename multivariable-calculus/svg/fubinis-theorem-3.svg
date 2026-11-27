@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="272" viewBox="0 0 300 272" role="img" aria-labelledby="fig-title fig-desc" font-family="Geist, Arial, sans-serif" stroke-linecap="round" stroke-linejoin="round">
+  <title id="fig-title">Reversing the order over a parabolic region</title>
+  <desc id="fig-desc">The unit square with the parabola y = x squared. The region above the parabola and below y = 1 is described by 0 at most y at most 1 and 0 at most x at most the square root of y. A horizontal strip at height y runs from x = 0 to the parabola.</desc>
+  <rect width="300" height="272" fill="#FFFFFF"/>
+  <path d="M 56 48 L 236 48 L 236 48 L 233 53.95 L 230 59.8 L 227 65.55 L 224 71.2 L 221 76.75 L 218 82.2 L 215 87.55 L 212 92.8 L 209 97.95 L 206 103 L 203 107.95 L 200 112.8 L 197 117.55 L 194 122.2 L 191 126.75 L 188 131.2 L 185 135.55 L 182 139.8 L 179 143.95 L 176 148 L 173 151.95 L 170 155.8 L 167 159.55 L 164 163.2 L 161 166.75 L 158 170.2 L 155 173.55 L 152 176.8 L 149 179.95 L 146 183 L 143 185.95 L 140 188.8 L 137 191.55 L 134 194.2 L 131 196.75 L 128 199.2 L 125 201.55 L 122 203.8 L 119 205.95 L 116 208 L 113 209.95 L 110 211.8 L 107 213.55 L 104 215.2 L 101 216.75 L 98 218.2 L 95 219.55 L 92 220.8 L 89 221.95 L 86 223 L 83 223.95 L 80 224.8 L 77 225.55 L 74 226.2 L 71 226.75 L 68 227.2 L 65 227.55 L 62 227.8 L 59 227.95 L 56 228 L 56 228 Z" fill="#E9E3E2" stroke="none"/>
+  <rect x="56" y="48" width="180" height="180" fill="none" stroke="#BEB8B7" stroke-width="0.9"/>
+  <path d="M 56 228 L 58.25 227.97 L 60.5 227.89 L 62.75 227.75 L 65 227.55 L 67.25 227.3 L 69.5 226.99 L 71.75 226.62 L 74 226.2 L 76.25 225.72 L 78.5 225.19 L 80.75 224.6 L 83 223.95 L 85.25 223.25 L 87.5 222.49 L 89.75 221.67 L 92 220.8 L 94.25 219.87 L 96.5 218.89 L 98.75 217.85 L 101 216.75 L 103.25 215.6 L 105.5 214.39 L 107.75 213.12 L 110 211.8 L 112.25 210.42 L 114.5 208.99 L 116.75 207.5 L 119 205.95 L 121.25 204.35 L 123.5 202.69 L 125.75 200.97 L 128 199.2 L 130.25 197.37 L 132.5 195.49 L 134.75 193.55 L 137 191.55 L 139.25 189.5 L 141.5 187.39 L 143.75 185.22 L 146 183 L 148.25 180.72 L 150.5 178.39 L 152.75 176 L 155 173.55 L 157.25 171.05 L 159.5 168.49 L 161.75 165.87 L 164 163.2 L 166.25 160.47 L 168.5 157.69 L 170.75 154.85 L 173 151.95 L 175.25 149 L 177.5 145.99 L 179.75 142.92 L 182 139.8 L 184.25 136.62 L 186.5 133.39 L 188.75 130.1 L 191 126.75 L 193.25 123.35 L 195.5 119.89 L 197.75 116.37 L 200 112.8 L 202.25 109.17 L 204.5 105.49 L 206.75 101.75 L 209 97.95 L 211.25 94.1 L 213.5 90.19 L 215.75 86.22 L 218 82.2 L 220.25 78.12 L 222.5 73.99 L 224.75 69.8 L 227 65.55 L 229.25 61.25 L 231.5 56.89 L 233.75 52.47 L 236 48" fill="none" stroke="#312F2F" stroke-width="1.7"/>
+  <line x1="28" y1="228" x2="268" y2="228" stroke="#BEB8B7" stroke-width="0.9"/><path d="M 268 228 L 262 230.4 L 262 225.6 Z" fill="#BEB8B7" stroke="none"/>
+  <line x1="56" y1="252" x2="56" y2="24" stroke="#BEB8B7" stroke-width="0.9"/><path d="M 56 24 L 58.4 30 L 53.6 30 Z" fill="#BEB8B7" stroke="none"/>
+  <text x="272" y="232" font-size="12" fill="#636060">x</text>
+  <text x="52" y="20" font-size="12" fill="#636060" text-anchor="end">y</text>
+  <text x="50" y="241" font-size="10.5" fill="#636060" text-anchor="end">0</text>
+  <text x="236" y="243" font-size="10.5" fill="#636060" text-anchor="middle">1</text>
+  <text x="50" y="52" font-size="10.5" fill="#636060" text-anchor="end">1</text>
+  <line x1="236" y1="225" x2="236" y2="231" stroke="#636060" stroke-width="0.9"/>
+  <line x1="53" y1="48" x2="59" y2="48" stroke="#636060" stroke-width="0.9"/>
+  <line x1="56" y1="116.4" x2="193.73" y2="116.4" stroke="#312F2F" stroke-width="2.6"/>
+  <path d="M 197.73 116.4 L 191.73 118.8 L 191.73 114 Z" fill="#312F2F" stroke="none"/>
+  <circle cx="56" cy="116.4" r="2.6" fill="#FFFFFF" stroke="#312F2F" stroke-width="1.2"/>
+  <text x="60" y="133.4" font-size="9.5" fill="#636060" stroke="#FFFFFF" stroke-width="3" paint-order="stroke">x = 0</text>
+  <text x="195.73" y="138.4" font-size="9.5" fill="#636060" text-anchor="end" stroke="#FFFFFF" stroke-width="3" paint-order="stroke">x = √y</text>
+  <line x1="53" y1="116.4" x2="59" y2="116.4" stroke="#636060" stroke-width="0.9"/>
+  <text x="50" y="120.4" font-size="10.5" fill="#636060" text-anchor="end">y</text>
+  <text x="167.6" y="174" font-size="10.5" fill="#636060" text-anchor="middle" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" transform="rotate(-38 167.6 174)">y = x²</text>
+  <text x="196.4" y="80.4" font-size="13" fill="#312F2F" text-anchor="middle">D</text>
+  <text x="150" y="262" font-size="10.5" fill="#636060" text-anchor="middle">D: 0 ≤ y ≤ 1,   0 ≤ x ≤ √y</text>
+</svg>

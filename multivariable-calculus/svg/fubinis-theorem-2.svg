@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="262" viewBox="0 0 320 262" role="img" aria-labelledby="fig-title fig-desc" font-family="Geist, Arial, sans-serif" stroke-linecap="round" stroke-linejoin="round">
+  <title id="fig-title">Inner and outer limits for a type I region</title>
+  <desc id="fig-desc">A region between the lower curve y = phi 1 of x and the upper curve y = phi 2 of x. A representative vertical segment runs from phi 1 of x to phi 2 of x; these are the inner limits, while the outer integral runs from a to b.</desc>
+  <rect width="320" height="262" fill="#FFFFFF"/>
+  <line x1="24" y1="208" x2="252" y2="208" stroke="#BEB8B7" stroke-width="0.85"/><path d="M 252 208 L 246.5 210.2 L 246.5 205.8 Z" fill="#BEB8B7" stroke="none"/>
+  <line x1="66" y1="226" x2="66" y2="60" stroke="#BEB8B7" stroke-width="0.85"/><path d="M 66 60 L 68.2 65.5 L 63.8 65.5 Z" fill="#BEB8B7" stroke="none"/>
+  <text x="256" y="212" font-size="11" fill="#636060">x</text>
+  <text x="62" y="58" font-size="11" fill="#636060" text-anchor="end">y</text>
+  <path d="M 239.9 82.2 L 239.72 78.48 L 239.18 74.78 L 238.28 71.12 L 237.03 67.51 L 235.44 63.98 L 233.5 60.53 L 231.24 57.19 L 228.66 53.97 L 225.77 50.88 L 222.59 47.95 L 219.13 45.19 L 215.42 42.61 L 211.46 40.21 L 207.28 38.03 L 202.9 36.06 L 198.34 34.31 L 193.62 32.8 L 188.77 31.53 L 183.8 30.5 L 178.75 29.73 L 173.64 29.21 L 168.48 28.95 L 163.32 28.95 L 158.16 29.21 L 153.05 29.73 L 148 30.5 L 143.03 31.53 L 138.18 32.8 L 133.46 34.31 L 128.9 36.06 L 124.52 38.03 L 120.34 40.21 L 116.38 42.61 L 112.67 45.19 L 109.21 47.95 L 106.03 50.88 L 103.14 53.97 L 100.56 57.19 L 98.3 60.53 L 96.36 63.98 L 94.77 67.51 L 93.52 71.12 L 92.62 74.78 L 92.08 78.48 L 91.9 82.2 L 92.08 85.92 L 92.62 89.62 L 93.52 93.28 L 94.77 96.89 L 96.36 100.42 L 98.3 103.87 L 100.56 107.21 L 103.14 110.43 L 106.03 113.52 L 109.21 116.45 L 112.67 119.21 L 116.38 121.79 L 120.34 124.19 L 124.52 126.37 L 128.9 128.34 L 133.46 130.09 L 138.18 131.6 L 143.03 132.87 L 148 133.9 L 153.05 134.67 L 158.16 135.19 L 163.32 135.45 L 168.48 135.45 L 173.64 135.19 L 178.75 134.67 L 183.8 133.9 L 188.77 132.87 L 193.62 131.6 L 198.34 130.09 L 202.9 128.34 L 207.28 126.37 L 211.46 124.19 L 215.42 121.79 L 219.13 119.21 L 222.59 116.45 L 225.77 113.52 L 228.66 110.43 L 231.24 107.21 L 233.5 103.87 L 235.44 100.42 L 237.03 96.89 L 238.28 93.28 L 239.18 89.62 L 239.72 85.92 Z" fill="#E9E3E2" stroke="#312F2F" stroke-width="1.6"/>
+  <line x1="91.9" y1="205" x2="91.9" y2="211" stroke="#636060" stroke-width="0.9"/>
+  <text x="91.9" y="222" font-size="11" fill="#636060" text-anchor="middle">a</text>
+  <line x1="239.9" y1="205" x2="239.9" y2="211" stroke="#636060" stroke-width="0.9"/>
+  <text x="239.9" y="222" font-size="11" fill="#636060" text-anchor="middle">b</text>
+  <line x1="182.92" y1="134.05" x2="182.92" y2="30.35" stroke="#312F2F" stroke-width="2.2"/>
+  <path d="M 182.92 134.05 L 181 129.25 L 184.84 129.25 Z" fill="#312F2F" stroke="none"/>
+  <path d="M 182.92 30.35 L 184.84 35.15 L 181 35.15 Z" fill="#312F2F" stroke="none"/>
+  <text x="188.92" y="26.35" font-size="10.5" fill="#312F2F" stroke="#FFFFFF" stroke-width="3" paint-order="stroke"><tspan>φ</tspan><tspan dy="3" font-size="7.35">2</tspan><tspan>(x)</tspan></text>
+  <text x="188.92" y="146.05" font-size="10.5" fill="#312F2F" stroke="#FFFFFF" stroke-width="3" paint-order="stroke"><tspan>φ</tspan><tspan dy="3" font-size="7.35">1</tspan><tspan>(x)</tspan></text>
+  <line x1="91.9" y1="234" x2="239.9" y2="234" stroke="#636060" stroke-width="0.9"/>
+  <line x1="91.9" y1="231" x2="91.9" y2="237" stroke="#636060" stroke-width="0.9"/>
+  <line x1="239.9" y1="231" x2="239.9" y2="237" stroke="#636060" stroke-width="0.9"/>
+  <text x="165.9" y="247" font-size="9.5" fill="#636060" text-anchor="middle">outer integral</text>
+  <text x="192.92" y="85.2" font-size="9.5" fill="#636060" stroke="#FFFFFF" stroke-width="3" paint-order="stroke">inner</text>
+</svg>

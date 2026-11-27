@@ -23,6 +23,8 @@ and the volume is the integral of the slice areas:
 
 $$V=\int_a^b A(x)\,dx \tag{1}$$
 
+![A surface over a rectangle cut open at the plane x = x₀, with the shaded cross-section under the curve having area A(x)](svg/fubinis-theorem-1.svg)
+
 The question is whether this Cavalieri-style argument is legitimate for the functions that occur in practice, and whether the roles of $x$ and $y$ can be exchanged. Both answers are affirmative under mild hypotheses, but not without them.
 
 ## The theorem for rectangles
@@ -105,6 +107,8 @@ $$\iint_D f\,dA=\int_a^b\left(\int_{\varphi_1(x)}^{\varphi_2(x)}f(x,y)\,dy\right
 
 For a type II region the inner integral is in $x$ and the outer limits are functions of $y$. This is the form used in the entry on [double integrals](../double-integrals/); Fubini's theorem is what justifies it.
 
+![A lens-shaped region with a representative vertical segment from φ₁(x) to φ₂(x), the inner limits, and the outer integral running from a to b](svg/fubinis-theorem-2.svg)
+
 The same reduction applies in three dimensions. For a $z$-simple solid
 
 $$D=\{(x,y,z):(x,y)\in\Omega,\ \psi_1(x,y)\le z\le\psi_2(x,y)\}$$
@@ -127,6 +131,8 @@ When the hypotheses of Fubini's theorem hold, the order of integration may be ch
 As an example, consider
 
 $$I=\iint_D x e^{y^2}\,dA \qquad D=\{(x,y):0\le x\le1,\ x^2\le y\le1\}$$
+
+![The region above the parabola y = x² and below y = 1, with a horizontal strip from x = 0 to x = √y showing the reversed order of integration](svg/fubinis-theorem-3.svg)
 
 Integrating first in $y$ is not feasible, because $e^{y^2}$ has no elementary antiderivative. The region is also described by $0\le y\le1$ and $0\le x\le\sqrt y$. Hence
 

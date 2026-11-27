@@ -59,12 +59,16 @@
       "slug": "fubinis-theorem",
       "article": "multivariable-calculus/fubinis-theorem.md",
       "writer": "WRITTEN",
-      "illustrator": "PENDING",
+      "illustrator": "ILLUSTRATED",
       "reviewer": "PENDING",
-      "figures": [],
+      "figures": [
+        "multivariable-calculus/svg/fubinis-theorem-1.svg",
+        "multivariable-calculus/svg/fubinis-theorem-2.svg",
+        "multivariable-calculus/svg/fubinis-theorem-3.svg"
+      ],
       "notes": {
         "writer": "Provisional category. 3 figure briefs. Full step-function proof for rectangles; type I/II and triple reductions; counterexample; Tonelli/Fubini stated. Links to double, triple, cylindrical, spherical siblings are unpublished batch dependencies.",
-        "illustrator": "",
+        "illustrator": "3 figures: slice at fixed x, inner/outer limits, parabolic region reversed. Original monochrome SVGs, rendered and visually checked; details in evidence/fubinis-theorem/illustration-notes.md.",
         "reviewer": ""
       }
     },

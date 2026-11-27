@@ -50,12 +50,12 @@
       "topic": "Fubini's Theorem",
       "slug": "fubinis-theorem",
       "article": "multivariable-calculus/fubinis-theorem.md",
-      "writer": "PENDING",
+      "writer": "WRITTEN",
       "illustrator": "PENDING",
       "reviewer": "PENDING",
       "figures": [],
       "notes": {
-        "writer": "",
+        "writer": "Provisional category. 3 figure briefs. Full step-function proof for rectangles; type I/II and triple reductions; counterexample; Tonelli/Fubini stated. Links to double, triple, cylindrical, spherical siblings are unpublished batch dependencies.",
         "illustrator": "",
         "reviewer": ""
       }

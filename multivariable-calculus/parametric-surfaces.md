@@ -107,6 +107,8 @@ $$dS=\lVert\mathbf{r}_u\times\mathbf{r}_v\rVert\,du\,dv \tag{14}$$
 
 The formula is the two-dimensional analogue of the arc length element $ds=\lVert\mathbf{r}'(t)\rVert\,dt.$ In one dimension the linearization is a tangent vector and its length; in two dimensions it is a parallelogram and its area.
 
+![A small rectangle in the uv-plane mapped to a surface patch, with tangent vectors spanning a shaded parallelogram whose area is the surface element](svg/parametric-surfaces-1.svg)
+
 The value does not depend on the parameterization. A change of parameters $(u,v)=\Phi(s,t)$ divides the norm of the cross product by the absolute value of the Jacobian determinant of $\Phi,$ while the parameter area element is multiplied by that same value; the two factors cancel. This is the change-of-variables formula in the parameter plane, and it is why the area is a geometric quantity rather than an artefact of the chosen coordinates.
 
 For a graph $z=g(x,y),$ the parameterization (2) gives
@@ -153,7 +155,11 @@ $$A=\int_0^{2\pi}\int_0^\pi R^2\sin\varphi\,d\varphi\,d\theta=2\pi R^2\bigl[-\co
 
 The sign in (19) is worth noting. The vector $\mathbf{r}_\theta\times\mathbf{r}_\varphi$ points toward the centre of the sphere, because the bracket is the outward unit radial vector and the coefficient is negative. Reversing the order gives the outward normal. The area uses the norm, so the sign does not matter there, but a vector surface integral would require the correct orientation.
 
-At the poles, $\sin\varphi=0$ and the cross product vanishes. The integral still converges, because the integrand is bounded and the singular set has measure zero in the parameter domain. This is the standard treatment of coordinate singularities: they are excluded from the regular set and included in the integral by a limiting argument.
+At the poles, $\sin\varphi=0$ and the cross product vanishes.
+
+![A sphere with meridians and parallels, the polar angle marked from the north pole, and a note that the tangent vectors vanish at both poles](svg/parametric-surfaces-2.svg)
+
+The integral still converges, because the integrand is bounded and the singular set has measure zero in the parameter domain. This is the standard treatment of coordinate singularities: they are excluded from the regular set and included in the integral by a limiting argument.
 
 ## The cone
 
@@ -194,6 +200,8 @@ The term involving $\cos\varphi$ integrates to zero over a full turn, so the are
 A regular parameterization gives two unit normals, $\mathbf{n}$ and $-\mathbf{n}.$ Choosing one continuously over the surface is an **orientation**. Swapping the parameters $u$ and $v$ reverses the sign of $\mathbf{r}_u\times\mathbf{r}_v,$ so it reverses the orientation; reparameterizing with a map of negative Jacobian does the same.
 
 Not every surface is orientable. The Möbius band has only one side: a normal transported once around the band returns pointing in the opposite direction, so no continuous choice of normal exists. Vector surface integrals are therefore not defined on a Möbius band without further structure, while scalar surface integrals are. A regular parametric patch is always orientable, because the parameter domain chooses a side; the obstruction appears only when patches are glued with a twist.
+
+![A Möbius band with a normal transported once around the strip returning as its negative, showing that the surface has only one side](svg/parametric-surfaces-3.svg)
 
 For a closed surface, the standard orientation is **outward**, with the unit normal pointing away from the enclosed solid. For a graph $z=g(x,y),$ the upward normal is proportional to $\langle-g_x,-g_y,1\rangle,$ whose $z$-component is positive. For a sphere with the parameterization (5), the outward normal is $-\mathbf{r}_\theta\times\mathbf{r}_\varphi/\lVert\mathbf{r}_\theta\times\mathbf{r}_\varphi\rVert,$ not the cross product in the order written.
 

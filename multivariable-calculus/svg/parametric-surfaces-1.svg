@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="300" viewBox="0 0 360 300" role="img" aria-labelledby="fig-title fig-desc" font-family="Geist, Arial, sans-serif" stroke-linecap="round" stroke-linejoin="round">
+  <title id="fig-title">A parameter rectangle mapped to a surface patch</title>
+  <desc id="fig-desc">A small rectangle in the uv-plane mapped to a curved patch, where the tangent vectors span a shaded parallelogram and the cross product is normal to the surface.</desc>
+  <rect width="360" height="300" fill="#FFFFFF"/>
+  <line x1="44" y1="238" x2="128" y2="238" stroke="#636060" stroke-width="0.9"/><path d="M 128 238 L 123 240 L 123 236 Z" fill="#636060" stroke="none"/>
+  <line x1="44" y1="238" x2="44" y2="106" stroke="#636060" stroke-width="0.9"/><path d="M 44 106 L 46 111 L 42 111 Z" fill="#636060" stroke="none"/>
+  <text x="130" y="250" font-size="11" fill="#636060">u</text>
+  <text x="32" y="108" font-size="11" fill="#636060">v</text>
+  <path d="M 64.4 210 L 91.6 210 L 91.6 182 L 64.4 182 Z" fill="#E9E3E2" stroke="#312F2F" stroke-width="1.1"/>
+  <circle cx="64.4" cy="210.0" r="2.6" fill="#312F2F"/>
+  <circle cx="91.6" cy="182.0" r="2.4" fill="#FFFFFF" stroke="#312F2F" stroke-width="1"/>
+  <line x1="64.4" y1="222" x2="91.6" y2="222" stroke="#636060" stroke-width="0.8"/>
+  <line x1="64.4" y1="219" x2="64.4" y2="225" stroke="#636060" stroke-width="0.8"/>
+  <line x1="91.6" y1="219" x2="91.6" y2="225" stroke="#636060" stroke-width="0.8"/>
+  <text x="78" y="235" font-size="9" fill="#636060" text-anchor="middle">Δu</text>
+  <line x1="51.4" y1="182" x2="51.4" y2="210" stroke="#636060" stroke-width="0.8"/>
+  <line x1="48.4" y1="182" x2="54.4" y2="182" stroke="#636060" stroke-width="0.8"/>
+  <line x1="48.4" y1="210" x2="54.4" y2="210" stroke="#636060" stroke-width="0.8"/>
+  <text x="46.4" y="199" font-size="9" fill="#636060" text-anchor="end">Δv</text>
+  <path d="M 161.77 280.96 L 276.57 246.53 L 328.23 189.12 L 213.43 223.56 Z" fill="#FFFFFF" stroke="#312F2F" stroke-width="1.4"/>
+  <path d="M 190.47 264.82 L 194.16 260.72 L 197.85 256.62 L 201.54 252.52 L 205.23 248.42 L 208.92 244.32 L 212.61 240.22 L 216.3 236.12 L 219.99 232.02 L 223.68 227.92 L 227.37 223.82 L 231.06 219.72 L 234.75 215.62 L 238.44 211.52 L 242.13 207.42" fill="none" stroke="#BEB8B7" stroke-width="0.8"/>
+  <path d="M 174.69 266.62 L 182.88 261.49 L 191.09 256.77 L 199.28 252.47 L 207.49 248.57 L 215.69 245.09 L 223.88 242.01 L 232.09 239.35 L 240.28 237.09 L 248.49 235.25 L 256.69 233.81 L 264.88 232.79 L 273.08 232.18 L 281.29 231.97 L 289.49 232.18" fill="none" stroke="#BEB8B7" stroke-width="0.8"/>
+  <path d="M 219.17 253.7 L 222.86 249.6 L 226.55 245.5 L 230.24 241.4 L 233.93 237.3 L 237.62 233.2 L 241.31 229.1 L 245 225 L 248.69 220.9 L 252.38 216.8 L 256.07 212.7 L 259.76 208.6 L 263.45 204.5 L 267.14 200.4 L 270.83 196.3" fill="none" stroke="#BEB8B7" stroke-width="0.8"/>
+  <path d="M 187.6 252.26 L 195.8 247.14 L 204 242.43 L 212.2 238.12 L 220.4 234.22 L 228.6 230.74 L 236.8 227.66 L 245 225 L 253.2 222.75 L 261.4 220.9 L 269.6 219.47 L 277.8 218.44 L 286 217.82 L 294.2 217.62 L 302.4 217.82" fill="none" stroke="#BEB8B7" stroke-width="0.8"/>
+  <path d="M 247.87 247.6 L 251.56 243.5 L 255.25 239.4 L 258.94 235.3 L 262.63 231.2 L 266.32 227.1 L 270.01 223 L 273.7 218.9 L 277.39 214.8 L 281.08 210.7 L 284.77 206.6 L 288.46 202.5 L 292.15 198.4 L 295.84 194.3 L 299.53 190.2" fill="none" stroke="#BEB8B7" stroke-width="0.8"/>
+  <path d="M 200.51 237.91 L 208.72 232.79 L 216.91 228.07 L 225.12 223.77 L 233.31 219.88 L 241.52 216.39 L 249.72 213.31 L 257.92 210.65 L 266.12 208.4 L 274.31 206.55 L 282.51 205.12 L 290.71 204.09 L 298.91 203.47 L 307.12 203.27 L 315.31 203.47" fill="none" stroke="#BEB8B7" stroke-width="0.8"/>
+  <path d="M 245 225 L 286 212.7 L 304.45 192.2 L 263.45 204.5 Z" fill="#E9E3E2" stroke="#312F2F" stroke-width="0.9"/>
+  <line x1="245" y1="225" x2="286" y2="212.7" stroke="#312F2F" stroke-width="1.3"/><path d="M 286 212.7 L 280.52 217.06 L 279.03 212.08 Z" fill="#312F2F" stroke="none"/>
+  <line x1="245" y1="225" x2="263.45" y2="204.5" stroke="#312F2F" stroke-width="1.3"/><path d="M 263.45 204.5 L 261.03 211.07 L 257.17 207.59 Z" fill="#312F2F" stroke="none"/>
+  <line x1="245" y1="225" x2="215" y2="147.65" stroke="#312F2F" stroke-width="1.3"/><path d="M 215 147.65 L 219.78 152.77 L 214.93 154.66 Z" fill="#312F2F" stroke="none"/>
+  <circle cx="245" cy="225" r="3" fill="#312F2F"/>
+  <text x="300" y="234.7" font-size="9.5" fill="#312F2F" stroke="#FFFFFF" stroke-width="2.5" paint-order="stroke">rᵤ Δu</text>
+  <text x="256.45" y="196.5" font-size="9.5" fill="#312F2F" text-anchor="end" stroke="#FFFFFF" stroke-width="2.5" paint-order="stroke">rᵥ Δv</text>
+  <text x="210" y="142.65" font-size="9.5" fill="#312F2F" text-anchor="end" stroke="#FFFFFF" stroke-width="2.5" paint-order="stroke">rᵤ × rᵥ</text>
+  <text x="236" y="239" font-size="9.5" fill="#312F2F" text-anchor="end" stroke="#FFFFFF" stroke-width="3.5" paint-order="stroke">P</text>
+  <path d="M 114 168 L 128 164 L 150 184" fill="none" stroke="#636060" stroke-width="1.2"/><path d="M 150 184 L 143.95 181.74 L 147.17 178.19 Z" fill="#636060" stroke="none"/>
+  <text x="126" y="156" font-size="11" fill="#636060" text-anchor="middle">r</text>
+  <text x="186" y="292" font-size="8.5" fill="#636060" text-anchor="middle">the marked corners are (u₀, v₀) and (u₀+Δu, v₀+Δv)</text>
+</svg>

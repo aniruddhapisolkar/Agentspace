@@ -61,6 +61,8 @@ $$\Delta f(P)=\lim_{r\to0}\frac{6}{r^2}\left(A_f(P,r)-f(P)\right) \tag{8}$$
 
 In $n$ dimensions the limit coefficient is $2n/r^2,$ because the second-order term in the expansion is $r^2\Delta f/(2n).$ The formula says that $\Delta f(P)$ is positive when the average of $f$ on a small sphere exceeds $f(P),$ negative when it falls below, and zero when the two agree to second order.
 
+![A small sphere around a point at the minimum of a graph, comparing the average height over the sphere with the height at the centre](svg/laplacian-1.svg)
+
 This is the reason the Laplacian appears in diffusion. If $u(x,t)$ is a temperature, then a point that is colder than its neighbourhood has a positive Laplacian and tends to warm up; a point that is hotter has a negative Laplacian and tends to cool. The heat equation
 
 $$\frac{\partial u}{\partial t}=k\,\Delta u \qquad k>0 \tag{9}$$
@@ -92,6 +94,8 @@ The last example is the fundamental solution of the Laplacian in three dimension
 $$\Delta(\ln r)=\frac{1}{r}\frac{d}{dr}\left(r\frac{d}{dr}\ln r\right)=\frac{1}{r}\frac{d}{dr}(1)=0 \tag{12}$$
 
 A distributional formulation replaces the singularity by a delta function: $\Delta(-1/(4\pi r))=\delta_0$ in $\mathbb{R}^3,$ and $\Delta((1/2\pi)\ln r)=\delta_0$ in $\mathbb{R}^2.$ The constants are chosen so that the flux through a small sphere or circle is one.
+
+![A harmonic saddle surface with opposite curvatures beside a nonharmonic bowl curving upward in both directions](svg/laplacian-2.svg)
 
 Harmonic functions have strong regularity and rigidity properties. They are smooth, indeed real analytic, even if initially assumed only twice differentiable. They satisfy the mean value property
 
@@ -128,6 +132,8 @@ In spherical coordinates $(\rho,\theta,\varphi),$ with $\varphi$ the polar angle
 $$\Delta f=\frac{1}{\rho^2}\frac{\partial}{\partial\rho}\left(\rho^2\frac{\partial f}{\partial\rho}\right)+\frac{1}{\rho^2\sin\varphi}\frac{\partial}{\partial\varphi}\left(\sin\varphi\frac{\partial f}{\partial\varphi}\right)+\frac{1}{\rho^2\sin^2\varphi}\frac{\partial^2 f}{\partial\theta^2} \tag{18}$$
 
 The factors are metric factors, not optional corrections. A coordinate box in cylindrical coordinates has side lengths $dr,$ $r\,d\theta$ and $dz;$ in spherical coordinates its sides are $d\rho,$ $\rho\,d\varphi$ and $\rho\sin\varphi\,d\theta.$ The divergence of the gradient in these coordinates produces the displayed factors.
+
+![Curvilinear coordinate boxes in cylindrical and spherical coordinates with edge lengths showing the metric factors](svg/laplacian-3.svg)
 
 For a radially symmetric function in three dimensions, $f=f(\rho),$ the angular terms vanish and
 

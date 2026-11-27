@@ -50,6 +50,8 @@ $$\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}=\lim_{\Delta A\to0
 
 The scalar curl is therefore the circulation per unit area in the $xy$-plane, with counterclockwise orientation viewed from the positive $z$-axis. The other two components of (2) are the corresponding circulation densities in the $yz$- and $zx$-planes. The vector (2) combines the three plane densities, and its direction is the axis about which the local circulation is greatest.
 
+![A small counterclockwise rectangle with field arrows on its four edges, illustrating circulation per unit area](svg/curl-1.svg)
+
 The sign is fixed by the right-hand rule. If the fingers of the right hand curl in the direction of positive circulation, the thumb points along the curl vector. Reversing the orientation of the loop reverses the sign of the circulation and hence of the corresponding component.
 
 ## Rigid rotation and shear
@@ -77,6 +79,8 @@ has parallel horizontal arrows whose length increases with $y.$ Its curl is
 $$\operatorname{curl}\mathbf{F}=\left\langle0,\,0,\,\frac{\partial(0)}{\partial x}-\frac{\partial y}{\partial y}\right\rangle=\langle0,0,-1\rangle \tag{10}$$
 
 The field has no closed orbits, yet its curl is nonzero. A paddlewheel with its axis along $z$ turns clockwise: the upper arrows push harder than the lower ones. This example shows that curl is not the same as the presence of circular arrows. It measures the antisymmetric part of the local linear approximation, not the global shape of the trajectories.
+
+![A paddlewheel in a circular flow and in a shear flow with parallel arrows, turning in opposite senses](svg/curl-2.svg)
 
 A radial field $\mathbf{F}=g(r)\langle x,y,z\rangle$ with $g$ depending only on $r=\lVert\mathbf{r}\rVert$ has zero curl away from the origin. Each component of the curl is a difference of terms such as $g'(r)yz/r-g'(r)zy/r,$ which cancel. The field points away from or toward the origin, and a paddlewheel placed in it does not turn.
 
@@ -117,6 +121,8 @@ For a planar region in the $xy$-plane with normal $\mathbf{k}$ and counterclockw
 $$\iint_D\left(\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}\right)dA=\oint_C P\,dx+Q\,dy \tag{15}$$
 
 Stokes' theorem therefore contains Green's theorem as the flat case. It also shows that the surface integral depends only on the boundary: two surfaces with the same oriented boundary give the same flux of curl, provided both satisfy the hypotheses.
+
+![A closed curve bounding both a flat disk and a curved cap, with consistent normals and boundary orientation](svg/curl-3.svg)
 
 The proof for a graph surface partitions the surface into small patches, applies the planar Green theorem to the projection of each patch, and sums. The boundary terms on interior edges cancel, leaving the integral over the outer boundary. The general case follows by patching graph surfaces together. The partition argument requires the surface to be piecewise smooth and the field to be $C^1$ on a neighbourhood of it.
 

@@ -37,6 +37,8 @@ $$\rho\ge0 \qquad 0\le\theta<2\pi \qquad 0\le\varphi\le\pi \tag{3}$$
 
 The angle $\varphi$ is measured from the positive $z$-axis, not from the $xy$-plane. At $\varphi=0$ the point lies on the positive $z$-axis; at $\varphi=\pi/2$ it lies in the $xy$-plane; at $\varphi=\pi$ it lies on the negative $z$-axis. The azimuth $\theta$ is undefined on the $z$-axis, and both angles are undefined at the origin, where $\rho=0$.
 
+![A point P with distance ρ from the origin, azimuth θ of its projection Q, and polar angle φ measured from the positive z-axis](svg/spherical-coordinates-1.svg)
+
 The representation is not unique. The angle $\theta$ is periodic, so $(\rho,\theta,\varphi)$ and $(\rho,\theta+2\pi,\varphi)$ are the same point. On the $z$-axis every value of $\theta$ gives the same point. These ambiguities occur on sets of zero volume and do not affect integrals, but they must be respected when a region is described by inequalities.
 
 The notation varies between subjects. In physics, $r$ often denotes the distance from the origin, $\theta$ the polar angle and $\varphi$ the azimuth; some texts use $\psi$ for the polar angle. In this entry $\rho$ is the distance from the origin, $\theta$ is the azimuth and $\varphi$ is the polar angle. The formulas below are stated for this convention, and the Jacobian is unchanged once the range of the polar angle is adjusted.
@@ -80,6 +82,8 @@ $$d\rho \qquad \rho\,d\varphi \qquad \rho\sin\varphi\,d\theta$$
 The first is radial, the second is along a meridian, and the third is along a parallel of latitude. The three directions are mutually perpendicular, so the volume is their product:
 
 $$dV=(d\rho)(\rho\,d\varphi)(\rho\sin\varphi\,d\theta)=\rho^2\sin\varphi\,d\rho\,d\varphi\,d\theta$$
+
+![A curvilinear cell bounded by two spheres, two cones and two half-planes, with edge lengths dρ, ρ dφ and ρ sinφ dθ](svg/spherical-coordinates-2.svg)
 
 The factor $\sin\varphi$ suppresses the contribution near the poles, where the parallels shrink to a point. The factor $\rho^2$ reflects the quadratic growth of spherical area with radius.
 
@@ -150,6 +154,8 @@ so each individual moment is $\frac13\cdot\frac{4\pi}{5}=\frac{4\pi}{15}$, in ag
 Find the volume of the solid inside the sphere $\rho=2$ and inside the cone $\varphi=\pi/4$.
 
 The cone opens around the positive $z$-axis and has half-angle $\pi/4$. The solid is
+
+![The solid inside the sphere ρ = 2 and the cone φ = π/4, shaded as the spherical cap above the cone, with the pole and the cone's half-angle marked](svg/spherical-coordinates-3.svg)
 
 $$0\le\theta<2\pi \qquad 0\le\varphi\le\frac{\pi}{4} \qquad 0\le\rho\le2$$
 

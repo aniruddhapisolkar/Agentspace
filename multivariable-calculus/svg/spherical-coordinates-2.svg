@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="300" viewBox="0 0 340 300" role="img" aria-labelledby="fig-title fig-desc" font-family="Geist, Arial, sans-serif" stroke-linecap="round" stroke-linejoin="round">
+  <title id="fig-title">The spherical volume element</title>
+  <desc id="fig-desc">A small curvilinear cell bounded by two spheres, two cones and two half-planes. Its edges have lengths d rho, rho d phi along a meridian, and rho sin phi d theta along a parallel, so its volume is rho squared sin phi d rho d phi d theta.</desc>
+  <rect width="340" height="300" fill="#FFFFFF"/>
+  <path d="M 174.76 78.6 L 160.82 58.35 L 121.2 137.58 L 130.58 151.19 Z" fill="#E9E3E2" fill-opacity="0.55" stroke="none"/>
+  <path d="M 174.76 78.6 L 258.05 140.26 L 186.56 192.63 L 130.58 151.19 Z" fill="#E9E3E2" fill-opacity="0.35" stroke="none"/>
+  <path d="M 174.76 78.6 L 160.82 58.35 L 235.48 107.48 L 258.05 140.26 Z" fill="#E9E3E2" fill-opacity="0.8" stroke="none"/>
+  <path d="M 174.76 78.6 L 179.62 80.84 L 184.42 83.17 L 189.15 85.6 L 193.82 88.12 L 198.42 90.74 L 202.95 93.45 L 207.41 96.25 L 211.8 99.13 L 216.11 102.11 L 220.34 105.17 L 224.5 108.32 L 228.57 111.55 L 232.57 114.87 L 236.47 118.26 L 240.29 121.74 L 244.03 125.29 L 247.67 128.92 L 251.22 132.63 L 254.68 136.41 L 258.05 140.26" fill="none" stroke="#312F2F" stroke-width="1.4"/>
+  <path d="M 160.82 58.35 L 165.17 59.85 L 169.47 61.47 L 173.72 63.18 L 177.9 65.01 L 182.03 66.93 L 186.09 68.96 L 190.09 71.08 L 194.02 73.31 L 197.89 75.64 L 201.68 78.07 L 205.41 80.59 L 209.06 83.21 L 212.64 85.92 L 216.14 88.73 L 219.57 91.63 L 222.91 94.63 L 226.18 97.71 L 229.36 100.88 L 232.47 104.14 L 235.48 107.48" fill="none" stroke="#979797" stroke-width="1"/>
+  <path d="M 174.76 78.6 L 175.63 77.38 L 176.34 76.17 L 176.88 74.98 L 177.26 73.8 L 177.46 72.65 L 177.5 71.51 L 177.38 70.39 L 177.08 69.29 L 176.62 68.22 L 175.99 67.18 L 175.19 66.16 L 174.24 65.16 L 173.11 64.2 L 171.83 63.27 L 170.38 62.36 L 168.78 61.49 L 167.02 60.65 L 165.1 59.85 L 163.03 59.08 L 160.82 58.35" fill="none" stroke="#312F2F" stroke-width="1.4"/>
+  <path d="M 258.05 140.26 L 259.46 138.28 L 260.6 136.33 L 261.48 134.4 L 262.08 132.49 L 262.42 130.62 L 262.48 128.78 L 262.28 126.97 L 261.8 125.2 L 261.05 123.46 L 260.04 121.77 L 258.75 120.12 L 257.2 118.51 L 255.38 116.95 L 253.3 115.44 L 250.96 113.98 L 248.37 112.57 L 245.52 111.22 L 242.42 109.91 L 239.07 108.67 L 235.48 107.48" fill="none" stroke="#312F2F" stroke-width="1.4"/>
+  <line x1="130.58" y1="151.19" x2="186.56" y2="192.63" stroke="#979797" stroke-width="0.9"/>
+  <line x1="130.58" y1="151.19" x2="121.2" y2="137.58" stroke="#979797" stroke-width="0.9"/>
+  <line x1="130.58" y1="151.19" x2="174.76" y2="78.6" stroke="#312F2F" stroke-width="1.1"/>
+  <line x1="121.2" y1="137.58" x2="160.82" y2="58.35" stroke="#312F2F" stroke-width="1.1"/>
+  <line x1="186.56" y1="192.63" x2="258.05" y2="140.26" stroke="#312F2F" stroke-width="1.1"/>
+  <line x1="171.39" y1="170.6" x2="235.48" y2="107.48" stroke="#979797" stroke-width="1.1"/>
+  <path d="M 130.58 151.19 L 133.84 152.7 L 137.07 154.26 L 140.25 155.9 L 143.39 157.59 L 146.48 159.35 L 149.53 161.17 L 152.52 163.05 L 155.47 164.99 L 158.37 166.99 L 161.22 169.05 L 164.01 171.17 L 166.75 173.34 L 169.43 175.57 L 172.06 177.85 L 174.62 180.18 L 177.13 182.57 L 179.58 185.01 L 181.97 187.5 L 184.29 190.04 L 186.56 192.63" fill="none" stroke="#979797" stroke-width="0.8" stroke-dasharray="4 3"/>
+  <line x1="225.3" y1="169.44" x2="266" y2="191" stroke="#636060" stroke-width="0.6"/>
+  <text x="270" y="196" font-size="10.5" fill="#312F2F">dρ</text>
+  <line x1="150.57" y1="183.91" x2="146" y2="208" stroke="#636060" stroke-width="0.6"/>
+  <text x="142" y="213" font-size="10.5" fill="#312F2F" text-anchor="end">ρ dφ</text>
+  <line x1="252.77" y1="117.87" x2="264" y2="157" stroke="#636060" stroke-width="0.6"/>
+  <text x="268" y="152" font-size="10" fill="#312F2F">ρ sinφ dθ</text>
+  <text x="12" y="284" font-size="10.5" fill="#312F2F">dV = ρ² sinφ dρ dφ dθ</text>
+</svg>

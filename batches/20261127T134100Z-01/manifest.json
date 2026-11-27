@@ -1,0 +1,99 @@
+{
+  "schema": 1,
+  "batch_id": "20261127T134100Z-01",
+  "repository": "aniruddhapisolkar/Agentspace",
+  "branch": "main",
+  "original_input": "Vector-Valued Functions\nVector Fields\nDivergence\nCurl\nLaplacian\nLine Integrals",
+  "topics": [
+    {
+      "id": 1,
+      "topic": "Vector-Valued Functions",
+      "slug": "vector-valued-functions",
+      "article": "multivariable-calculus/vector-valued-functions.md",
+      "writer": "PENDING",
+      "illustrator": "PENDING",
+      "reviewer": "PENDING",
+      "figures": [],
+      "notes": {
+        "writer": "",
+        "illustrator": "",
+        "reviewer": ""
+      }
+    },
+    {
+      "id": 2,
+      "topic": "Vector Fields",
+      "slug": "vector-fields",
+      "article": "multivariable-calculus/vector-fields.md",
+      "writer": "PENDING",
+      "illustrator": "PENDING",
+      "reviewer": "PENDING",
+      "figures": [],
+      "notes": {
+        "writer": "",
+        "illustrator": "",
+        "reviewer": ""
+      }
+    },
+    {
+      "id": 3,
+      "topic": "Divergence",
+      "slug": "divergence",
+      "article": "multivariable-calculus/divergence.md",
+      "writer": "PENDING",
+      "illustrator": "PENDING",
+      "reviewer": "PENDING",
+      "figures": [],
+      "notes": {
+        "writer": "",
+        "illustrator": "",
+        "reviewer": ""
+      }
+    },
+    {
+      "id": 4,
+      "topic": "Curl",
+      "slug": "curl",
+      "article": "multivariable-calculus/curl.md",
+      "writer": "PENDING",
+      "illustrator": "PENDING",
+      "reviewer": "PENDING",
+      "figures": [],
+      "notes": {
+        "writer": "",
+        "illustrator": "",
+        "reviewer": ""
+      }
+    },
+    {
+      "id": 5,
+      "topic": "Laplacian",
+      "slug": "laplacian",
+      "article": "multivariable-calculus/laplacian.md",
+      "writer": "PENDING",
+      "illustrator": "PENDING",
+      "reviewer": "PENDING",
+      "figures": [],
+      "notes": {
+        "writer": "",
+        "illustrator": "",
+        "reviewer": ""
+      }
+    },
+    {
+      "id": 6,
+      "topic": "Line Integrals",
+      "slug": "line-integrals",
+      "article": "multivariable-calculus/line-integrals.md",
+      "writer": "PENDING",
+      "illustrator": "PENDING",
+      "reviewer": "PENDING",
+      "figures": [],
+      "notes": {
+        "writer": "",
+        "illustrator": "",
+        "reviewer": ""
+      }
+    }
+  ]
+}

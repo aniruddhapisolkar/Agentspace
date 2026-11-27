@@ -1,0 +1,109 @@
+{
+  "schema": 1,
+  "batch_id": "20261127T121407Z-01",
+  "repository": "aniruddhapisolkar/Agentspace",
+  "branch": "main",
+  "original_input": "Topics to cover:\n- Double Integrals\n- Triple Integrals\n- Fubini's Theorem\n- Cylindrical Coordinates\n- Spherical Coordinates\n- Change of Variables in Multiple Integrals",
+  "created_utc": "2026-11-27T12:14:07Z",
+  "processing_order": [
+    1,
+    2,
+    3,
+    6,
+    4,
+    5
+  ],
+  "category_note": "multivariable-calculus remains a provisional category: upstream has no dedicated multiple-integral category. Single-variable integration lives under integrals/ and polar coordinates under lines-planes-conic-sections/.",
+  "topics": [
+    {
+      "id": 1,
+      "topic": "Double Integrals",
+      "slug": "double-integrals",
+      "article": "multivariable-calculus/double-integrals.md",
+      "writer": "PENDING",
+      "illustrator": "PENDING",
+      "reviewer": "PENDING",
+      "figures": [],
+      "notes": {
+        "writer": "",
+        "illustrator": "",
+        "reviewer": ""
+      }
+    },
+    {
+      "id": 2,
+      "topic": "Triple Integrals",
+      "slug": "triple-integrals",
+      "article": "multivariable-calculus/triple-integrals.md",
+      "writer": "PENDING",
+      "illustrator": "PENDING",
+      "reviewer": "PENDING",
+      "figures": [],
+      "notes": {
+        "writer": "",
+        "illustrator": "",
+        "reviewer": ""
+      }
+    },
+    {
+      "id": 3,
+      "topic": "Fubini's Theorem",
+      "slug": "fubinis-theorem",
+      "article": "multivariable-calculus/fubinis-theorem.md",
+      "writer": "PENDING",
+      "illustrator": "PENDING",
+      "reviewer": "PENDING",
+      "figures": [],
+      "notes": {
+        "writer": "",
+        "illustrator": "",
+        "reviewer": ""
+      }
+    },
+    {
+      "id": 4,
+      "topic": "Cylindrical Coordinates",
+      "slug": "cylindrical-coordinates",
+      "article": "multivariable-calculus/cylindrical-coordinates.md",
+      "writer": "PENDING",
+      "illustrator": "PENDING",
+      "reviewer": "PENDING",
+      "figures": [],
+      "notes": {
+        "writer": "",
+        "illustrator": "",
+        "reviewer": ""
+      }
+    },
+    {
+      "id": 5,
+      "topic": "Spherical Coordinates",
+      "slug": "spherical-coordinates",
+      "article": "multivariable-calculus/spherical-coordinates.md",
+      "writer": "PENDING",
+      "illustrator": "PENDING",
+      "reviewer": "PENDING",
+      "figures": [],
+      "notes": {
+        "writer": "",
+        "illustrator": "",
+        "reviewer": ""
+      }
+    },
+    {
+      "id": 6,
+      "topic": "Change of Variables in Multiple Integrals",
+      "slug": "change-of-variables-in-multiple-integrals",
+      "article": "multivariable-calculus/change-of-variables-in-multiple-integrals.md",
+      "writer": "PENDING",
+      "illustrator": "PENDING",
+      "reviewer": "PENDING",
+      "figures": [],
+      "notes": {
+        "writer": "",
+        "illustrator": "",
+        "reviewer": ""
+      }
+    }
+  ]
+}

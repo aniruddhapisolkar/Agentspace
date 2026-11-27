@@ -199,7 +199,7 @@ The field lines satisfy
 
 $$\frac{dy}{dx}=\frac{x+y^2}{x^2-y}$$
 
-which is not separable in elementary terms. This is typical: field lines of a polynomial field need not have closed-form equations. The arrows still determine the qualitative picture, and numerical integration can approximate individual trajectories.
+which does not separate into a product of a function of $x$ and a function of $y.$ Field lines of a polynomial field need not have closed-form equations. The arrows still determine the qualitative picture, and numerical integration can approximate individual trajectories.
 
 ## Pitfalls and scope
 

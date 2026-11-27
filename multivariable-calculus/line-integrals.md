@@ -83,7 +83,7 @@ Let $\mathbf{F}$ be a continuous vector field defined on $C.$ The vector line in
 
 $$\int_C\mathbf{F}\cdot d\mathbf{r}=\int_a^b\mathbf{F}(\mathbf{r}(t))\cdot\mathbf{r}'(t)\,dt \tag{10}$$
 
-The integrand is the dot product of the field with the velocity of the parameterization. Only the component of $\mathbf{F}$ along the tangent contributes, and the sign depends on the direction of travel. If $\mathbf{F}$ is a force, the integral is the work done by the force along the curve. If $\mathbf{F}$ is a velocity field, the integral is the circulation along the curve.
+The integrand is the dot product of the field with the velocity of the parameterization. Only the component of $\mathbf{F}$ along the tangent contributes, and the sign depends on the direction of travel. If $\mathbf{F}$ is a force, the integral is the work done by the force along the curve. If $\mathbf{F}$ is a velocity field, the integral measures the flow along the curve, and for a closed curve it is the circulation.
 
 The vector line integral is often written with the coordinate differentials:
 
@@ -219,7 +219,7 @@ and the work is
 
 $$\int_C\mathbf{F}\cdot d\mathbf{r}=\int_0^{2\pi}(1+t)\,dt=2\pi+2\pi^2 \tag{20}$$
 
-The first term $2\pi$ is the circulation of the rotational part $\langle-y,x,0\rangle$ around the unit circle; the second term $2\pi^2$ is the work done by the vertical component $z$ against the rise of the helix. The decomposition is not a coincidence: the field is the sum of a rotational field and a vertical field, and the line integral is additive.
+The first term $2\pi$ is the circulation of the rotational part $\langle-y,x,0\rangle$ around the unit circle; the second term $2\pi^2$ is the work done by the vertical component $z$ as the helix rises. The decomposition is not a coincidence: the field is the sum of a rotational field and a vertical field, and the line integral is additive.
 
 ## Scalar and vector integrals compared
 
@@ -261,7 +261,7 @@ A parameterization that is not one-to-one complicates the interpretation. If the
 + Path independence is a property of the field and the domain, not of a particular pair of paths. A single pair of paths with equal integrals does not prove that a field is conservative.
 + A zero curl on a domain with a hole does not imply path independence. The punctured-plane field is the standard counterexample.
 + Green's theorem requires a closed curve with the correct orientation and a region to which it applies. A curve that is not closed has no enclosed region, and reversing the orientation reverses the sign.
-+ The choice of parameterization affects the computation but not the value of a scalar integral, and it does not affect a vector integral unless the orientation is reversed. A negative speed or a decreasing parameter is a common source of sign errors.
++ The choice of parameterization affects the computation but not the value of a scalar integral, and it does not affect a vector integral unless the orientation is reversed. A decreasing parameterization or a reversed orientation is a common source of sign errors.
 
 ## Related notions
 

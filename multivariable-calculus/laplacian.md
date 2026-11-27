@@ -59,7 +59,7 @@ in three dimensions, so
 
 $$\Delta f(P)=\lim_{r\to0}\frac{6}{r^2}\left(A_f(P,r)-f(P)\right) \tag{8}$$
 
-In $n$ dimensions the coefficient is $2n/r^2$ and the second-order coefficient is $r^2/(2n).$ The formula says that $\Delta f(P)$ is positive when the average of $f$ on a small sphere exceeds $f(P),$ negative when it falls below, and zero when the two agree to second order.
+In $n$ dimensions the limit coefficient is $2n/r^2,$ because the second-order term in the expansion is $r^2\Delta f/(2n).$ The formula says that $\Delta f(P)$ is positive when the average of $f$ on a small sphere exceeds $f(P),$ negative when it falls below, and zero when the two agree to second order.
 
 This is the reason the Laplacian appears in diffusion. If $u(x,t)$ is a temperature, then a point that is colder than its neighbourhood has a positive Laplacian and tends to warm up; a point that is hotter has a negative Laplacian and tends to cool. The heat equation
 
@@ -97,7 +97,7 @@ Harmonic functions have strong regularity and rigidity properties. They are smoo
 
 $$f(P)=\frac{1}{4\pi r^2}\iint_{S_r(P)}f\,dS \tag{13}$$
 
-for every sphere contained in the domain, and the maximum principle stated above. The mean value property is not shared by arbitrary functions with zero Laplacian only in a weak sense; it characterizes harmonic functions among continuous functions.
+for every sphere contained in the domain, and the maximum principle stated above. Conversely, a continuous function with the mean value property on every sufficiently small sphere is harmonic, so the property characterizes harmonic functions among continuous functions.
 
 ## Green's identities
 
@@ -171,7 +171,7 @@ It is related to the first-order operators by
 
 $$\Delta\mathbf{F}=\nabla(\operatorname{div}\mathbf{F})-\operatorname{curl}(\operatorname{curl}\mathbf{F}) \tag{24}$$
 
-The identity is a vector analogue of the scalar identity $\Delta f=\operatorname{div}(\nabla f),$ and it is the reason the Laplacian of a vector field is not simply the divergence of its gradient in the naive componentwise sense. In Cartesian coordinates the two definitions agree; in curvilinear coordinates the componentwise formula (23) must be replaced by (24), because the basis vectors themselves vary from point to point.
+The identity is a vector analogue of the scalar identity $\Delta f=\operatorname{div}(\nabla f),$ and it is the reason the vector Laplacian cannot be computed by applying the scalar Laplacian to the components in curvilinear coordinates. In Cartesian coordinates the two definitions agree; in curvilinear coordinates the componentwise formula (23) must be replaced by (24), because the basis vectors themselves vary from point to point.
 
 The identity also shows that a vector field with both zero divergence and zero curl is harmonic in the vector sense. In a simply connected region such a field is the gradient of a harmonic function and, locally, the curl of a vector potential, a structure that appears in the decomposition of fields into longitudinal and transverse parts.
 

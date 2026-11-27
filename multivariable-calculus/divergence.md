@@ -163,7 +163,7 @@ A useful consequence is that the divergence of a curl vanishes:
 
 $$\operatorname{div}(\operatorname{curl}\mathbf{F})=0 \tag{10}$$
 
-for a field of class $C^2,$ by equality of mixed partials. This identity is the companion of $\operatorname{curl}(\nabla f)=\mathbf{0}.$ Together they express the fact that the gradient and curl complexes are exact in the smooth setting, and they organize the identities of vector calculus.
+for a field of class $C^2,$ by equality of mixed partials. This identity is the companion of $\operatorname{curl}(\nabla f)=\mathbf{0}.$ Together they show that the gradient and curl form a complex, and that the complex is exact on suitable simply connected domains, which is the local reason potential functions and vector potentials exist.
 
 ## Divergence in curvilinear coordinates
 

@@ -49,7 +49,7 @@ The standard example is the helix
 
 $$\mathbf{r}(t)=\langle a\cos t,\,a\sin t,\,bt\rangle \qquad t\in\mathbb{R} \tag{2}$$
 
-with $a>0$ and $b\neq0.$ Its projection onto the $xy$-plane is the circle $x^2+y^2=a^2,$ traversed counterclockwise, while $z=bt$ increases linearly. The parameter $t$ is the angle of the projection, and $2\pi b$ is the vertical rise after one complete turn, called the pitch. At $t=0$ the point is $(a,0,0).$
+with $a>0$ and $b\neq0.$ Its projection onto the $xy$-plane is the circle $x^2+y^2=a^2,$ traversed counterclockwise, while $z=bt$ changes linearly. The parameter $t$ is the angle of the projection, and $2\pi b$ is the vertical displacement after one complete turn, called the pitch. At $t=0$ the point is $(a,0,0).$
 
 Two familiar plane curves illustrate how the parameter changes the description. The circle
 
@@ -103,7 +103,7 @@ The unit tangent vector is defined when $\mathbf{r}'(t)\neq\mathbf{0}$ by
 
 $$\mathbf{T}(t)=\frac{\mathbf{r}'(t)}{\lVert\mathbf{r}'(t)\rVert} \tag{6}$$
 
-A parameterization is smooth on an interval if $\mathbf{r}'$ is continuous and never vanishes there. The nonvanishing condition is essential: it guarantees a well-defined tangent direction at every point.
+A parameterization is regular on an interval if $\mathbf{r}'$ is continuous and never vanishes there. The nonvanishing condition is essential: it guarantees a well-defined tangent direction at every point.
 
 Consider $\mathbf{r}(t)=\langle t,t^2,t^3\rangle.$ Then
 

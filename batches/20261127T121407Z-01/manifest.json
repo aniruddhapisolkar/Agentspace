@@ -65,12 +65,12 @@
       "topic": "Cylindrical Coordinates",
       "slug": "cylindrical-coordinates",
       "article": "multivariable-calculus/cylindrical-coordinates.md",
-      "writer": "PENDING",
+      "writer": "WRITTEN",
       "illustrator": "PENDING",
       "reviewer": "PENDING",
       "figures": [],
       "notes": {
-        "writer": "",
+        "writer": "Provisional category. 3 figure briefs. Standard (r,theta,z) system, Jacobian r, coordinate surfaces, volumes, density centroid, sphere-cylinder example, pitfalls. Links to polar, change-of-variables, Fubini, triple and spherical siblings are unpublished batch dependencies.",
         "illustrator": "",
         "reviewer": ""
       }

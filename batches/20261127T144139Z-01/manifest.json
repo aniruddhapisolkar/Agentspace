@@ -31,7 +31,7 @@
       "article": "multivariable-calculus/fundamental-theorem-for-line-integrals.md",
       "writer": "WRITTEN",
       "illustrator": "ILLUSTRATED",
-      "reviewer": "PENDING",
+      "reviewer": "BLOCKED",
       "figures": [
         "multivariable-calculus/svg/fundamental-theorem-for-line-integrals-1.svg",
         "multivariable-calculus/svg/fundamental-theorem-for-line-integrals-2.svg",
@@ -40,7 +40,7 @@
       "notes": {
         "writer": "Complete original draft with research evidence and three figure briefs; committed in batch checkpoint.",
         "illustrator": "Three original editable SVGs built from the article equations, rendered at intrinsic and 240 px widths, visually inspected and validated; article references inserted at the stated anchors.",
-        "reviewer": ""
+        "reviewer": "Math, editorial, link and SVG structural gates PASS; mandatory visual-inspection gate NOT_RUN in this environment. All 3 SVGs structurally valid and rendered without error by Chrome headless. No defect found; blocked solely for unperformed visual gate."
       }
     },
     {

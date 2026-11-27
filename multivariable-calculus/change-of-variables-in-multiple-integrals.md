@@ -91,6 +91,8 @@ $$\det D\Phi=r\cos^2\theta+r\sin^2\theta=r$$
 
 Hence $dx\,dy=r\,dr\,d\theta$, the area element used in the entry on [polar coordinates](../polar-coordinates/). The map is a bijection from $(0,\infty)\times(0,2\pi)$ onto the plane minus the nonnegative $x$-axis; the missing ray and the origin have zero area, so they do not affect integrals over regions whose boundary is not pathological.
 
+![A curvilinear cell bounded by two rays at θ and θ + dθ and two arcs at r and r + dr, with radial side dr and outer arc r dθ](svg/change-of-variables-in-multiple-integrals-1.svg)
+
 ## Cylindrical coordinates
 
 The map
@@ -141,6 +143,8 @@ $$D\Phi=\begin{pmatrix}1&1\\ 1&-1\end{pmatrix} \qquad \det D\Phi=-2$$
 
 The image $S=\Phi(T)$ is the square with vertices $(0,0)$, $(1,1)$, $(2,0)$ and $(1,-1)$. Its side length is $\sqrt2$, so its area is $2$. Formula (6) gives
 
+![The unit square mapped by Φ(u, v) = (u + v, u − v) to a rotated square of twice the area, with the images of the basis vectors marked](svg/change-of-variables-in-multiple-integrals-2.svg)
+
 $$\operatorname{area}(S)=|\det D\Phi|\operatorname{area}(T)=2$$
 
 which agrees. For a function on $S$, (4) reads
@@ -168,6 +172,8 @@ carries the unit disc $D=\{u^2+v^2\le1\}$ onto $E$. Its Jacobian determinant is 
 $$\operatorname{area}(E)=\iint_D ab\,du\,dv=ab\,\pi$$
 
 The area of the ellipse is therefore $\pi ab$, a result that is awkward to obtain from Cartesian limits and immediate from the change of variables.
+
+![The unit disc mapped to an ellipse with semi-axes a and b, with radial lines and concentric circles carried to their images and the areas π and πab marked](svg/change-of-variables-in-multiple-integrals-3.svg)
 
 The same map evaluates moments. For instance,
 

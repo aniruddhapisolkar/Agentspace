@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="340" height="248" viewBox="0 0 340 248" role="img" aria-labelledby="fig-title fig-desc" font-family="Geist, Arial, sans-serif" stroke-linecap="round" stroke-linejoin="round">
+  <title id="fig-title">A linear map of the unit square</title>
+  <desc id="fig-desc">The unit square T in the uv-plane on the left is carried by Phi of u, v equal to u plus v, u minus v to the square S with vertices (0,0), (1,1), (2,0) and (1,-1) on the right. The images of the basis vectors are the sides, and the determinant has absolute value 2, so areas double.</desc>
+  <rect width="340" height="248" fill="#FFFFFF"/>
+  <text x="8" y="16" font-size="10.5" fill="#636060">(a) parameter square T</text>
+  <text x="176" y="16" font-size="10.5" fill="#636060">(b) image S = Φ(T)</text>
+  <line x1="20" y1="150" x2="112" y2="150" stroke="#BEB8B7" stroke-width="0.85"/><path d="M 112 150 L 106.5 152.2 L 106.5 147.8 Z" fill="#BEB8B7" stroke="none"/>
+  <line x1="40" y1="168" x2="40" y2="88" stroke="#BEB8B7" stroke-width="0.85"/><path d="M 40 88 L 42.2 93.5 L 37.8 93.5 Z" fill="#BEB8B7" stroke="none"/>
+  <text x="116" y="154" font-size="11" fill="#636060">u</text>
+  <text x="36" y="85" font-size="11" fill="#636060" text-anchor="end">v</text>
+  <path d="M 40 150 L 88 150 L 88 102 L 40 102 Z" fill="#E9E3E2" stroke="#312F2F" stroke-width="1.6"/>
+  <text x="38" y="163" font-size="9" fill="#636060" text-anchor="middle">(0, 0)</text>
+  <text x="91" y="163" font-size="9" fill="#636060">(1, 0)</text>
+  <text x="92" y="100" font-size="9" fill="#636060">(1, 1)</text>
+  <text x="36" y="100" font-size="9" fill="#636060" text-anchor="end">(0, 1)</text>
+  <text x="64" y="132.4" font-size="13" fill="#312F2F" text-anchor="middle">T</text>
+  <line x1="118" y1="126" x2="156" y2="126" stroke="#636060" stroke-width="1.1"/><path d="M 156 126 L 150 128.4 L 150 123.6 Z" fill="#636060" stroke="none"/>
+  <text x="137" y="116" font-size="13" fill="#312F2F" text-anchor="middle">Φ</text>
+  <line x1="164" y1="150" x2="312" y2="150" stroke="#BEB8B7" stroke-width="0.85"/><path d="M 312 150 L 306.5 152.2 L 306.5 147.8 Z" fill="#BEB8B7" stroke="none"/>
+  <line x1="182" y1="202" x2="182" y2="88" stroke="#BEB8B7" stroke-width="0.85"/><path d="M 182 88 L 184.2 93.5 L 179.8 93.5 Z" fill="#BEB8B7" stroke="none"/>
+  <text x="316" y="154" font-size="11" fill="#636060">x</text>
+  <text x="178" y="85" font-size="11" fill="#636060" text-anchor="end">y</text>
+  <path d="M 182 150 L 230 102 L 278 150 L 230 198 Z" fill="#E9E3E2" stroke="#312F2F" stroke-width="1.6"/>
+  <line x1="182" y1="150" x2="230" y2="102" stroke="#312F2F" stroke-width="1.3"/><path d="M 230 102 L 227.67 107.44 L 224.56 104.33 Z" fill="#312F2F" stroke="none"/>
+  <line x1="182" y1="150" x2="230" y2="198" stroke="#312F2F" stroke-width="1.3"/><path d="M 230 198 L 224.56 195.67 L 227.67 192.56 Z" fill="#312F2F" stroke="none"/>
+  <text x="206" y="82" font-size="9.5" fill="#312F2F" text-anchor="end" stroke="#FFFFFF" stroke-width="3" paint-order="stroke">Φ(e₁)</text>
+  <text x="216" y="200" font-size="9.5" fill="#312F2F" text-anchor="end" stroke="#FFFFFF" stroke-width="3" paint-order="stroke">Φ(e₂)</text>
+  <text x="176" y="163" font-size="9" fill="#636060" text-anchor="end">(0, 0)</text>
+  <text x="235" y="99" font-size="9" fill="#636060">(1, 1)</text>
+  <text x="282" y="166" font-size="9" fill="#636060" text-anchor="middle">(2, 0)</text>
+  <text x="238" y="206" font-size="9" fill="#636060">(1, −1)</text>
+  <text x="242" y="236" font-size="10.5" fill="#636060" text-anchor="middle">|det DΦ| = 2</text>
+  <circle cx="182" cy="150" r="2.3" fill="#312F2F"/>
+</svg>

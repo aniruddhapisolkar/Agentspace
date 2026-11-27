@@ -108,12 +108,16 @@
       "slug": "change-of-variables-in-multiple-integrals",
       "article": "multivariable-calculus/change-of-variables-in-multiple-integrals.md",
       "writer": "WRITTEN",
-      "illustrator": "PENDING",
+      "illustrator": "ILLUSTRATED",
       "reviewer": "PENDING",
-      "figures": [],
+      "figures": [
+        "multivariable-calculus/svg/change-of-variables-in-multiple-integrals-1.svg",
+        "multivariable-calculus/svg/change-of-variables-in-multiple-integrals-2.svg",
+        "multivariable-calculus/svg/change-of-variables-in-multiple-integrals-3.svg"
+      ],
       "notes": {
         "writer": "Provisional category. 3 figure briefs. Full theorem statement with hypotheses; local-linearisation proof sketch; polar/cylindrical/spherical Jacobians; affine, ellipse and non-injectivity examples. Links to polar, Fubini, inverse-function, cylindrical and spherical siblings are unpublished batch dependencies.",
-        "illustrator": "",
+        "illustrator": "3 figures: polar element, linear map, disc to ellipse. Original monochrome SVGs, rendered and visually checked; details in evidence/change-of-variables-in-multiple-integrals/illustration-notes.md.",
         "reviewer": ""
       }
     }

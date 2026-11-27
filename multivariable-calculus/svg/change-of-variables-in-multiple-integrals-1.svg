@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="276" viewBox="0 0 320 276" role="img" aria-labelledby="fig-title fig-desc" font-family="Geist, Arial, sans-serif" stroke-linecap="round" stroke-linejoin="round">
+  <title id="fig-title">The polar area element</title>
+  <desc id="fig-desc">Two rays at angles theta and theta plus d theta, and two circular arcs of radii r and r plus d r, bound a curvilinear cell. Its radial side has length d r, its outer arc has length r d theta, and its area is approximately r d r d theta.</desc>
+  <rect width="320" height="276" fill="#FFFFFF"/>
+  <line x1="38" y1="236" x2="276" y2="236" stroke="#BEB8B7" stroke-width="0.9"/><path d="M 276 236 L 270 238.4 L 270 233.6 Z" fill="#BEB8B7" stroke="none"/>
+  <line x1="78" y1="252" x2="78" y2="40" stroke="#BEB8B7" stroke-width="0.9"/><path d="M 78 40 L 80.4 46 L 75.6 46 Z" fill="#BEB8B7" stroke="none"/>
+  <text x="280" y="240" font-size="12" fill="#636060">x</text>
+  <text x="74" y="36" font-size="12" fill="#636060" text-anchor="end">y</text>
+  <circle cx="78" cy="236" r="2.4" fill="#312F2F"/>
+  <text x="72" y="250" font-size="10" fill="#636060" text-anchor="end">O</text>
+  <path d="M 187.95 187.05 L 186.9 184.75 L 185.81 182.48 L 184.66 180.24 L 183.47 178.02 L 182.23 175.82 L 180.95 173.65 L 179.62 171.51 L 178.25 169.39 L 176.83 167.31 L 175.37 165.25 L 173.87 163.23 L 172.33 161.24 L 170.74 159.28 L 169.11 157.35 L 167.44 155.46 L 165.74 153.61 L 163.99 151.79 L 162.21 150.01 L 160.39 148.26 L 158.54 146.56 L 198.02 102.71 L 200.78 105.25 L 203.49 107.85 L 206.15 110.51 L 208.75 113.22 L 211.29 115.98 L 213.77 118.8 L 216.2 121.67 L 218.56 124.59 L 220.87 127.56 L 223.11 130.57 L 225.28 133.64 L 227.39 136.74 L 229.44 139.89 L 231.42 143.09 L 233.33 146.32 L 235.17 149.59 L 236.95 152.9 L 238.65 156.25 L 240.29 159.63 L 241.85 163.05 Z" fill="#E9E3E2" stroke="#312F2F" stroke-width="1.4"/>
+  <line x1="80.16" y1="235.04" x2="259.1" y2="155.37" stroke="#979797" stroke-width="0.8" stroke-dasharray="5 3"/>
+  <line x1="79.58" y1="234.25" x2="210.65" y2="88.68" stroke="#979797" stroke-width="0.8" stroke-dasharray="5 3"/>
+  <path d="M 120 236 L 119.99 235.12 L 119.96 234.24 L 119.92 233.36 L 119.85 232.49 L 119.77 231.61 L 119.67 230.74 L 119.55 229.86 L 119.41 229 L 119.26 228.13 L 119.08 227.27 L 118.89 226.41 L 118.68 225.56 L 118.45 224.71 L 118.21 223.86 L 117.94 223.02 L 117.66 222.19 L 117.37 221.36 L 117.05 220.54 L 116.72 219.72 L 116.37 218.92" fill="none" stroke="#636060" stroke-width="0.9"/>
+  <text x="123" y="222" font-size="11" fill="#636060" stroke="#FFFFFF" stroke-width="3" paint-order="stroke">θ</text>
+  <path d="M 129.16 213.22 L 128.54 211.89 L 127.9 210.58 L 127.21 209.28 L 126.5 208 L 125.75 206.74 L 124.97 205.5 L 124.15 204.28 L 123.3 203.08 L 122.43 201.91 L 121.52 200.76 L 120.58 199.63 L 119.62 198.53 L 118.62 197.45 L 117.6 196.4 L 116.55 195.38 L 115.47 194.38" fill="none" stroke="#636060" stroke-width="0.9"/>
+  <text x="136" y="206" font-size="9" fill="#636060" stroke="#FFFFFF" stroke-width="3" paint-order="stroke">dθ</text>
+  <line x1="195.95" y1="194.05" x2="249.85" y2="170.05" stroke="#636060" stroke-width="0.8"/>
+  <text x="228.9" y="187.05" font-size="10.5" fill="#312F2F" stroke="#FFFFFF" stroke-width="3" paint-order="stroke">dr</text>
+  <line x1="225.11" y1="128.57" x2="230.11" y2="123.57" stroke="#636060" stroke-width="0.6"/>
+  <text x="233.11" y="121.57" font-size="10.5" fill="#312F2F" stroke="#FFFFFF" stroke-width="3" paint-order="stroke">r dθ</text>
+  <text x="20" y="264" font-size="10.5" fill="#636060">dA ≈ r dr dθ</text>
+</svg>

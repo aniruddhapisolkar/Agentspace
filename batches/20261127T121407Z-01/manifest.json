@@ -21,12 +21,16 @@
       "slug": "double-integrals",
       "article": "multivariable-calculus/double-integrals.md",
       "writer": "WRITTEN",
-      "illustrator": "PENDING",
+      "illustrator": "ILLUSTRATED",
       "reviewer": "PENDING",
-      "figures": [],
+      "figures": [
+        "multivariable-calculus/svg/double-integrals-1.svg",
+        "multivariable-calculus/svg/double-integrals-2.svg",
+        "multivariable-calculus/svg/double-integrals-3.svg"
+      ],
       "notes": {
         "writer": "Provisional category. 3 figure briefs. Rectangle Darboux definition, general regions, iterated evaluation, pathologies. Links to Fubini, triple, cylindrical, spherical and change-of-variables siblings are unpublished batch dependencies.",
-        "illustrator": "",
+        "illustrator": "3 figures: Riemann partition, type I/II slices, reversed-order triangle. Original monochrome SVGs, rendered and visually checked; details in evidence/double-integrals/illustration-notes.md.",
         "reviewer": ""
       }
     },

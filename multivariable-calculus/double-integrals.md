@@ -37,6 +37,8 @@ $$\iint_R f(x,y)\,dA=\lim_{\lVert P\rVert\to0}\sum_{i=1}^{m}\sum_{j=1}^{n} f(x_{
 
 The notation $dA$ emphasises that the summand carries an area. In Cartesian coordinates one writes $dA=dx\,dy=dy\,dx$, since the area of a small rectangle is the product of its side lengths in either order.
 
+![A rectangle R divided into subrectangles by dashed grid lines, with one cell R ij shaded, its sample point (x*, y*) inside, and side lengths Δx i and Δy j](svg/double-integrals-1.svg)
+
 The definition through sample points is equivalent to a definition through lower and upper sums. For a subrectangle $R_{ij}$, let
 
 $$m_{ij}=\inf_{R_{ij}}f \qquad M_{ij}=\sup_{R_{ij}}f$$
@@ -107,6 +109,8 @@ $$D=\{(x,y):c\le y\le d,\ h_1(y)\le x\le h_2(y)\}$$
 
 Many regions can be described in both ways. A disc, for instance, is of type I with $g_1(x)=-\sqrt{r^2-x^2}$ and $g_2(x)=\sqrt{r^2-x^2}$, and also of type II with the corresponding roles of $x$ and $y$. Some regions are of neither type without being split into pieces. The description is a computational convenience, not a classification of integrable sets.
 
+![The same lens-shaped region sliced vertically between y = g₁(x) and y = g₂(x) in panel (a) and horizontally between x = h₁(y) and x = h₂(y) in panel (b)](svg/double-integrals-2.svg)
+
 ## Iterated integrals
 
 The definition through Riemann sums is rarely used for computation. The practical method integrates with respect to one variable at a time. For a continuous function on a rectangle, the double integral equals either iterated integral:
@@ -168,6 +172,8 @@ and consider
 $$\iint_D e^{y^2}\,dA$$
 
 Integrating first in $y$ would require an antiderivative of $e^{y^2}$, which is not elementary. The region is also of type II: for $0\le y\le1$, the condition $x\le y$ gives $0\le x\le y$. Therefore
+
+![The triangle above the diagonal in the unit square, with a horizontal strip from x = 0 to x = y showing the reversed order of integration](svg/double-integrals-3.svg)
 
 $$\iint_D e^{y^2}\,dA=\int_0^1\left(\int_0^y e^{y^2}\,dx\right)dy=\int_0^1 y e^{y^2}\,dy=\frac{e-1}{2}$$
 

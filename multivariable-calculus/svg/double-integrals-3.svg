@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="288" viewBox="0 0 300 288" role="img" aria-labelledby="fig-title fig-desc" font-family="Geist, Arial, sans-serif" stroke-linecap="round" stroke-linejoin="round">
+  <title id="fig-title">Reversing the order of integration over a triangle</title>
+  <desc id="fig-desc">The unit square with the line y = x. The triangle above the diagonal is the region D with 0 at most y at most 1 and 0 at most x at most y. A horizontal strip at height y runs from x = 0 to the diagonal, so integrating first in x removes the non-elementary antiderivative of e to the y squared.</desc>
+  <rect width="300" height="288" fill="#FFFFFF"/>
+  <path d="M 54 244 L 240 244 L 240 58 Z" fill="#E9E3E2" stroke="none"/>
+  <rect x="54" y="58" width="186" height="186" fill="none" stroke="#BEB8B7" stroke-width="0.9"/>
+  <line x1="54" y1="244" x2="240" y2="58" stroke="#312F2F" stroke-width="1.7"/>
+  <line x1="30" y1="244" x2="274" y2="244" stroke="#BEB8B7" stroke-width="0.9"/><path d="M 274 244 L 268 246.4 L 268 241.6 Z" fill="#BEB8B7" stroke="none"/>
+  <line x1="54" y1="270" x2="54" y2="36" stroke="#BEB8B7" stroke-width="0.9"/><path d="M 54 36 L 56.4 42 L 51.6 42 Z" fill="#BEB8B7" stroke="none"/>
+  <text x="278" y="248" font-size="12" fill="#636060">x</text>
+  <text x="50" y="32" font-size="12" fill="#636060" text-anchor="end">y</text>
+  <text x="48" y="257" font-size="10.5" fill="#636060" text-anchor="end">0</text>
+  <text x="240" y="259" font-size="10.5" fill="#636060" text-anchor="middle">1</text>
+  <text x="48" y="62" font-size="10.5" fill="#636060" text-anchor="end">1</text>
+  <line x1="240" y1="241" x2="240" y2="247" stroke="#636060" stroke-width="0.9"/>
+  <line x1="51" y1="58" x2="57" y2="58" stroke="#636060" stroke-width="0.9"/>
+  <line x1="54" y1="128.68" x2="165.32" y2="128.68" stroke="#312F2F" stroke-width="2.6"/>
+  <path d="M 169.32 128.68 L 163.32 131.08 L 163.32 126.28 Z" fill="#312F2F" stroke="none"/>
+  <circle cx="54" cy="128.68" r="2.6" fill="#FFFFFF" stroke="#312F2F" stroke-width="1.2"/>
+  <text x="57" y="145.68" font-size="9.5" fill="#636060" stroke="#FFFFFF" stroke-width="3" paint-order="stroke">x = 0</text>
+  <text x="165.32" y="145.68" font-size="9.5" fill="#636060" text-anchor="end" stroke="#FFFFFF" stroke-width="3" paint-order="stroke">x = y</text>
+  <line x1="51" y1="128.68" x2="57" y2="128.68" stroke="#636060" stroke-width="0.9"/>
+  <text x="48" y="132.68" font-size="10.5" fill="#636060" text-anchor="end">y</text>
+  <text x="176.2" y="103.8" font-size="10.5" fill="#636060" text-anchor="middle" stroke="#FFFFFF" stroke-width="3" paint-order="stroke" transform="rotate(-45 176.2 103.8)">y = x</text>
+  <text x="202.8" y="180.76" font-size="14" fill="#312F2F" text-anchor="middle">D</text>
+  <text x="150" y="280" font-size="10.5" fill="#636060" text-anchor="middle">D: 0 ≤ y ≤ 1,   0 ≤ x ≤ y</text>
+</svg>

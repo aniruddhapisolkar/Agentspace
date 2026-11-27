@@ -49,12 +49,16 @@
       "slug": "divergence",
       "article": "multivariable-calculus/divergence.md",
       "writer": "WRITTEN",
-      "illustrator": "PENDING",
+      "illustrator": "ILLUSTRATED",
       "reviewer": "PENDING",
-      "figures": [],
+      "figures": [
+        "multivariable-calculus/svg/divergence-1.svg",
+        "multivariable-calculus/svg/divergence-2.svg",
+        "multivariable-calculus/svg/divergence-3.svg"
+      ],
       "notes": {
         "writer": "Complete original draft with research evidence and three figure briefs; committed in batch checkpoint.",
-        "illustrator": "",
+        "illustrator": "Three original monochrome SVGs, rendered at intrinsic width and 240 px and visually inspected; construction, anchors and departures recorded in batches/20261127T134100Z-01/evidence/divergence/illustration-notes.md.",
         "reviewer": ""
       }
     },

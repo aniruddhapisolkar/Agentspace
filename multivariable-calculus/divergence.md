@@ -59,7 +59,11 @@ $$\operatorname{div}\mathbf{F}(P)=\lim_{\Delta V\to0}\frac{1}{\Delta V}\iint_{\p
 
 This is the coordinate-free definition: the divergence is the outward flux per unit volume in the limit of shrinking closed surfaces around the point. The mean value theorem makes the one-dimensional approximation exact at some intermediate point, and the continuity of the partial derivatives gives the limit.
 
+![A small box with outward normals on its two x-faces and field arrows entering one face and leaving the other](svg/divergence-1.svg)
+
 The sign has a direct reading. A positive divergence at $P$ means that the field points away from $P$ on average, so $P$ is a source. A negative divergence means that the field points toward $P,$ so $P$ is a sink. Zero divergence means that the outward flux through every sufficiently small closed surface is negligible relative to its volume; the field neither creates nor destroys volume at that point.
+
+![Three small regions showing outward flow for positive divergence, inward flow for negative divergence, and balanced through-flow for zero divergence](svg/divergence-2.svg)
 
 ## Examples
 
@@ -108,6 +112,8 @@ The proof for a box follows from the fundamental theorem of calculus. For the $x
 $$\iiint_E\frac{\partial P}{\partial x}\,dV=\iint_{\partial E}P\,n_x\,dS$$
 
 because integrating $\partial P/\partial x$ along each line parallel to the $x$-axis gives the difference of $P$ at the two endpoints, which are exactly the intersections with the boundary; the outward normal contributes the correct sign. Summing the three components gives (7) for a box. A general solid is partitioned into small boxes, the integrals over interior faces cancel because the outward normals are opposite, and the boundary integrals converge to the integral over $S.$ The partition argument requires the boundary to be piecewise smooth and the field to be $C^1$ on the solid.
+
+![A solid partitioned into small boxes, with opposite normals on a shared interior face cancelling](svg/divergence-3.svg)
 
 The theorem fails if the field has a singularity inside $E.$ For the inverse-square field, the flux through any sphere centred at the origin is $4\pi,$ while the divergence integral over the ball minus the origin is zero. The missing contribution is concentrated at the singular point, and the theorem must be applied to the punctured solid, whose boundary has two components.
 

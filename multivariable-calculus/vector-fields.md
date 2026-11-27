@@ -181,7 +181,7 @@ A useful decomposition in two dimensions separates a field into a gradient and a
 
 $$\mathbf{F}=\nabla\phi+\langle-\partial_y\psi,\partial_x\psi\rangle \tag{19}$$
 
-where $\phi$ is a scalar potential and $\psi$ a stream function. The first term is curl-free and the second is divergence-free. The decomposition is the two-dimensional case of the Helmholtz decomposition; it is stated here to indicate how the two local invariants organize the field, not as a construction for arbitrary domains.
+where $\phi$ is a scalar potential and $\psi$ a stream function. The first term is curl-free and the second is divergence-free. The decomposition is the two-dimensional case of the Helmholtz decomposition; it is stated here to indicate how the two local invariants organise the field, not as a construction for arbitrary domains.
 
 ## Worked example
 

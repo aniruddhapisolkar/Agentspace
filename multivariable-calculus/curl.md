@@ -102,7 +102,7 @@ The two identities
 
 $$\operatorname{curl}(\nabla f)=\mathbf{0} \qquad \operatorname{div}(\operatorname{curl}\mathbf{F})=0 \tag{13}$$
 
-are the fundamental compatibility conditions of vector calculus. The first says that a gradient has no rotation; the second, discussed in the entry on [divergence](../divergence/), says that a curl has no expansion. They are the reason potential functions and vector potentials exist locally, and they organize the hypotheses of the integral theorems.
+are the fundamental compatibility conditions of vector calculus. The first says that a gradient has no rotation; the second, discussed in the entry on [divergence](../divergence/), says that a curl has no expansion. They are the reason potential functions and vector potentials exist locally, and they organise the hypotheses of the integral theorems.
 
 ## Stokes' theorem
 

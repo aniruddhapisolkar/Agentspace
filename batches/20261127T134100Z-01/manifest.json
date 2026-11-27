@@ -106,12 +106,16 @@
       "slug": "line-integrals",
       "article": "multivariable-calculus/line-integrals.md",
       "writer": "WRITTEN",
-      "illustrator": "PENDING",
+      "illustrator": "ILLUSTRATED",
       "reviewer": "PENDING",
-      "figures": [],
+      "figures": [
+        "multivariable-calculus/svg/line-integrals-1.svg",
+        "multivariable-calculus/svg/line-integrals-2.svg",
+        "multivariable-calculus/svg/line-integrals-3.svg"
+      ],
       "notes": {
         "writer": "Complete original draft with research evidence and three figure briefs; committed in batch checkpoint.",
-        "illustrator": "",
+        "illustrator": "Three original monochrome SVGs, rendered at intrinsic width and 240 px and visually inspected; construction, anchors and departures recorded in batches/20261127T134100Z-01/evidence/line-integrals/illustration-notes.md.",
         "reviewer": ""
       }
     }

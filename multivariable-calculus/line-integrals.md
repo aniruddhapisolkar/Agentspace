@@ -101,6 +101,8 @@ $$\int_C\mathbf{F}\cdot d\mathbf{r}=\int_C(\mathbf{F}\cdot\mathbf{T})\,ds \tag{1
 
 where $\mathbf{T}=\mathbf{r}'/\lVert\mathbf{r}'\rVert$ is the unit tangent in the direction of orientation. The right side is a scalar line integral of the tangential component, and it makes the orientation dependence explicit: reversing the curve replaces $\mathbf{T}$ by $-\mathbf{T}.$
 
+![A field vector at a point on a curve resolved into a tangential component weighted by arc length and a normal component](svg/line-integrals-1.svg)
+
 ## A path-dependent example
 
 Let $\mathbf{F}(x,y)=\langle x^2,xy\rangle$ and let $C_1$ be the parabola $y=x^2$ from $(0,0)$ to $(1,1).$ Parameterize it by
@@ -116,6 +118,8 @@ Now let $C_2$ be the straight segment from $(0,0)$ to $(1,1),$ parameterized by 
 $$\int_{C_2}\mathbf{F}\cdot d\mathbf{r}=\int_0^1 2t^2\,dt=\frac23 \tag{15}$$
 
 The two curves have the same endpoints, but the integrals differ. The field is therefore not conservative on $\mathbb{R}^2,$ and the integral depends on the path. The difference is not a computational error: it reflects the fact that the field does positive work along one route and a different amount along another.
+
+![A parabola and a straight segment joining the same two points, labelled with different line integrals of the same field](svg/line-integrals-2.svg)
 
 The same field has nonzero scalar curl:
 
@@ -154,6 +158,8 @@ the integral from $(0,0)$ to $(1,1)$ along any piecewise smooth path is
 $$f(1,1)-f(0,0)=2-0=2$$
 
 The parabola and the straight segment used above both give $2$ for this field, even though they gave different values for $\langle x^2,xy\rangle.$ The potential removes the path dependence entirely.
+
+![Two paths between the same two level curves of a potential, with gradient arrows crossing the curves at right angles](svg/line-integrals-3.svg)
 
 ## Finding a potential
 

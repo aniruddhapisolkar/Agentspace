@@ -30,12 +30,16 @@
       "slug": "vector-fields",
       "article": "multivariable-calculus/vector-fields.md",
       "writer": "WRITTEN",
-      "illustrator": "PENDING",
+      "illustrator": "ILLUSTRATED",
       "reviewer": "PENDING",
-      "figures": [],
+      "figures": [
+        "multivariable-calculus/svg/vector-fields-1.svg",
+        "multivariable-calculus/svg/vector-fields-2.svg",
+        "multivariable-calculus/svg/vector-fields-3.svg"
+      ],
       "notes": {
         "writer": "Complete original draft with research evidence and three figure briefs; committed in batch checkpoint.",
-        "illustrator": "",
+        "illustrator": "Three original monochrome SVGs, rendered at intrinsic width and 240 px and visually inspected; construction, anchors and departures recorded in batches/20261127T134100Z-01/evidence/vector-fields/illustration-notes.md.",
         "reviewer": ""
       }
     },

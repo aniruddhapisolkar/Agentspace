@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="310" height="272" viewBox="0 0 310 272" role="img" aria-labelledby="fig-title fig-desc" font-family="Geist, Arial, sans-serif" stroke-linecap="round" stroke-linejoin="round">
+  <title id="fig-title">Zero curl on a punctured plane with nonzero circulation</title>
+  <desc id="fig-desc">The field (-y, x) over (x squared plus y squared) on the plane with the origin removed: arrows circulate counterclockwise, the curl vanishes away from the hole, and the integral around the unit circle C is 2 pi.</desc>
+  <rect width="310" height="272" fill="#FFFFFF"/>
+  <circle cx="150" cy="132" r="84" fill="#E9E3E2"/>
+  <circle cx="150" cy="132" r="42" fill="#FFFFFF"/>
+  <line x1="193.26" y1="131.18" x2="186.53" y2="106.06" stroke="#312F2F" stroke-width="1.2"/><path d="M 186.53 106.06 L 190.4 111.24 L 185.77 112.48 Z" fill="#312F2F" stroke="none"/>
+  <line x1="170.92" y1="94.12" x2="145.8" y2="87.39" stroke="#312F2F" stroke-width="1.2"/><path d="M 145.8 87.39 L 152.22 86.63 L 150.98 91.26 Z" fill="#312F2F" stroke="none"/>
+  <line x1="127.66" y1="94.95" x2="109.27" y2="113.33" stroke="#312F2F" stroke-width="1.2"/><path d="M 109.27 113.33 L 111.82 107.39 L 115.21 110.79 Z" fill="#312F2F" stroke="none"/>
+  <line x1="106.74" y1="132.82" x2="113.47" y2="157.94" stroke="#312F2F" stroke-width="1.2"/><path d="M 113.47 157.94 L 109.6 152.76 L 114.23 151.52 Z" fill="#312F2F" stroke="none"/>
+  <line x1="129.08" y1="169.88" x2="154.2" y2="176.61" stroke="#312F2F" stroke-width="1.2"/><path d="M 154.2 176.61 L 147.78 177.37 L 149.02 172.74 Z" fill="#312F2F" stroke="none"/>
+  <line x1="172.34" y1="169.05" x2="190.73" y2="150.67" stroke="#312F2F" stroke-width="1.2"/><path d="M 190.73 150.67 L 188.18 156.61 L 184.79 153.21 Z" fill="#312F2F" stroke="none"/>
+  <line x1="232.48" y1="115.28" x2="229.12" y2="102.72" stroke="#312F2F" stroke-width="1.2"/><path d="M 229.12 102.72 L 232.99 107.9 L 228.35 109.14 Z" fill="#312F2F" stroke="none"/>
+  <line x1="176.76" y1="52.21" x2="164.21" y2="48.84" stroke="#312F2F" stroke-width="1.2"/><path d="M 164.21 48.84 L 170.62 48.08 L 169.38 52.71 Z" fill="#312F2F" stroke="none"/>
+  <line x1="94.28" y1="68.93" x2="85.09" y2="78.12" stroke="#312F2F" stroke-width="1.2"/><path d="M 85.09 78.12 L 87.63 72.18 L 91.03 75.57 Z" fill="#312F2F" stroke="none"/>
+  <line x1="67.52" y1="148.72" x2="70.88" y2="161.28" stroke="#312F2F" stroke-width="1.2"/><path d="M 70.88 161.28 L 67.01 156.1 L 71.65 154.86 Z" fill="#312F2F" stroke="none"/>
+  <line x1="123.24" y1="211.79" x2="135.79" y2="215.16" stroke="#312F2F" stroke-width="1.2"/><path d="M 135.79 215.16 L 129.38 215.92 L 130.62 211.29 Z" fill="#312F2F" stroke="none"/>
+  <line x1="205.72" y1="195.07" x2="214.91" y2="185.88" stroke="#312F2F" stroke-width="1.2"/><path d="M 214.91 185.88 L 212.37 191.82 L 208.97 188.43 Z" fill="#312F2F" stroke="none"/>
+  <circle cx="150" cy="132" r="42" fill="none" stroke="#312F2F" stroke-width="1.9"/>
+  <circle cx="150" cy="132" r="84" fill="none" stroke="#979797" stroke-width="0.9" stroke-dasharray="4 3"/>
+  <line x1="136.79" y1="91.13" x2="121.21" y2="100.13" stroke="#312F2F" stroke-width="1.8"/><path d="M 121.21 100.13 L 125.2 95.05 L 127.6 99.21 Z" fill="#312F2F" stroke="none"/>
+  <text x="125" y="85.63" font-size="11.5" fill="#312F2F" text-anchor="end" stroke="#FFFFFF" stroke-width="3" paint-order="stroke">C</text>
+  <circle cx="150" cy="132" r="3.2" fill="#FFFFFF" stroke="#312F2F" stroke-width="1.2"/>
+  <text x="157" y="146" font-size="9" fill="#636060">O excluded</text>
+  <line x1="200" y1="96" x2="183" y2="108" stroke="#636060" stroke-width="0.8"/>
+  <text x="203" y="93" font-size="10" fill="#636060" stroke="#FFFFFF" stroke-width="3" paint-order="stroke">curl F = 0</text>
+  <text x="170" y="246" font-size="13" fill="#312F2F" text-anchor="middle">&#8750;<tspan dy="3" font-size="9">C</tspan><tspan dy="-3"> F &#183; dr = 2&#960;</tspan></text>
+</svg>

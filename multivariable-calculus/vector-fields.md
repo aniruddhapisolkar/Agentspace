@@ -75,6 +75,8 @@ $$\mathbf{F}(x,y)=\langle-y,x\rangle \tag{6}$$
 
 At $(1,0)$ the vector is $\langle0,1\rangle,$ at $(0,1)$ it is $\langle-1,0\rangle,$ and at $(-1,0)$ it is $\langle0,-1\rangle.$ The arrows circulate counterclockwise around the origin, and their length grows linearly with the distance from it.
 
+![A radial field pointing away from the origin and a rotational field circulating counterclockwise, drawn to the same scale](svg/vector-fields-1.svg)
+
 A gradient field is the gradient of a scalar function:
 
 $$\mathbf{F}=\nabla f=\left\langle\frac{\partial f}{\partial x},\frac{\partial f}{\partial y}\right\rangle \qquad \text{or} \qquad \mathbf{F}=\nabla f=\left\langle\frac{\partial f}{\partial x},\frac{\partial f}{\partial y},\frac{\partial f}{\partial z}\right\rangle \tag{7}$$
@@ -108,6 +110,8 @@ so the line integral of a conservative field depends only on the endpoints of th
 Conversely, a field whose line integral is path-independent on an open connected domain is conservative, provided the field is continuous. One fixes a base point $P_0$ and defines $f(P)$ as the integral from $P_0$ to $P;$ path-independence makes $f$ well defined, and a difference-quotient argument shows that $\nabla f=\mathbf{F}.$ The potential is therefore not an extra structure imposed on the field but a consequence of path-independence.
 
 The level curves of a potential are the sets $f(x,y)=c.$ Where the gradient does not vanish, it is orthogonal to the level curve through the point: if $\mathbf{r}(t)$ stays on a level curve, then $f(\mathbf{r}(t))$ is constant and (9) gives $\nabla f\cdot\mathbf{r}'=0.$ The arrows of a gradient field therefore cross the level curves at right angles. Where the level curves are close together, the gradient is large; where they are far apart, it is small. A topographic map and its steepest-ascent arrows illustrate the same relation.
+
+![Gradient arrows crossing elliptical level curves at right angles and growing where the curves are closer](svg/vector-fields-2.svg)
 
 ## Field lines
 
@@ -152,6 +156,8 @@ on $D=\mathbb{R}^2\setminus\{(0,0)\}.$ A direct computation gives zero curl for 
 $$\int_C\mathbf{F}\cdot d\mathbf{r}=\int_0^{2\pi}\frac{(-\sin t)(-\sin t)+(\cos t)(\cos t)}{\cos^2t+\sin^2t}\,dt=\int_0^{2\pi}dt=2\pi \tag{17}$$
 
 The integral around a closed curve is nonzero, so the field is not conservative on the punctured plane. The hole at the origin is exactly what prevents the loop from contracting, and the test fails because its hypothesis fails. On a simply connected subdomain that does not enclose the origin, the same formula defines a potential, namely a branch of the polar angle.
+
+![A circulating field on the punctured plane with a closed loop around the excluded origin and zero curl away from the hole](svg/vector-fields-3.svg)
 
 In space the corresponding test uses the full [curl](../curl/): a $C^1$ field on a simply connected domain is conservative if and only if $\operatorname{curl}\mathbf{F}=\mathbf{0}.$ The [divergence](../divergence/) gives a different local invariant, measuring the tendency of the field to spread out rather than to rotate.
 

@@ -22,7 +22,7 @@
       "article": "multivariable-calculus/double-integrals.md",
       "writer": "WRITTEN",
       "illustrator": "ILLUSTRATED",
-      "reviewer": "PENDING",
+      "reviewer": "BLOCKED",
       "figures": [
         "multivariable-calculus/svg/double-integrals-1.svg",
         "multivariable-calculus/svg/double-integrals-2.svg",
@@ -31,7 +31,7 @@
       "notes": {
         "writer": "Provisional category. 3 figure briefs. Rectangle Darboux definition, general regions, iterated evaluation, pathologies. Links to Fubini, triple, cylindrical, spherical and change-of-variables siblings are unpublished batch dependencies.",
         "illustrator": "3 figures: Riemann partition, type I/II slices, reversed-order triangle. Original monochrome SVGs, rendered and visually checked; details in evidence/double-integrals/illustration-notes.md.",
-        "reviewer": ""
+        "reviewer": "BLOCKED: mandatory visual-inspection gate NOT_RUN (no image-capable model in this environment); all mathematical, editorial and SVG structural gates PASS. See evidence/double-integrals/review.md."
       }
     },
     {
@@ -41,7 +41,7 @@
       "article": "multivariable-calculus/triple-integrals.md",
       "writer": "WRITTEN",
       "illustrator": "ILLUSTRATED",
-      "reviewer": "PENDING",
+      "reviewer": "BLOCKED",
       "figures": [
         "multivariable-calculus/svg/triple-integrals-1.svg",
         "multivariable-calculus/svg/triple-integrals-2.svg",
@@ -50,7 +50,7 @@
       "notes": {
         "writer": "Provisional category. 3 figure briefs. Box definition, z-simple solids, tetrahedron and density examples, centre of mass. Links to double, Fubini, cylindrical, spherical and change-of-variables siblings are unpublished batch dependencies.",
         "illustrator": "3 figures: box partition, z-simple solid with shadow, standard tetrahedron. Original monochrome SVGs, rendered and visually checked; details in evidence/triple-integrals/illustration-notes.md.",
-        "reviewer": ""
+        "reviewer": "BLOCKED: mandatory visual-inspection gate NOT_RUN (no image-capable model in this environment); all mathematical, editorial and SVG structural gates PASS. See evidence/triple-integrals/review.md."
       }
     },
     {
@@ -60,7 +60,7 @@
       "article": "multivariable-calculus/fubinis-theorem.md",
       "writer": "WRITTEN",
       "illustrator": "ILLUSTRATED",
-      "reviewer": "PENDING",
+      "reviewer": "BLOCKED",
       "figures": [
         "multivariable-calculus/svg/fubinis-theorem-1.svg",
         "multivariable-calculus/svg/fubinis-theorem-2.svg",
@@ -69,7 +69,7 @@
       "notes": {
         "writer": "Provisional category. 3 figure briefs. Full step-function proof for rectangles; type I/II and triple reductions; counterexample; Tonelli/Fubini stated. Links to double, triple, cylindrical, spherical siblings are unpublished batch dependencies.",
         "illustrator": "3 figures: slice at fixed x, inner/outer limits, parabolic region reversed. Original monochrome SVGs, rendered and visually checked; details in evidence/fubinis-theorem/illustration-notes.md.",
-        "reviewer": ""
+        "reviewer": "BLOCKED: mandatory visual-inspection gate NOT_RUN (no image-capable model in this environment); all mathematical, editorial and SVG structural gates PASS. See evidence/fubinis-theorem/review.md."
       }
     },
     {
@@ -79,7 +79,7 @@
       "article": "multivariable-calculus/cylindrical-coordinates.md",
       "writer": "WRITTEN",
       "illustrator": "ILLUSTRATED",
-      "reviewer": "PENDING",
+      "reviewer": "BLOCKED",
       "figures": [
         "multivariable-calculus/svg/cylindrical-coordinates-1.svg",
         "multivariable-calculus/svg/cylindrical-coordinates-2.svg",
@@ -88,7 +88,7 @@
       "notes": {
         "writer": "Provisional category. 3 figure briefs. Standard (r,theta,z) system, Jacobian r, coordinate surfaces, volumes, density centroid, sphere-cylinder example, pitfalls. Links to polar, change-of-variables, Fubini, triple and spherical siblings are unpublished batch dependencies.",
         "illustrator": "3 figures: point coordinates, volume element, paraboloid cap. Original monochrome SVGs, rendered and visually checked; details in evidence/cylindrical-coordinates/illustration-notes.md.",
-        "reviewer": ""
+        "reviewer": "BLOCKED: mandatory visual-inspection gate NOT_RUN (no image-capable model in this environment); all mathematical, editorial and SVG structural gates PASS. See evidence/cylindrical-coordinates/review.md."
       }
     },
     {
@@ -98,7 +98,7 @@
       "article": "multivariable-calculus/spherical-coordinates.md",
       "writer": "WRITTEN",
       "illustrator": "ILLUSTRATED",
-      "reviewer": "PENDING",
+      "reviewer": "BLOCKED",
       "figures": [
         "multivariable-calculus/svg/spherical-coordinates-1.svg",
         "multivariable-calculus/svg/spherical-coordinates-2.svg",
@@ -107,7 +107,7 @@
       "notes": {
         "writer": "Provisional category. 3 figure briefs. Standard (rho,theta,phi) system with phi from +z; Jacobian sign explained; ball, moment, ice-cream cone, radial density, corrected spherical cap. Links to change-of-variables, cylindrical, Fubini and triple siblings are unpublished batch dependencies.",
         "illustrator": "3 figures: point coordinates, volume element, ice-cream cone. Original monochrome SVGs, rendered and visually checked; details in evidence/spherical-coordinates/illustration-notes.md.",
-        "reviewer": ""
+        "reviewer": "BLOCKED: mandatory visual-inspection gate NOT_RUN (no image-capable model in this environment); all mathematical, editorial and SVG structural gates PASS. See evidence/spherical-coordinates/review.md."
       }
     },
     {
@@ -117,7 +117,7 @@
       "article": "multivariable-calculus/change-of-variables-in-multiple-integrals.md",
       "writer": "WRITTEN",
       "illustrator": "ILLUSTRATED",
-      "reviewer": "PENDING",
+      "reviewer": "BLOCKED",
       "figures": [
         "multivariable-calculus/svg/change-of-variables-in-multiple-integrals-1.svg",
         "multivariable-calculus/svg/change-of-variables-in-multiple-integrals-2.svg",
@@ -126,7 +126,7 @@
       "notes": {
         "writer": "Provisional category. 3 figure briefs. Full theorem statement with hypotheses; local-linearisation proof sketch; polar/cylindrical/spherical Jacobians; affine, ellipse and non-injectivity examples. Links to polar, Fubini, inverse-function, cylindrical and spherical siblings are unpublished batch dependencies.",
         "illustrator": "3 figures: polar element, linear map, disc to ellipse. Original monochrome SVGs, rendered and visually checked; details in evidence/change-of-variables-in-multiple-integrals/illustration-notes.md.",
-        "reviewer": ""
+        "reviewer": "BLOCKED: mandatory visual-inspection gate NOT_RUN (no image-capable model in this environment); all mathematical, editorial and SVG structural gates PASS. See evidence/change-of-variables-in-multiple-integrals/review.md."
       }
     }
   ]

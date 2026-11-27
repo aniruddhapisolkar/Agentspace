@@ -87,12 +87,16 @@
       "slug": "flux-integrals",
       "article": "multivariable-calculus/flux-integrals.md",
       "writer": "WRITTEN",
-      "illustrator": "PENDING",
+      "illustrator": "ILLUSTRATED",
       "reviewer": "PENDING",
-      "figures": [],
+      "figures": [
+        "multivariable-calculus/svg/flux-integrals-1.svg",
+        "multivariable-calculus/svg/flux-integrals-2.svg",
+        "multivariable-calculus/svg/flux-integrals-3.svg"
+      ],
       "notes": {
         "writer": "Complete original draft with research evidence and three figure briefs; committed in batch checkpoint.",
-        "illustrator": "",
+        "illustrator": "Three original editable SVGs built from the article equations, rendered at intrinsic and 240 px widths, visually inspected and validated; article references inserted at the stated anchors.",
         "reviewer": ""
       }
     }

@@ -30,6 +30,8 @@ which is a volume per unit time. If the field is a mass flux $\rho\mathbf{v},$ t
 
 The sign is part of the definition. The normal $\mathbf{n}$ chooses a positive side of the surface, and the flux counts flow from the negative side to the positive side as positive. Reversing $\mathbf{n}$ reverses the sign of every contribution and therefore of the total.
 
+![A slanted flow cylinder through a small oriented patch, with velocity, normal, the angle between them, and the signed volume formula](svg/flux-integrals-1.svg)
+
 ## Definition
 
 Let $S$ be an oriented piecewise smooth surface with unit normal $\mathbf{n},$ and let $\mathbf{F}$ be a continuous vector field on $S.$ The **flux integral** of $\mathbf{F}$ across $S$ is
@@ -110,6 +112,8 @@ Yet the flux through a closed surface enclosing the origin is $4\pi,$ not zero. 
 
 If a closed surface does not enclose the origin, the field is smooth on and inside the surface, the divergence theorem applies, and the flux is zero. The contrast between $4\pi$ and $0$ is entirely a question of what the surface encloses.
 
+![Two concentric spheres of different radii around a point source, both labelled with flux 4 pi, and a separate closed surface away from the source labelled zero flux](svg/flux-integrals-2.svg)
+
 ## A cube and a cylinder
 
 For $\mathbf{F}=\langle x,y,z\rangle$ and the unit cube $0\le x,y,z\le1$ with outward orientation, the divergence theorem gives
@@ -137,6 +141,8 @@ The divergence can therefore be read as a flux density:
 $$\operatorname{div}\mathbf{F}(P)=\lim_{V\to0}\frac1{V}\iint_{\partial E}\mathbf{F}\cdot d\mathbf{S} \tag{20}$$
 
 where $E$ is a small solid containing $P$ with volume $V.$ A positive divergence is a net source per unit volume; a negative divergence is a sink; zero divergence means that whatever enters a small region leaves it.
+
+![A small box with a stronger field leaving than entering, illustrating divergence as net outward flux per unit volume](svg/flux-integrals-3.svg)
 
 A field with zero divergence everywhere in a region is called solenoidal or incompressible. For such a field, the flux through every closed surface inside the region is zero. Equivalently, the flux through two open surfaces with the same boundary and consistent orientations is the same, because together they form a closed surface and the field is divergence-free in the enclosed volume. This is the flux analogue of path independence for a curl-free field.
 

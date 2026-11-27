@@ -216,7 +216,7 @@ At $(2,3)$ it is $2,$ so the field circulates counterclockwise there. At points 
 + A field with zero curl need not be conservative unless the domain is simply connected. The punctured-plane field (12) is the standard counterexample.
 + A field with nonzero curl is definitely not a gradient on any domain containing the point, since (11) would be violated.
 + Parallel arrows do not imply zero curl. The shear field (9) has parallel arrows and constant nonzero curl.
-+ Circular arrows do not imply nonzero curl. A radial field can have curved-looking trajectories in a diagram while its curl vanishes.
++ Circular arrows do not imply nonzero curl. A gradient field can have curved field lines while its curl vanishes; the local turning of the arrows and the global shape of the trajectories are different questions.
 + Stokes' theorem requires a consistent orientation of surface and boundary. Reversing the normal reverses the sign of the surface integral and of the boundary circulation; using opposite conventions for the two sides produces a sign error, not a contradiction.
 + In curvilinear coordinates, the metric factors in (16) and (17) are part of the operator. Dropping them gives an expression that is not the curl.
 

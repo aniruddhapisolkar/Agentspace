@@ -163,7 +163,7 @@ The factor $1-\sqrt2/2$ is positive and less than $1$, so the volume is less tha
 
 ## Mass with radial density
 
-Let a ball of radius $1$ have density $\rho(x,y,z)=1+\rho$, where $\rho$ is the distance from the origin. The mass is
+Let a ball of radius $1$ have density $\delta(x,y,z)=1+\rho$, where $\rho$ is the distance from the origin. The mass is
 
 $$M=\int_0^{2\pi}\int_0^\pi\int_0^1(1+\rho)\rho^2\sin\varphi\,d\rho\,d\varphi\,d\theta$$
 

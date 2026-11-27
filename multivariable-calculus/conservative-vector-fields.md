@@ -49,6 +49,8 @@ $$\frac{d}{dt}f(\mathbf{r}(t))=\nabla f(\mathbf{r}(t))\cdot\mathbf{r}'(t)=0 \tag
 
 Hence the field arrows cross the level sets at right angles. They point toward increasing $f,$ and their length $\lVert\nabla f\rVert$ is large where the level sets are close together. A topographic map with its steepest-ascent arrows is the two-dimensional picture.
 
+![Elliptical level curves with gradient arrows crossing them at right angles, the arrows longer where the curves are closer together](svg/conservative-vector-fields-1.svg)
+
 ## Path independence
 
 Let $C$ be a piecewise smooth curve in $D$ from $A$ to $B,$ parameterized by $\mathbf{r}(t)$ for $a\le t\le b.$ If $\mathbf{F}=\nabla f,$ then the chain rule gives
@@ -60,6 +62,8 @@ Integrating from $a$ to $b$ and applying the fundamental theorem of calculus,
 $$\int_C\mathbf{F}\cdot d\mathbf{r}=f(\mathbf{r}(b))-f(\mathbf{r}(a))=f(B)-f(A) \tag{7}$$
 
 The right side depends only on the endpoints. For a piecewise smooth curve the argument is applied to each smooth piece, and the values at the intermediate points cancel.
+
+![Two differently shaped paths from A to B crossing the same three level curves, annotated with equal line integrals](svg/conservative-vector-fields-2.svg)
 
 Two immediate consequences follow. First, the integral of a conservative field is **path-independent**: any two piecewise smooth curves in $D$ with the same initial and terminal points give the same value. Second, the integral around every closed piecewise smooth curve in $D$ is zero, because the initial and terminal points coincide.
 
@@ -112,6 +116,8 @@ so the scalar curl vanishes at every point of $D.$ Nevertheless, on the unit cir
 $$\int_C\mathbf{F}\cdot d\mathbf{r}=\int_0^{2\pi}\frac{\sin^2t+\cos^2t}{\cos^2t+\sin^2t}\,dt=2\pi \tag{15}$$
 
 The integral around a closed curve is nonzero, so the field is not conservative on the punctured plane.
+
+![A counterclockwise circulating field around a missing origin, with a closed loop encircling the hole and a note that the curl vanishes but the circulation is 2 pi](svg/conservative-vector-fields-3.svg)
 
 The failure is not a contradiction of the curl test: the domain is not simply connected. The unit circle cannot be contracted to a point without passing through the origin, which is missing from $D.$ On a simply connected subdomain that does not wind around the origin, the same field has a potential. In polar coordinates $x=r\cos\theta,$ $y=r\sin\theta,$ the field is $\langle-\sin\theta/r,\cos\theta/r\rangle=\nabla\theta,$ and $\theta$ is a single-valued function on any domain that avoids a ray from the origin. The potential is therefore a branch of the polar angle, and the $2\pi$ in (15) is the change in that angle around the circle.
 

@@ -3,11 +3,11 @@ title: Surface Integrals
 source: https://algebrica.org/surface-integrals/
 license: CC BY-NC 4.0
 tags:
-  - multivariable-calculus
-  - surface-integrals
-  - surface-area
-  - vector-calculus
   - flux
+  - multivariable-calculus
+  - surface-area
+  - surface-integrals
+  - vector-calculus
 ---
 
 ## Integrating over a surface
@@ -40,8 +40,6 @@ $$\iint_S f\,dS=\iint_{S_1}f\,dS+\iint_{S_2}f\,dS \tag{5}$$
 
 The intersection has zero area and contributes nothing.
 
-![A surface partitioned into small patches, with a sample point in one patch and the area element used in the Riemann sum](svg/surface-integrals-1.svg)
-
 ## Evaluating with a parameterization
 
 The definition is geometric but not directly computable. A parameterization turns the surface integral into a double integral over a region in the plane. Let
@@ -56,7 +54,7 @@ The factor $\lVert\mathbf{r}_u\times\mathbf{r}_v\rVert$ converts parameter area 
 
 If the parameterization is not one-to-one, the integral counts the surface with multiplicity. A parameterization that traces a sphere twice gives twice the integral of a one-to-one parameterization. The hypothesis that $S$ is traced once is therefore part of the evaluation formula, not a cosmetic assumption.
 
-The value is independent of the parameterization chosen, provided each traces the surface once. A change of parameters multiplies both the integrand's area factor and the parameter area element by the absolute value of the Jacobian determinant, and the two factors cancel.
+The value is independent of the parameterization chosen, provided each traces the surface once. A change of parameters divides the norm of the cross product by the absolute value of the Jacobian determinant, while the parameter area element is multiplied by that same value, and the two factors cancel.
 
 ## Graphs and implicit surfaces
 
@@ -75,8 +73,6 @@ If the surface is given implicitly by $F(x,y,z)=0$ with $F_z\neq0,$ the same arg
 $$dS=\frac{\lVert\nabla F\rVert}{|F_z|}\,dx\,dy \tag{10}$$
 
 because the angle between the normal and the $z$-axis has cosine $|F_z|/\lVert\nabla F\rVert.$ The formula (9) is the special case $F(x,y,z)=z-g(x,y),$ for which $\lVert\nabla F\rVert=\sqrt{1+g_x^2+g_y^2}$ and $|F_z|=1.$
-
-![A curved graph above a planar region, showing the tilted surface element dS and its projection dA with the square-root factor](svg/surface-integrals-2.svg)
 
 ## A hemisphere
 
@@ -128,7 +124,7 @@ the area element is $\sqrt2\,r\,dr\,d\theta,$ as computed in the entry on parame
 
 $$M=\iint_S z\,dS=\int_0^{2\pi}\int_0^R r\,(\sqrt2\,r)\,dr\,d\theta=2\pi\sqrt2\int_0^Rr^2\,dr=\frac{2\sqrt2}{3}\pi R^3 \tag{20}$$
 
-The result has the dimensions of density times area, and it is positive, as a mass must be. The vertex contributes nothing because the area element vanishes there.
+The result is positive and scales as $R^3,$ the product of the area factor $R^2$ and the density factor $R.$ The vertex contributes nothing because the area element vanishes there.
 
 ## Mass, centre of mass and average value
 
@@ -144,7 +140,7 @@ The average value of $f$ over $S$ is
 
 $$f_{\mathrm{avg}}=\frac1{A(S)}\iint_S f\,dS \tag{23}$$
 
-For a uniform hemisphere of radius $R,$ the centre of mass lies on the axis of symmetry at height $R/2.$ The computation is a scalar surface integral of $z$ divided by the area, and the value $R/2$ follows from the same integral as (15) with general $R.$
+For a uniform hemispherical shell of radius $R,$ the centre of mass lies on the axis of symmetry at height $R/2.$ The computation is a scalar surface integral of $z$ divided by the area, and the value $R/2$ follows from the same integral as (15) with general $R.$
 
 These formulas are the surface analogues of the corresponding formulas for wire, area and volume. The dimension of the integral is the dimension of $f$ times area; a surface has no thickness, so there is no volume factor.
 
@@ -168,8 +164,6 @@ Reversing the orientation changes the sign. Swapping $u$ and $v$ reverses the cr
 
 The vector surface integral is also called the **flux** of $\mathbf{F}$ across $S.$ Only the component of $\mathbf{F}$ normal to the surface contributes; a field tangent to the surface has zero flux, however large it is. The scalar surface integral of $\lVert\mathbf{F}\rVert$ is a different quantity: it is nonnegative, and it bounds the magnitude of the flux without recording its sign.
 
-![A vector field crossing an oriented surface patch, with the normal component counted positively and the tangential component contributing nothing](svg/surface-integrals-3.svg)
-
 For a closed surface, the standard orientation is outward. The outward normal points away from the enclosed solid, and the flux is then the net flow out of the solid per unit time when $\mathbf{F}$ is a velocity field.
 
 ## Flux through a hemisphere
@@ -178,7 +172,7 @@ Let $S$ be the upper hemisphere of radius $R$ with outward orientation, and let
 
 $$\mathbf{F}(x,y,z)=\langle0,0,z\rangle \tag{27}$$
 
-Using the parameterization (11) with general $R,$ the outward normal is $\mathbf{r}_\varphi\times\mathbf{r}_\theta,$ the negative of (19), and
+Using the parameterization (11) with general $R,$ the outward normal is $\mathbf{r}_\varphi\times\mathbf{r}_\theta,$ the reverse of the orientation induced by the order $(\theta,\varphi),$ and
 
 $$\mathbf{F}\cdot(\mathbf{r}_\varphi\times\mathbf{r}_\theta)=R^3\sin\varphi\cos^2\varphi \tag{28}$$
 

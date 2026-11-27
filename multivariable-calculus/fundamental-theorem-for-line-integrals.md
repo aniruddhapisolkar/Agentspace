@@ -23,11 +23,9 @@ The integral is the vector line integral of the gradient field. If $\mathbf{F}=\
 
 $$\int_C\mathbf{F}\cdot d\mathbf{r}=f(B)-f(A) \tag{2}$$
 
-The right side contains no parameter, no speed and no description of the route. Two travellers who start at $A$ and finish at $B$ receive the same value, however different their paths, provided both paths lie in the domain of $f.$
+The right side contains no parameter, no speed and no description of the route. Two travellers who start at $A$ and finish at $B$ obtain the same value, however different their paths, provided both paths lie in the domain of $f.$
 
 The theorem is the reason potentials are useful. Computing a line integral directly requires a parameterization, the chain rule and an ordinary integral, and the result may depend on the parameterization in appearance. With a potential, the computation reduces to two evaluations and a subtraction. The potential plays the role of an antiderivative, and the endpoints play the role of the limits of integration.
-
-![A curve from A to B crossing level sets of a potential, with the integral equal to the potential difference between the endpoints](svg/fundamental-theorem-for-line-integrals-1.svg)
 
 ## Hypotheses and orientation
 
@@ -38,7 +36,7 @@ Each hypothesis has a function.
 + The curve must lie in the domain of $f.$ If the path passes through a point where the potential is undefined, the theorem does not apply, even if the integral can be computed by another method.
 + The orientation matters. Reversing the curve from $B$ to $A$ changes the sign, because $d\mathbf{r}$ changes sign while the potential values at the endpoints are interchanged.
 
-The theorem is stated for a potential of class $C^1.$ It does not require $f$ to be $C^2,$ and it does not require the field to be curl-free: every gradient field is curl-free when the potential is $C^2,$ but the theorem itself only needs the chain rule. The curl enters when one asks whether a given field is a gradient, which is a separate question.
+The theorem is stated for a potential of class $C^1.$ It does not require $f$ to be $C^2;$ the chain rule needs only first derivatives. The curl enters when one asks whether a given field is a gradient, which is a separate question.
 
 ## Proof
 
@@ -65,8 +63,6 @@ where $P_0=A$ and $P_n=B.$ The sum telescopes, because every intermediate value 
 $$\sum_{i=1}^{n}\bigl(f(P_i)-f(P_{i-1})\bigr)=f(P_n)-f(P_0)=f(B)-f(A) \tag{7}$$
 
 A corner contributes nothing, since a single point has zero length. The derivative may fail at the corner, but the integral is unaffected.
-
-![A piecewise curve with intermediate points, showing the telescoping sum of potential differences cancelling at every interior point](svg/fundamental-theorem-for-line-integrals-2.svg)
 
 The proof also shows why the result is independent of the parameterization. A different parameterization composes $\mathbf{r}$ with an increasing function of the new parameter; the chain rule produces the same derivative $g'$ up to the change of variable, and the endpoints are unchanged. A decreasing reparameterization reverses the orientation and changes the sign, in agreement with the orientation rule.
 
@@ -104,7 +100,7 @@ $$\frac{f(x+h,y)-f(x,y)}{h}=\frac1h\int_0^h P(x+t,y)\,dt \tag{11}$$
 
 As $h\to0,$ the right side tends to $P(x,y)$ by continuity of the field. Hence $f_x=P.$ The same argument with a vertical displacement gives $f_y=Q,$ and in space the third coordinate gives $f_z=R.$ Therefore $\nabla f=\mathbf{F},$ and the path-independent field is conservative.
 
-This construction is also a practical algorithm when the domain is a rectangle or a star-shaped region. On $\mathbb{R}^2,$ integrate from the origin along the coordinate axes:
+This construction is also a practical algorithm when the domain is a rectangle containing the origin, so that the coordinate-axis path stays inside it. On $\mathbb{R}^2,$ integrate from the origin along the coordinate axes:
 
 $$f(x,y)=\int_0^x P(t,0)\,dt+\int_0^y Q(x,t)\,dt \tag{12}$$
 
@@ -116,39 +112,39 @@ the first integral is zero and the second is
 
 $$f(x,y)=\int_0^y x^2\,dt=x^2y \tag{14}$$
 
-and indeed $\nabla(x^2y)=\langle2xy,x^2\rangle.$ On a domain that is not star-shaped, the same idea works with any convenient path from a base point, but the path must stay inside the domain.
+and indeed $\nabla(x^2y)=\langle2xy,x^2\rangle.$ On a more general domain, the same idea works with any convenient path from a base point, but the path must stay inside the domain.
 
 ## A worked example
 
 Consider
 
-$$\mathbf{F}(x,y,z)=\langle 2xy+z^2,\ x^2+3y^2,\ 2xz\rangle \tag{15}$$
+$$\mathbf{F}(x,y,z)=\langle yz,\ xz,\ xy\rangle \tag{15}$$
 
 with potential
 
-$$f(x,y,z)=x^2y+y^3+xz^2 \tag{16}$$
+$$f(x,y,z)=xyz \tag{16}$$
 
-as a direct differentiation confirms. The field is conservative on $\mathbb{R}^3,$ so the integral from $A=(0,0,0)$ to $B=(1,1,1)$ is
+as a direct differentiation confirms. The field is conservative on $\mathbb{R}^3,$ so the integral from $A=(1,2,3)$ to $B=(4,5,6)$ is
 
-$$\int_C\mathbf{F}\cdot d\mathbf{r}=f(1,1,1)-f(0,0,0)=1+1+1=3 \tag{17}$$
+$$\int_C\mathbf{F}\cdot d\mathbf{r}=f(4,5,6)-f(1,2,3)=120-6=114 \tag{17}$$
 
-The value does not depend on the path. As a check, take the cubic curve
+The value does not depend on the path. As a check, take the straight segment
 
-$$\mathbf{r}(t)=\langle t,t^2,t^3\rangle \qquad 0\le t\le1 \tag{18}$$
+$$\mathbf{r}(t)=\langle1+3t,\ 2+3t,\ 3+3t\rangle \qquad 0\le t\le1 \tag{18}$$
 
 which also runs from $A$ to $B.$ Along it,
 
-$$\mathbf{F}(\mathbf{r}(t))=\langle 2t^3+t^6,\ t^2+3t^4,\ 2t^4\rangle \qquad \mathbf{r}'(t)=\langle1,2t,3t^2\rangle \tag{19}$$
+$$\mathbf{F}(\mathbf{r}(t))=\langle(2+3t)(3+3t),\ (1+3t)(3+3t),\ (1+3t)(2+3t)\rangle \tag{19}$$
 
-and the dot product is
+with $\mathbf{r}'(t)=\langle3,3,3\rangle.$ Expanding the three products gives
 
-$$\mathbf{F}\cdot\mathbf{r}'=2t^3+t^6+2t^3+6t^5+6t^6=4t^3+6t^5+7t^6 \tag{20}$$
+$$\mathbf{F}(\mathbf{r}(t))=\langle6+15t+9t^2,\ 3+12t+9t^2,\ 2+9t+9t^2\rangle \tag{20}$$
 
-Hence
+so the dot product is $3(11+36t+27t^2)=33+108t+81t^2,$ and
 
-$$\int_0^1(4t^3+6t^5+7t^6)\,dt=1+1+1=3 \tag{21}$$
+$$\int_0^1(33+108t+81t^2)\,dt=33+54+27=114 \tag{21}$$
 
-The direct computation agrees with the endpoint evaluation, although it requires substantially more work. The agreement is a check on the potential, not a proof that the field is conservative; the proof is the identity $\mathbf{F}=\nabla f.$
+The direct computation requires expanding three products; the endpoint evaluation requires only two products. The agreement is a check on the potential, not a proof that the field is conservative; the proof is the identity $\mathbf{F}=\nabla f.$
 
 ## A field that is not a gradient
 
@@ -169,8 +165,6 @@ Along the lower semicircle $C_-,$ parameterized by $\mathbf{r}(t)=\langle\cos t,
 $$\int_{C_-}\mathbf{F}\cdot d\mathbf{r}=\int_0^{-\pi}dt=-\pi \tag{25}$$
 
 The two paths have the same endpoints and different integrals. The field is not conservative on $\mathbb{R}^2.$ Its scalar curl is $1-(-1)=2,$ which is nonzero everywhere, so no potential exists.
-
-![Two semicircles from (1,0) to (-1,0) with integrals pi and minus pi for the rotational field](svg/fundamental-theorem-for-line-integrals-3.svg)
 
 ## The gravitational case
 
@@ -202,12 +196,12 @@ $$\int_C\nabla f\cdot d\mathbf{r}=f(B)-f(A) \tag{30}$$
 
 The analogy is exact, not merely visual. In one variable the integral is taken with respect to the parameter $x,$ and $g'$ is the derivative in the direction of increasing $x.$ Along a curve the parameter is $t,$ and $\nabla f\cdot\mathbf{r}'$ is the derivative of $f$ in the direction of the tangent. The fundamental theorem of calculus then supplies the endpoint difference.
 
-In the language of differential forms, the integrand is the exact one-form $df,$ and the theorem says that the integral of an exact form over a curve depends only on the boundary of the curve, which is the pair of endpoints with opposite signs. This is the one-dimensional case of the general Stokes theorem, and it explains why the curl, which measures the failure of a one-form to be exact, is the relevant local object.
+In the language of differential forms, the integrand is the exact one-form $df,$ and the theorem says that the integral of an exact form over a curve depends only on the boundary of the curve, which is the pair of endpoints with opposite signs. This is the one-dimensional case of the general Stokes theorem, and it explains why the curl, which measures the local obstruction to exactness, is the relevant local object.
 
 ## What the theorem does not say
 
 + It does not apply to a field that is not a gradient. The rotational field (22) has the same endpoints along two paths and different integrals, so no potential exists on $\mathbb{R}^2.$
-+ It does not say that a field with zero curl is conservative on every domain. The punctured-plane field has zero curl and nonzero circulation around the origin; the potential is a multivalued angle, and the endpoint difference is ambiguous for a path that winds around the hole.
++ It does not say that a field with zero curl is conservative on every domain. The punctured-plane field has zero curl and nonzero circulation around the origin; a potential exists only locally, as a branch of the angle, and the endpoint difference is ambiguous for a path that winds around the hole.
 + It does not apply to a path that leaves the domain of the potential. A potential defined on a slit plane cannot be used along a curve that crosses the slit.
 + It does not give the value of a scalar line integral. The scalar integral $\int_C f\,ds$ depends on the length and shape of the curve; there is no endpoint formula for a general scalar density.
 + It does not prove that a field is conservative from a single pair of paths with equal integrals. Path independence requires every pair of paths in the domain to agree.

@@ -18,19 +18,7 @@ House monochrome style: black strokes on white, light-grey fills for surfaces an
 + Orientation: $\mathbf{v}\cdot\mathbf{n}>0$ in the drawing, so the flow crosses from the negative to the positive side.
 + Alt text: `A slanted flow cylinder through a small oriented patch, with velocity, normal, the angle between them, and the signed volume formula.`
 
-## F2 — Divergence as net outward flux per volume
-
-+ Target heading: `## Closed surfaces and the divergence theorem`
-+ Insertion anchor: the sentence `A positive divergence is a net source per unit volume; a negative divergence is a sink; zero divergence means that whatever enters a small region leaves it.`
-+ Mathematical claim: for a small box, the net outward flux divided by the volume tends to $\operatorname{div}\mathbf{F},$ with more flux leaving than entering when the divergence is positive.
-+ Equations and domain: a small rectangular box centred at $P;$ arrows entering through the left and bottom faces and leaving through the right and top faces, with the outgoing arrows longer; annotation $\operatorname{div}\mathbf{F}(P)=\lim_{V\to0}\frac1V\iint_{\partial E}\mathbf{F}\cdot\mathbf{n}\,dS.$
-+ Scale: schematic perspective, box drawn small relative to the page, with faces labelled only where needed.
-+ Objects and labels: box; point $P;$ outward normals on two faces; incoming arrow labelled $\mathbf{F}_{\mathrm{in}};$ outgoing arrow labelled $\mathbf{F}_{\mathrm{out}};$ the divergence formula.
-+ Shading and visibility: box edges solid, hidden edges dashed; one face light grey to show orientation; arrows solid.
-+ Orientation: all face normals point outward.
-+ Alt text: `A small box with a stronger field leaving than entering, illustrating divergence as net outward flux per unit volume.`
-
-## F3 — Equal flux through spheres of different radii
+## F2 — Equal flux through spheres of different radii
 
 + Target heading: `## An inverse-square field`
 + Insertion anchor: the sentence `The contrast between $4\pi$ and $0$ is entirely a question of what the surface encloses.`
@@ -41,3 +29,15 @@ House monochrome style: black strokes on white, light-grey fills for surfaces an
 + Shading and visibility: sphere surfaces unfilled, with front arcs solid and back arcs dashed; the separate surface light grey; field arrows radial, short and evenly spaced.
 + Orientation: normals point outward on all three surfaces.
 + Alt text: `Two concentric spheres of different radii around a point source, both labelled with flux 4 pi, and a separate closed surface away from the source labelled zero flux.`
+
+## F3 — Divergence as net outward flux per volume
+
++ Target heading: `## Closed surfaces and the divergence theorem`
++ Insertion anchor: the sentence `A positive divergence is a net source per unit volume; a negative divergence is a sink; zero divergence means that whatever enters a small region leaves it.`
++ Mathematical claim: for a small box, the net outward flux divided by the volume tends to $\operatorname{div}\mathbf{F},$ with more flux leaving than entering when the divergence is positive.
++ Equations and domain: a small rectangular box centred at $P;$ arrows entering through the left and bottom faces and leaving through the right and top faces, with the outgoing arrows longer; annotation $\operatorname{div}\mathbf{F}(P)=\lim_{V\to0}\frac1V\iint_{\partial E}\mathbf{F}\cdot\mathbf{n}\,dS.$
++ Scale: schematic perspective, box drawn small relative to the page, with faces labelled only where needed.
++ Objects and labels: box; point $P;$ outward normals on two faces; incoming arrow labelled $\mathbf{F}_{\mathrm{in}};$ outgoing arrow labelled $\mathbf{F}_{\mathrm{out}};$ the divergence formula.
++ Shading and visibility: box edges solid, hidden edges dashed; one face light grey to show orientation; arrows solid.
++ Orientation: all face normals point outward.
++ Alt text: `A small box with a stronger field leaving than entering, illustrating divergence as net outward flux per unit volume.`

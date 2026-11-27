@@ -46,13 +46,16 @@ Fix $v=v_0$ and let $u$ vary. The image is a curve on the surface, called a $u$-
 
 For the sphere (5), the $u$-curves with $\varphi$ fixed are circles of latitude, and the $v$-curves with $\theta$ fixed are meridians. For the cylinder (4), the $\theta$-curves are horizontal circles and the $z$-curves are vertical lines. The grid is not merely a drawing aid: its spacing records how the parameterization stretches the surface, and the area element is the local area of a grid cell.
 
-A parameterization need not be one-to-one. The sphere (5) with $0\le\theta<2\pi$ is one-to-one except on the boundary of the parameter rectangle, where the two edges $\theta=0$ and $\theta=2\pi$ are glued to the same meridian. If $\theta$ is allowed to run from $0$ to $4\pi,$ the same map traces the sphere twice, and an area integral computed from it counts the sphere twice. A parameterized surface is a map, not just a set of points; multiplicity is part of the data unless it is excluded by hypothesis.
+A parameterization need not be one-to-one. The sphere (5) with $0\le\theta<2\pi$ is one-to-one on the interior except along the poles, where every $\theta$ gives the same point, and the two edges $\theta=0$ and $\theta=2\pi$ are glued to the same meridian. If $\theta$ is allowed to run from $0$ to $4\pi,$ the same map traces the sphere twice, and an area integral computed from it counts the sphere twice. A parameterized surface is a map, not just a set of points; multiplicity is part of the data unless it is excluded by hypothesis.
 
 ## Smoothness and regular points
 
 The partial derivatives
 
-$$\mathbf{r}_u=\left\langle\frac{\partial x}{\partial u},\frac{\partial y}{\partial u},\frac{\partial z}{\partial u}\right\rangle \qquad \mathbf{r}_v=\left\langle\frac{\partial x}{\partial v},\frac{\partial y}{\partial v},\frac{\partial z}{\partial v}\right\rangle \tag{6}$$
+$$\begin{aligned}
+\mathbf{r}_u&=\left\langle\frac{\partial x}{\partial u},\frac{\partial y}{\partial u},\frac{\partial z}{\partial u}\right\rangle\\[6pt]
+\mathbf{r}_v&=\left\langle\frac{\partial x}{\partial v},\frac{\partial y}{\partial v},\frac{\partial z}{\partial v}\right\rangle
+\end{aligned} \tag{6}$$
 
 are the tangent vectors to the $u$-curves and $v$-curves. If both exist and are continuous, and if
 
@@ -62,7 +65,7 @@ at a point, the parameterization is **regular** there. The cross product is then
 
 A parameterization is **smooth** on $D$ if $\mathbf{r}_u$ and $\mathbf{r}_v$ are continuous and the cross product is nonzero at every interior point of $D.$ A surface is **piecewise smooth** if it is a finite union of smooth parameterized patches, joined along curves. The joins may have corners or edges, just as a piecewise smooth curve may have corners.
 
-Regularity is a property of the parameterization, not of the geometric surface. The sphere (5) is a smooth surface, but its standard parameterization fails (7) at the poles $\varphi=0$ and $\varphi=\pi,$ where $\sin\varphi=0$ and both tangent vectors degenerate. The poles are not geometric singularities; they are coordinate singularities. The sphere can be covered by two patches that avoid them, for example by omitting a small cap around each pole and using a different chart there. For integration, the failure at isolated points does not affect the value, because the area element contains the factor $\sin\varphi$ and the contribution of the poles is zero.
+Regularity is a property of the parameterization, not of the geometric surface. The sphere (5) is a smooth surface, but its standard parameterization fails (7) at the poles $\varphi=0$ and $\varphi=\pi,$ where $\sin\varphi=0$ and both tangent vectors degenerate. The poles are not geometric singularities; they are coordinate singularities. The sphere can be covered by two overlapping patches, each omitting one pole, with a different chart near each pole. For integration, the failure at isolated points does not affect the value, because the area element contains the factor $\sin\varphi$ and the contribution of the poles is zero.
 
 A point where the cross product vanishes for every parameterization is a genuine singular point of the surface. A cone has such a point at its vertex: the tangent plane is not defined there, and no regular parameterization can cover a neighbourhood of the vertex. The cone minus its vertex is a smooth surface.
 
@@ -104,9 +107,7 @@ $$dS=\lVert\mathbf{r}_u\times\mathbf{r}_v\rVert\,du\,dv \tag{14}$$
 
 The formula is the two-dimensional analogue of the arc length element $ds=\lVert\mathbf{r}'(t)\rVert\,dt.$ In one dimension the linearization is a tangent vector and its length; in two dimensions it is a parallelogram and its area.
 
-![A small rectangle in the parameter domain mapped to a surface patch, with the tangent vectors spanning a parallelogram whose area is the surface element](svg/parametric-surfaces-1.svg)
-
-The value does not depend on the parameterization. A change of parameters $(u,v)=\Phi(s,t)$ multiplies the cross product by the absolute value of the Jacobian determinant of $\Phi,$ and the same factor appears in the area element $ds\,dt.$ This is the change-of-variables formula in the parameter plane, and it is why the area is a geometric quantity rather than an artefact of the chosen coordinates.
+The value does not depend on the parameterization. A change of parameters $(u,v)=\Phi(s,t)$ divides the norm of the cross product by the absolute value of the Jacobian determinant of $\Phi,$ while the parameter area element is multiplied by that same value; the two factors cancel. This is the change-of-variables formula in the parameter plane, and it is why the area is a geometric quantity rather than an artefact of the chosen coordinates.
 
 For a graph $z=g(x,y),$ the parameterization (2) gives
 
@@ -154,8 +155,6 @@ The sign in (19) is worth noting. The vector $\mathbf{r}_\theta\times\mathbf{r}_
 
 At the poles, $\sin\varphi=0$ and the cross product vanishes. The integral still converges, because the integrand is bounded and the singular set has measure zero in the parameter domain. This is the standard treatment of coordinate singularities: they are excluded from the regular set and included in the integral by a limiting argument.
 
-![The sphere parameter grid, with latitude and meridian coordinate curves and the two poles where the standard parameterization degenerates](svg/parametric-surfaces-2.svg)
-
 ## The cone
 
 For the cone $\mathbf{r}(r,\theta)=\langle r\cos\theta,r\sin\theta,r\rangle$ with $0\le r\le R$ and $0\le\theta\le2\pi,$
@@ -198,8 +197,6 @@ Not every surface is orientable. The Möbius band has only one side: a normal tr
 
 For a closed surface, the standard orientation is **outward**, with the unit normal pointing away from the enclosed solid. For a graph $z=g(x,y),$ the upward normal is proportional to $\langle-g_x,-g_y,1\rangle,$ whose $z$-component is positive. For a sphere with the parameterization (5), the outward normal is $-\mathbf{r}_\theta\times\mathbf{r}_\varphi/\lVert\mathbf{r}_\theta\times\mathbf{r}_\varphi\rVert,$ not the cross product in the order written.
 
-![A Möbius band with a normal vector transported once around the band returning reversed, showing that no continuous orientation exists](svg/parametric-surfaces-3.svg)
-
 ## Implicit surfaces
 
 A surface can also be given implicitly by
@@ -212,7 +209,7 @@ $$\frac{d}{dt}F(\mathbf{r}(t))=\nabla F(\mathbf{r}(t))\cdot\mathbf{r}'(t)=0 \tag
 
 so the gradient is orthogonal to every tangent vector.
 
-When the surface is written as $z=g(x,y),$ the implicit function $F(x,y,z)=z-g(x,y)$ has gradient $\langle-g_x,-g_y,1\rangle,$ in agreement with (15). The implicit form is convenient when the surface has a symmetry that makes a graph awkward, such as a sphere or a cylinder, but a parameterization is still needed for an area integral.
+When the surface is written as $z=g(x,y),$ the implicit function $F(x,y,z)=z-g(x,y)$ has gradient $\langle-g_x,-g_y,1\rangle,$ in agreement with (15). The implicit form is convenient when the surface has a symmetry that makes a graph awkward, such as a sphere or a cylinder, but an area integral still requires either a parameterization or a projection formula.
 
 ## What a parameterization does not determine
 

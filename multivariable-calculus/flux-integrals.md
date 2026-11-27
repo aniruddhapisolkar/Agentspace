@@ -30,8 +30,6 @@ which is a volume per unit time. If the field is a mass flux $\rho\mathbf{v},$ t
 
 The sign is part of the definition. The normal $\mathbf{n}$ chooses a positive side of the surface, and the flux counts flow from the negative side to the positive side as positive. Reversing $\mathbf{n}$ reverses the sign of every contribution and therefore of the total.
 
-![A velocity field crossing a small oriented surface patch, with the normal component forming a slanted flow cylinder](svg/flux-integrals-1.svg)
-
 ## Definition
 
 Let $S$ be an oriented piecewise smooth surface with unit normal $\mathbf{n},$ and let $\mathbf{F}$ be a continuous vector field on $S.$ The **flux integral** of $\mathbf{F}$ across $S$ is
@@ -108,11 +106,9 @@ This is the flux of a point source at the origin, apart from a constant. The div
 
 $$\operatorname{div}\mathbf{F}=\frac{\partial}{\partial x}\left(\frac{x}{r^3}\right)+\frac{\partial}{\partial y}\left(\frac{y}{r^3}\right)+\frac{\partial}{\partial z}\left(\frac{z}{r^3}\right)=0 \qquad r>0 \tag{16}$$
 
-Yet the flux through a closed surface enclosing the origin is $4\pi,$ not zero. The divergence theorem does not apply to the region inside that surface, because the field is not defined at the origin. The source sits at the excluded point, and its strength is measured by the flux through any surface that encloses it.
+Yet the flux through a closed surface enclosing the origin is $4\pi,$ not zero. The divergence theorem does not apply to the region inside that surface, because the field is not defined at the origin. The source sits at the excluded point, and its strength is measured by the flux through any surface that encloses it. To compare two such surfaces, apply the divergence theorem to the region between them; the divergence vanishes there, so the two fluxes are equal.
 
 If a closed surface does not enclose the origin, the field is smooth on and inside the surface, the divergence theorem applies, and the flux is zero. The contrast between $4\pi$ and $0$ is entirely a question of what the surface encloses.
-
-![Two spheres of different radii around a point source, both with flux 4 pi, and a closed surface away from the source with zero flux](svg/flux-integrals-3.svg)
 
 ## A cube and a cylinder
 
@@ -142,13 +138,11 @@ $$\operatorname{div}\mathbf{F}(P)=\lim_{V\to0}\frac1{V}\iint_{\partial E}\mathbf
 
 where $E$ is a small solid containing $P$ with volume $V.$ A positive divergence is a net source per unit volume; a negative divergence is a sink; zero divergence means that whatever enters a small region leaves it.
 
-![A small solid box with field arrows entering and leaving its faces, illustrating divergence as net outward flux per unit volume](svg/flux-integrals-2.svg)
-
 A field with zero divergence everywhere in a region is called solenoidal or incompressible. For such a field, the flux through every closed surface inside the region is zero. Equivalently, the flux through two open surfaces with the same boundary and consistent orientations is the same, because together they form a closed surface and the field is divergence-free in the enclosed volume. This is the flux analogue of path independence for a curl-free field.
 
-## Flux through an open surface
+## An open surface and its orientation
 
-The dependence on the surface is the subtle point for open surfaces. Let
+For an open surface, the orientation must be chosen before the integral is evaluated, and the choice of surface generally matters as well. The next example shows how the orientation enters through the parameterization. Let
 
 $$\mathbf{F}(x,y,z)=\langle x,y,0\rangle \tag{21}$$
 

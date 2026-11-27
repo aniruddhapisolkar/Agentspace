@@ -73,7 +73,7 @@ Exclusions: a full proof of Stokes' theorem, differential-form integration on ma
 + The smooth case is proved completely by the chain rule and the fundamental theorem of calculus.
 + The piecewise case is proved completely by summation and telescoping; the corner argument is explicit.
 + The converse is proved completely for a continuous field on an open connected domain, using a horizontal difference quotient and continuity.
-+ The potential formula (12) is justified by differentiating under the integral and using the equality of cross partials; the article states the rectangular/star-shaped scope rather than claiming it for every domain.
++ The potential formula (12) is justified by differentiating under the integral and using the equality of cross partials; the article states the rectangular scope rather than claiming it for every domain.
 + The gravitational work formula is derived from the theorem with the sign conventions checked.
 
 ## Independent example checks
@@ -81,8 +81,8 @@ Exclusions: a full proof of Stokes' theorem, differential-form integration on ma
 All computations were repeated by hand and checked with exact symbolic differentiation in Python.
 
 + (14) $f=x^2y$: $f_x=2xy=P$, $f_y=x^2=Q$.
-+ (15)–(17) $f=x^2y+y^3+xz^2$: $f_x=2xy+z^2$, $f_y=x^2+3y^2$, $f_z=2xz$; $f(1,1,1)-f(0,0,0)=3$.
-+ (18)–(21) direct computation: $\int_0^1(4t^3+6t^5+7t^6)\,dt=1+1+1=3$.
++ (15)–(17) $f=xyz$: $f_x=yz$, $f_y=xz$, $f_z=xy$; $f(4,5,6)-f(1,2,3)=120-6=114$.
++ (18)–(21) direct computation along the segment: $\mathbf{F}(\mathbf{r}(t))=\langle6+15t+9t^2,3+12t+9t^2,2+9t+9t^2\rangle$, dot with $\langle3,3,3\rangle$ gives $33+108t+81t^2$, integral $114$.
 + (24) upper semicircle: integrand $1$, integral $\pi$.
 + (25) lower semicircle with decreasing parameter: integral $-\pi$.
 + (28) gravitational work: $GMm(1/r_2-1/r_1)$; for $GMm=1$, $r_1=1$, $r_2=2$ the value is $-1/2$, consistent with inward force and outward displacement.

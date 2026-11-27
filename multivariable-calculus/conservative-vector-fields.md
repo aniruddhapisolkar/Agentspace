@@ -49,8 +49,6 @@ $$\frac{d}{dt}f(\mathbf{r}(t))=\nabla f(\mathbf{r}(t))\cdot\mathbf{r}'(t)=0 \tag
 
 Hence the field arrows cross the level sets at right angles. They point toward increasing $f,$ and their length $\lVert\nabla f\rVert$ is large where the level sets are close together. A topographic map with its steepest-ascent arrows is the two-dimensional picture.
 
-![Gradient arrows crossing equipotential curves at right angles, longer where the curves are closer](svg/conservative-vector-fields-1.svg)
-
 ## Path independence
 
 Let $C$ be a piecewise smooth curve in $D$ from $A$ to $B,$ parameterized by $\mathbf{r}(t)$ for $a\le t\le b.$ If $\mathbf{F}=\nabla f,$ then the chain rule gives
@@ -62,8 +60,6 @@ Integrating from $a$ to $b$ and applying the fundamental theorem of calculus,
 $$\int_C\mathbf{F}\cdot d\mathbf{r}=f(\mathbf{r}(b))-f(\mathbf{r}(a))=f(B)-f(A) \tag{7}$$
 
 The right side depends only on the endpoints. For a piecewise smooth curve the argument is applied to each smooth piece, and the values at the intermediate points cancel.
-
-![Two paths from the same starting point to the same endpoint, crossing the same equipotential levels and giving the same potential difference](svg/conservative-vector-fields-2.svg)
 
 Two immediate consequences follow. First, the integral of a conservative field is **path-independent**: any two piecewise smooth curves in $D$ with the same initial and terminal points give the same value. Second, the integral around every closed piecewise smooth curve in $D$ is zero, because the initial and terminal points coincide.
 
@@ -118,8 +114,6 @@ $$\int_C\mathbf{F}\cdot d\mathbf{r}=\int_0^{2\pi}\frac{\sin^2t+\cos^2t}{\cos^2t+
 The integral around a closed curve is nonzero, so the field is not conservative on the punctured plane.
 
 The failure is not a contradiction of the curl test: the domain is not simply connected. The unit circle cannot be contracted to a point without passing through the origin, which is missing from $D.$ On a simply connected subdomain that does not wind around the origin, the same field has a potential. In polar coordinates $x=r\cos\theta,$ $y=r\sin\theta,$ the field is $\langle-\sin\theta/r,\cos\theta/r\rangle=\nabla\theta,$ and $\theta$ is a single-valued function on any domain that avoids a ray from the origin. The potential is therefore a branch of the polar angle, and the $2\pi$ in (15) is the change in that angle around the circle.
-
-![A circulating field on the punctured plane, with zero curl away from the origin and a loop whose circulation is 2π](svg/conservative-vector-fields-3.svg)
 
 The same phenomenon occurs in three dimensions. The field
 
@@ -181,7 +175,7 @@ while along the segment $\mathbf{r}(t)=\langle t,t\rangle,$
 
 $$\int_{C_2}\mathbf{F}\cdot d\mathbf{r}=\int_0^1(t^2+t)\,dt=\frac13+\frac12=\frac56 \tag{26}$$
 
-The values differ, so the integral depends on the path. A single point where the curl vanishes does not make the field conservative, because the test is a condition on an open set: the curl must vanish at every point of the domain.
+The values differ, so the integral depends on the path. The curl vanishes on the line $y=1/2,$ but a set of measure zero does not make the field conservative: the test is a condition on an open set, and the curl must vanish at every point of the domain.
 
 ## Conservative forces and energy
 
@@ -189,7 +183,7 @@ The term conservative comes from mechanics. If a force field $\mathbf{F}$ is con
 
 $$W=\int_C\mathbf{F}\cdot d\mathbf{r}=U(A)-U(B) \tag{27}$$
 
-Only the change in potential energy matters, and the work around a closed path is zero. If a particle of mass $m$ moves under the force alone, its kinetic energy $K=\frac12m\lVert\mathbf{v}\rVert^2$ satisfies $K(B)-K(A)=U(A)-U(B),$ so $K+U$ is constant along the motion. The gravitational potential $U=-GMm/r$ in (2)–(3) is the familiar case: the force is the negative gradient of $U,$ and the total energy is conserved.
+Only the change in potential energy matters, and the work around a closed path is zero. If a particle of mass $m$ moves under the force alone, its kinetic energy $K=\frac12m\lVert\mathbf{v}\rVert^2$ satisfies $K(B)-K(A)=U(A)-U(B),$ so $K+U$ is constant along the motion. The gravitational potential energy $U=-GMm/r$ associated with (2) is the familiar case: the force is the negative gradient of $U,$ and the total energy is conserved.
 
 A field that is not conservative can still do work, but the work depends on the route, and no scalar energy function records it. The rotational field (4) does positive work along one semicircle from $(1,0)$ to $(-1,0)$ and negative work along the other, so a particle can gain energy by going around a loop. Friction is the usual non-conservative force in mechanics, although it is not a function of position alone and lies outside the scope of this definition.
 

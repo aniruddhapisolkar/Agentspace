@@ -27,6 +27,8 @@ The right side contains no parameter, no speed and no description of the route. 
 
 The theorem is the reason potentials are useful. Computing a line integral directly requires a parameterization, the chain rule and an ordinary integral, and the result may depend on the parameterization in appearance. With a potential, the computation reduces to two evaluations and a subtraction. The potential plays the role of an antiderivative, and the endpoints play the role of the limits of integration.
 
+![An oriented curve from A to B crossing three level curves of a potential, with the tangent and gradient at one point and the endpoint-difference formula](svg/fundamental-theorem-for-line-integrals-1.svg)
+
 ## Hypotheses and orientation
 
 Each hypothesis has a function.
@@ -63,6 +65,8 @@ where $P_0=A$ and $P_n=B.$ The sum telescopes, because every intermediate value 
 $$\sum_{i=1}^{n}\bigl(f(P_i)-f(P_{i-1})\bigr)=f(P_n)-f(P_0)=f(B)-f(A) \tag{7}$$
 
 A corner contributes nothing, since a single point has zero length. The derivative may fail at the corner, but the integral is unaffected.
+
+![A three-segment polygonal path with intermediate points, annotated with potential differences that cancel in pairs to leave f of B minus f of A](svg/fundamental-theorem-for-line-integrals-2.svg)
 
 The proof also shows why the result is independent of the parameterization. A different parameterization composes $\mathbf{r}$ with an increasing function of the new parameter; the chain rule produces the same derivative $g'$ up to the change of variable, and the endpoints are unchanged. A decreasing reparameterization reverses the orientation and changes the sign, in agreement with the orientation rule.
 
@@ -164,7 +168,11 @@ Along the lower semicircle $C_-,$ parameterized by $\mathbf{r}(t)=\langle\cos t,
 
 $$\int_{C_-}\mathbf{F}\cdot d\mathbf{r}=\int_0^{-\pi}dt=-\pi \tag{25}$$
 
-The two paths have the same endpoints and different integrals. The field is not conservative on $\mathbb{R}^2.$ Its scalar curl is $1-(-1)=2,$ which is nonzero everywhere, so no potential exists.
+The two paths have the same endpoints and different integrals.
+
+![Upper and lower semicircles between (1,0) and (-1,0), with counterclockwise field arrows and integrals pi and minus pi](svg/fundamental-theorem-for-line-integrals-3.svg)
+
+The field is not conservative on $\mathbb{R}^2.$ Its scalar curl is $1-(-1)=2,$ which is nonzero everywhere, so no potential exists.
 
 ## The gravitational case
 

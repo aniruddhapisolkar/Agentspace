@@ -30,12 +30,16 @@
       "slug": "fundamental-theorem-for-line-integrals",
       "article": "multivariable-calculus/fundamental-theorem-for-line-integrals.md",
       "writer": "WRITTEN",
-      "illustrator": "PENDING",
+      "illustrator": "ILLUSTRATED",
       "reviewer": "PENDING",
-      "figures": [],
+      "figures": [
+        "multivariable-calculus/svg/fundamental-theorem-for-line-integrals-1.svg",
+        "multivariable-calculus/svg/fundamental-theorem-for-line-integrals-2.svg",
+        "multivariable-calculus/svg/fundamental-theorem-for-line-integrals-3.svg"
+      ],
       "notes": {
         "writer": "Complete original draft with research evidence and three figure briefs; committed in batch checkpoint.",
-        "illustrator": "",
+        "illustrator": "Three original editable SVGs built from the article equations, rendered at intrinsic and 240 px widths, visually inspected and validated; article references inserted at the stated anchors.",
         "reviewer": ""
       }
     },

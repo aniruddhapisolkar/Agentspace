@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300" role="img" aria-labelledby="fig-title fig-desc" font-family="Geist, Arial, sans-serif" stroke-linecap="round" stroke-linejoin="round">
+  <title id="fig-title">The normal component and the sign of the flux</title>
+  <desc id="fig-desc">An oriented curved patch with the normal at its centre and three equal field arrows: one along the normal counted positive, one against it counted negative, and one tangent counted zero.</desc>
+  <rect width="300" height="300" fill="#FFFFFF"/>
+  <path d="M 32.2 243.54 L 44.87 241.22 L 57.53 238.64 L 70.2 235.78 L 82.87 232.66 L 95.53 229.26 L 108.2 225.6 L 120.87 221.66 L 133.53 217.46 L 146.2 212.98 L 158.87 208.24 L 171.53 203.22 L 184.2 197.94 L 191.17 190.34 L 198.13 182.74 L 205.1 175.14 L 212.07 167.54 L 219.03 159.94 L 226 152.34 L 232.97 144.74 L 239.93 137.14 L 246.9 129.54 L 253.87 121.94 L 260.83 114.34 L 267.8 106.74 L 255.13 112.02 L 242.47 117.04 L 229.8 121.78 L 217.13 126.26 L 204.47 130.46 L 191.8 134.4 L 179.13 138.06 L 166.47 141.46 L 153.8 144.58 L 141.13 147.44 L 128.47 150.02 L 115.8 152.34 L 108.83 159.94 L 101.87 167.54 L 94.9 175.14 L 87.93 182.74 L 80.97 190.34 L 74 197.94 L 67.03 205.54 L 60.07 213.14 L 53.1 220.74 L 46.13 228.34 L 39.17 235.94 L 32.2 243.54 Z" fill="#E9E3E2" stroke="#312F2F" stroke-width="1.3"/>
+  <path d="M 70.2 235.78 L 77.17 228.18 L 84.13 220.58 L 91.1 212.98 L 98.07 205.38 L 105.03 197.78 L 112 190.18 L 118.97 182.58 L 125.93 174.98 L 132.9 167.38 L 139.87 159.78 L 146.83 152.18 L 153.8 144.58" fill="none" stroke="#BEB8B7" stroke-width="0.7"/>
+  <path d="M 53.1 220.74 L 65.77 218.42 L 78.43 215.84 L 91.1 212.98 L 103.77 209.86 L 116.43 206.46 L 129.1 202.8 L 141.77 198.86 L 154.43 194.66 L 167.1 190.18 L 179.77 185.44 L 192.43 180.42 L 205.1 175.14" fill="none" stroke="#BEB8B7" stroke-width="0.7"/>
+  <path d="M 108.2 225.6 L 115.17 218 L 122.13 210.4 L 129.1 202.8 L 136.07 195.2 L 143.03 187.6 L 150 180 L 156.97 172.4 L 163.93 164.8 L 170.9 157.2 L 177.87 149.6 L 184.83 142 L 191.8 134.4" fill="none" stroke="#BEB8B7" stroke-width="0.7"/>
+  <path d="M 74 197.94 L 86.67 195.62 L 99.33 193.04 L 112 190.18 L 124.67 187.06 L 137.33 183.66 L 150 180 L 162.67 176.06 L 175.33 171.86 L 188 167.38 L 200.67 162.64 L 213.33 157.62 L 226 152.34" fill="none" stroke="#BEB8B7" stroke-width="0.7"/>
+  <path d="M 146.2 212.98 L 153.17 205.38 L 160.13 197.78 L 167.1 190.18 L 174.07 182.58 L 181.03 174.98 L 188 167.38 L 194.97 159.78 L 201.93 152.18 L 208.9 144.58 L 215.87 136.98 L 222.83 129.38 L 229.8 121.78" fill="none" stroke="#BEB8B7" stroke-width="0.7"/>
+  <path d="M 94.9 175.14 L 107.57 172.82 L 120.23 170.24 L 132.9 167.38 L 145.57 164.26 L 158.23 160.86 L 170.9 157.2 L 183.57 153.26 L 196.23 149.06 L 208.9 144.58 L 221.57 139.84 L 234.23 134.82 L 246.9 129.54" fill="none" stroke="#BEB8B7" stroke-width="0.7"/>
+  <line x1="150" y1="180" x2="126.19" y2="109.29" stroke="#312F2F" stroke-width="1.1" stroke-dasharray="4 3"/><path d="M 126.19 109.29 L 130.73 114.62 L 125.8 116.28 Z" fill="#312F2F" stroke="none"/>
+  <text x="129.19" y="103.29" font-size="10" fill="#312F2F">n</text>
+  <line x1="191.64" y1="183.1" x2="171.7" y2="123.88" stroke="#312F2F" stroke-width="1.4"/><path d="M 171.7 123.88 L 176.24 129.21 L 171.31 130.87 Z" fill="#312F2F" stroke="none"/>
+  <text x="176.7" y="120.88" font-size="9.5" fill="#312F2F" stroke="#FFFFFF" stroke-width="2.5" paint-order="stroke">+F · n</text>
+  <line x1="112.4" y1="159.54" x2="133.23" y2="221.41" stroke="#312F2F" stroke-width="1.4"/><path d="M 133.23 221.41 L 128.69 216.08 L 133.62 214.42 Z" fill="#312F2F" stroke="none"/>
+  <text x="133.23" y="235.41" font-size="9.5" fill="#312F2F" text-anchor="middle" stroke="#FFFFFF" stroke-width="2.5" paint-order="stroke">−F · n</text>
+  <line x1="151.19" y1="189.8" x2="203.44" y2="173.29" stroke="#312F2F" stroke-width="1.4"/><path d="M 203.44 173.29 L 198.02 177.73 L 196.46 172.77 Z" fill="#312F2F" stroke="none"/>
+  <text x="207.44" y="177.29" font-size="9.5" fill="#312F2F" stroke="#FFFFFF" stroke-width="2.5" paint-order="stroke">0</text>
+  <text x="150" y="290" font-size="11" fill="#636060" text-anchor="middle"><tspan>∬</tspan><tspan dy="3.2" font-size="7.92">S</tspan><tspan dy="-3.2"> F · n dS</tspan></text>
+</svg>

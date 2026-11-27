@@ -24,6 +24,8 @@ $$\iint_S f\,dS \tag{2}$$
 
 The element $dS$ is surface area, not projected area. It is nonnegative, and the integral does not depend on an orientation of $S.$ Reversing the normal, if one has been chosen, leaves a scalar surface integral unchanged.
 
+![A curved surface divided into small patches, one patch shaded and labelled with its area and a sample point, illustrating the Riemann sum for a surface integral](svg/surface-integrals-1.svg)
+
 The simplest case is $f=1,$ for which
 
 $$\iint_S dS=A(S) \tag{3}$$
@@ -67,6 +69,8 @@ so
 $$\iint_S f\,dS=\iint_D f(x,y,g(x,y))\,\sqrt{1+g_x^2+g_y^2}\,dx\,dy \tag{9}$$
 
 The square root is the factor by which the tilted surface exceeds its projection onto the $xy$-plane. For a horizontal plane it equals $1;$ for a steep surface it is large.
+
+![A tilted surface element above its rectangular projection on the xy-plane, with the normal, the angle to the vertical, and the square-root area factor](svg/surface-integrals-2.svg)
 
 If the surface is given implicitly by $F(x,y,z)=0$ with $F_z\neq0,$ the same argument with the normal $\nabla F$ gives
 
@@ -163,6 +167,8 @@ $$\iint_S\mathbf{F}\cdot d\mathbf{S}=\iint_D\mathbf{F}(\mathbf{r}(u,v))\cdot(\ma
 Reversing the orientation changes the sign. Swapping $u$ and $v$ reverses the cross product and hence the sign; using $(\mathbf{r}_v\times\mathbf{r}_u)$ is the same as reversing the orientation.
 
 The vector surface integral is also called the **flux** of $\mathbf{F}$ across $S.$ Only the component of $\mathbf{F}$ normal to the surface contributes; a field tangent to the surface has zero flux, however large it is. The scalar surface integral of $\lVert\mathbf{F}\rVert$ is a different quantity: it is nonnegative, and it bounds the magnitude of the flux without recording its sign.
+
+![An oriented surface patch with three field arrows: one along the normal counted positive, one against it counted negative, and one tangent counted zero](svg/surface-integrals-3.svg)
 
 For a closed surface, the standard orientation is outward. The outward normal points away from the enclosed solid, and the flux is then the net flow out of the solid per unit time when $\mathbf{F}$ is a velocity field.
 

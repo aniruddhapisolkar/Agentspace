@@ -12,7 +12,7 @@
       "article": "multivariable-calculus/vector-valued-functions.md",
       "writer": "WRITTEN",
       "illustrator": "ILLUSTRATED",
-      "reviewer": "PENDING",
+      "reviewer": "BLOCKED",
       "figures": [
         "multivariable-calculus/svg/vector-valued-functions-1.svg",
         "multivariable-calculus/svg/vector-valued-functions-2.svg",
@@ -21,7 +21,7 @@
       "notes": {
         "writer": "Complete original draft with research evidence and three figure briefs; committed in batch checkpoint.",
         "illustrator": "Three original monochrome SVGs, rendered at intrinsic width and 240 px and visually inspected; construction, anchors and departures recorded in batches/20261127T134100Z-01/evidence/vector-valued-functions/illustration-notes.md.",
-        "reviewer": ""
+        "reviewer": "AI review: mathematical, editorial and SVG-structural gates PASS; all examples independently verified; no defects found. Blocked on mandatory visual-inspection gate NOT_RUN (no image-capable tool in this environment). See batches/20261127T134100Z-01/evidence/vector-valued-functions/review.md. Verified remote revision 2912bb1."
       }
     },
     {
@@ -31,7 +31,7 @@
       "article": "multivariable-calculus/vector-fields.md",
       "writer": "WRITTEN",
       "illustrator": "ILLUSTRATED",
-      "reviewer": "PENDING",
+      "reviewer": "BLOCKED",
       "figures": [
         "multivariable-calculus/svg/vector-fields-1.svg",
         "multivariable-calculus/svg/vector-fields-2.svg",
@@ -40,7 +40,7 @@
       "notes": {
         "writer": "Complete original draft with research evidence and three figure briefs; committed in batch checkpoint.",
         "illustrator": "Three original monochrome SVGs, rendered at intrinsic width and 240 px and visually inspected; construction, anchors and departures recorded in batches/20261127T134100Z-01/evidence/vector-fields/illustration-notes.md.",
-        "reviewer": ""
+        "reviewer": "AI review: mathematical, editorial and SVG-structural gates PASS; all examples independently verified; no defects found. Blocked on mandatory visual-inspection gate NOT_RUN (no image-capable tool in this environment). See batches/20261127T134100Z-01/evidence/vector-fields/review.md. Verified remote revision 2912bb1."
       }
     },
     {
@@ -50,7 +50,7 @@
       "article": "multivariable-calculus/divergence.md",
       "writer": "WRITTEN",
       "illustrator": "ILLUSTRATED",
-      "reviewer": "PENDING",
+      "reviewer": "BLOCKED",
       "figures": [
         "multivariable-calculus/svg/divergence-1.svg",
         "multivariable-calculus/svg/divergence-2.svg",
@@ -59,7 +59,7 @@
       "notes": {
         "writer": "Complete original draft with research evidence and three figure briefs; committed in batch checkpoint.",
         "illustrator": "Three original monochrome SVGs, rendered at intrinsic width and 240 px and visually inspected; construction, anchors and departures recorded in batches/20261127T134100Z-01/evidence/divergence/illustration-notes.md.",
-        "reviewer": ""
+        "reviewer": "AI review: mathematical, editorial and SVG-structural gates PASS; all examples independently verified; no defects found. Blocked on mandatory visual-inspection gate NOT_RUN (no image-capable tool in this environment). See batches/20261127T134100Z-01/evidence/divergence/review.md. Verified remote revision 2912bb1."
       }
     },
     {
@@ -69,7 +69,7 @@
       "article": "multivariable-calculus/curl.md",
       "writer": "WRITTEN",
       "illustrator": "ILLUSTRATED",
-      "reviewer": "PENDING",
+      "reviewer": "BLOCKED",
       "figures": [
         "multivariable-calculus/svg/curl-1.svg",
         "multivariable-calculus/svg/curl-2.svg",
@@ -78,7 +78,7 @@
       "notes": {
         "writer": "Complete original draft with research evidence and three figure briefs; committed in batch checkpoint.",
         "illustrator": "Three original monochrome SVGs, rendered at intrinsic width and 240 px and visually inspected; construction, anchors and departures recorded in batches/20261127T134100Z-01/evidence/curl/illustration-notes.md.",
-        "reviewer": ""
+        "reviewer": "AI review: mathematical, editorial and SVG-structural gates PASS; all examples independently verified; no defects found. Blocked on mandatory visual-inspection gate NOT_RUN (no image-capable tool in this environment). See batches/20261127T134100Z-01/evidence/curl/review.md. Verified remote revision 2912bb1."
       }
     },
     {
@@ -88,7 +88,7 @@
       "article": "multivariable-calculus/laplacian.md",
       "writer": "WRITTEN",
       "illustrator": "ILLUSTRATED",
-      "reviewer": "PENDING",
+      "reviewer": "BLOCKED",
       "figures": [
         "multivariable-calculus/svg/laplacian-1.svg",
         "multivariable-calculus/svg/laplacian-2.svg",
@@ -97,7 +97,7 @@
       "notes": {
         "writer": "Complete original draft with research evidence and three figure briefs; committed in batch checkpoint.",
         "illustrator": "Three original monochrome SVGs, rendered at intrinsic width and 240 px and visually inspected; construction, anchors and departures recorded in batches/20261127T134100Z-01/evidence/laplacian/illustration-notes.md.",
-        "reviewer": ""
+        "reviewer": "AI review: mathematical, editorial and SVG-structural gates PASS; all examples independently verified; no defects found. Blocked on mandatory visual-inspection gate NOT_RUN (no image-capable tool in this environment). See batches/20261127T134100Z-01/evidence/laplacian/review.md. Verified remote revision 2912bb1."
       }
     },
     {
@@ -107,7 +107,7 @@
       "article": "multivariable-calculus/line-integrals.md",
       "writer": "WRITTEN",
       "illustrator": "ILLUSTRATED",
-      "reviewer": "PENDING",
+      "reviewer": "BLOCKED",
       "figures": [
         "multivariable-calculus/svg/line-integrals-1.svg",
         "multivariable-calculus/svg/line-integrals-2.svg",
@@ -116,7 +116,7 @@
       "notes": {
         "writer": "Complete original draft with research evidence and three figure briefs; committed in batch checkpoint.",
         "illustrator": "Three original monochrome SVGs, rendered at intrinsic width and 240 px and visually inspected; construction, anchors and departures recorded in batches/20261127T134100Z-01/evidence/line-integrals/illustration-notes.md.",
-        "reviewer": ""
+        "reviewer": "AI review: mathematical, editorial and SVG-structural gates PASS; all examples independently verified; no defects found. Blocked on mandatory visual-inspection gate NOT_RUN (no image-capable tool in this environment). See batches/20261127T134100Z-01/evidence/line-integrals/review.md. Verified remote revision 2912bb1."
       }
     }
   ]

@@ -143,9 +143,9 @@ $$D\Phi=\begin{pmatrix}1&1\\ 1&-1\end{pmatrix} \qquad \det D\Phi=-2$$
 
 The image $S=\Phi(T)$ is the square with vertices $(0,0)$, $(1,1)$, $(2,0)$ and $(1,-1)$. Its side length is $\sqrt2$, so its area is $2$. Formula (6) gives
 
-![The unit square mapped by Φ(u, v) = (u + v, u − v) to a rotated square of twice the area, with the images of the basis vectors marked](svg/change-of-variables-in-multiple-integrals-2.svg)
-
 $$\operatorname{area}(S)=|\det D\Phi|\operatorname{area}(T)=2$$
+
+![The unit square mapped by Φ(u, v) = (u + v, u − v) to a rotated square of twice the area, with the images of the basis vectors marked](svg/change-of-variables-in-multiple-integrals-2.svg)
 
 which agrees. For a function on $S$, (4) reads
 

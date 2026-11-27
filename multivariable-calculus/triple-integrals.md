@@ -32,9 +32,9 @@ $$S(f,P)=\sum_{i,j,k} f(x_{ijk}^*,y_{ijk}^*,z_{ijk}^*)\,\Delta V_{ijk}$$
 
 The mesh $\lVert P\rVert$ is the largest diameter of a sub-box. The function is integrable over $B$ if these sums tend to a common limit as $\lVert P\rVert\to0$, independently of the sample points. The limit is the triple integral
 
-![A box divided into sub-boxes by a grid on its visible faces, with one sub-box B ijk shaded, a sample point inside, and edge lengths Δx i, Δy j and Δz k](svg/triple-integrals-1.svg)
-
 $$\iiint_B f(x,y,z)\,dV=\lim_{\lVert P\rVert\to0}\sum_{i,j,k} f(x_{ijk}^*,y_{ijk}^*,z_{ijk}^*)\,\Delta V_{ijk} \tag{1}$$
+
+![A box divided into sub-boxes by a grid on its visible faces, with one sub-box B ijk shaded, a sample point inside, and edge lengths Δx i, Δy j and Δz k](svg/triple-integrals-1.svg)
 
 As in the plane, the definition through Riemann sums is equivalent to one through lower and upper sums. With
 

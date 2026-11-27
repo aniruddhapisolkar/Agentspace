@@ -21,6 +21,8 @@ $$(r,\theta,z)$$
 
 where $r$ is the distance from $Q$ to the origin, $\theta$ is the angle from the positive $x$-axis to the segment $OQ$, measured anticlockwise, and $z$ is the signed height of $P$ above the plane. Equivalently, $r$ is the distance from $P$ to the $z$-axis.
 
+![A point P above the xy-plane, its projection Q, the distance r from the origin to Q, the azimuth θ from the x-axis, and the height z from Q to P](svg/cylindrical-coordinates-1.svg)
+
 The Cartesian coordinates are recovered by the map
 
 $$x=r\cos\theta \qquad y=r\sin\theta \qquad z=z \tag{1}$$
@@ -69,6 +71,8 @@ The factor $r$ has a direct geometric meaning. Consider the small volume spanned
 
 $$dV=(dr)(r\,d\theta)(dz)=r\,dr\,d\theta\,dz$$
 
+![A small curvilinear box with radial side dr, arc side r dθ and vertical side dz, illustrating the volume element r dr dθ dz](svg/cylindrical-coordinates-2.svg)
+
 At the axis $r=0$ the arc length vanishes, which is why the factor $r$ suppresses the contribution of the axis and of small neighbourhoods around it.
 
 For a solid $D$ with cylindrical description $D'$, the integral of a function $f$ is
@@ -101,6 +105,8 @@ The same result follows from the elementary formula for the volume of a cylinder
 Find the volume of the solid bounded below by the paraboloid $z=x^2+y^2$ and above by the plane $z=4$.
 
 In cylindrical coordinates the paraboloid is $z=r^2$. The two surfaces meet where $r^2=4$, so $r=2$. The solid is
+
+![The solid between the paraboloid z = r² and the plane z = 4, with a vertical segment showing the limits and the intersection circle at r = 2](svg/cylindrical-coordinates-3.svg)
 
 $$0\le\theta<2\pi \qquad 0\le r\le2 \qquad r^2\le z\le4$$
 

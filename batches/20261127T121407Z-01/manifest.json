@@ -78,12 +78,16 @@
       "slug": "cylindrical-coordinates",
       "article": "multivariable-calculus/cylindrical-coordinates.md",
       "writer": "WRITTEN",
-      "illustrator": "PENDING",
+      "illustrator": "ILLUSTRATED",
       "reviewer": "PENDING",
-      "figures": [],
+      "figures": [
+        "multivariable-calculus/svg/cylindrical-coordinates-1.svg",
+        "multivariable-calculus/svg/cylindrical-coordinates-2.svg",
+        "multivariable-calculus/svg/cylindrical-coordinates-3.svg"
+      ],
       "notes": {
         "writer": "Provisional category. 3 figure briefs. Standard (r,theta,z) system, Jacobian r, coordinate surfaces, volumes, density centroid, sphere-cylinder example, pitfalls. Links to polar, change-of-variables, Fubini, triple and spherical siblings are unpublished batch dependencies.",
-        "illustrator": "",
+        "illustrator": "3 figures: point coordinates, volume element, paraboloid cap. Original monochrome SVGs, rendered and visually checked; details in evidence/cylindrical-coordinates/illustration-notes.md.",
         "reviewer": ""
       }
     },

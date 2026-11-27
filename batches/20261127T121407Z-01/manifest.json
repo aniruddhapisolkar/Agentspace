@@ -80,12 +80,12 @@
       "topic": "Spherical Coordinates",
       "slug": "spherical-coordinates",
       "article": "multivariable-calculus/spherical-coordinates.md",
-      "writer": "PENDING",
+      "writer": "WRITTEN",
       "illustrator": "PENDING",
       "reviewer": "PENDING",
       "figures": [],
       "notes": {
-        "writer": "",
+        "writer": "Provisional category. 3 figure briefs. Standard (rho,theta,phi) system with phi from +z; Jacobian sign explained; ball, moment, ice-cream cone, radial density, corrected spherical cap. Links to change-of-variables, cylindrical, Fubini and triple siblings are unpublished batch dependencies.",
         "illustrator": "",
         "reviewer": ""
       }
